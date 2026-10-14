@@ -1,0 +1,20 @@
+# Normalizza line endings per cross-platform compatibility
+* text=auto
+
+# Forza LF per i file che girano su CI/CD Linux
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.svg text eol=lf
+
+# Binari - nessuna conversione
+*.png binary
+*.jpg binary
+*.ico binary
+*.woff2 binary

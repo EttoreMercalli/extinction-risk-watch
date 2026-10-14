@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extinction Risk Watch – Monitoraggio del Rischio di Estinzione Umana</title>
+  
+  <!-- SEO & Standard Meta Tags -->
+  <meta name="description" content="Quantificazione quantitativa e monitoraggio in tempo reale della probabilità di estinzione dell'umanità su 1, 5, 10, 50 e 100 anni. Confronto con l'aspettativa biologica naturale della specie.">
+  <meta name="keywords" content="estinzione umana, rischio esistenziale, orologio apocalisse, doomsday clock, clima, guerra nucleare, intelligenza artificiale, biosicurezza, Toby Ord">
+  <meta name="author" content="Extinction Risk Watch Initiative">
+  <meta name="robots" content="index, follow">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- Open Graph / Facebook / LinkedIn / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Extinction Risk Watch – Aspettativa di Vita Residua della Specie Umana">
+  <meta property="og:description" content="Quanti giorni restano alla razza umana? Calcolo probabilistico sui 5 orizzonti (1, 5, 10, 50, 100 anni) e dati scientifici in tempo reale.">
+  <meta property="og:site_name" content="Extinction Risk Watch">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Extinction Risk Watch – Monitoraggio Rischio di Estinzione Umana">
+  <meta name="twitter:description" content="Calcolo probabilistico veritiero sui rischi di estinzione antropogenica a 1, 5, 10, 50 e 100 anni.">
+
+  <!-- Fonts & Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Chart.js via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <!-- Skip Link for Accessibility (a11y) -->
+  <a href="#main-content" class="skip-link">Salta al contenuto principale</a>
+
+  <!-- Top Navigation Bar -->
+  <header class="top-nav" role="banner">
+    <div class="nav-container">
+      <div class="brand">
+        <span class="pulse-indicator" aria-hidden="true"></span>
+        <span class="brand-title">EXTINCTION RISK WATCH</span>
+        <span class="badge-live">LIVE DATA</span>
+      </div>
+      <nav class="nav-links" aria-label="Navigazione principale">
+        <a href="#hero">Panoramica</a>
+        <a href="#horizons">5 Orizzonti</a>
+        <a href="#categories">Categorie</a>
+        <a href="#charts">Grafici Storici</a>
+        <a href="#news">Ultime Notizie</a>
+        <a href="#methodology">Metodologia</a>
+      </nav>
+      <div class="nav-right">
+        <div class="nav-updated" id="last-updated-pill" aria-live="polite">
+          Aggiornato: Caricamento...
+        </div>
+        <button id="btn-refresh-now" class="btn-refresh" title="Forza controllo aggiornamenti">
+          <span class="refresh-icon" aria-hidden="true">&#x21bb;</span> Controlla Ora
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Landmark -->
+  <main id="main-content">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section" aria-labelledby="hero-heading">
+      <div class="hero-container">
+        <div class="hero-tagline">
+          CALCOLATORE QUANTITATIVO DEL RISCHIO ESISTENZIALE
+        </div>
+        <h1 id="hero-heading" class="hero-headline">
+          Aspettativa di Vita Residua della Specie Umana
+        </h1>
+        <p class="hero-subtitle">
+          Confronto tra la scadenza biologica naturale della specie (<span class="highlight-cyan">~200.000 anni</span>) e la compressione del rischio antropogenico nel XXI secolo.
+        </p>
+
+        <!-- Big Hero Metric Box -->
+        <div class="hero-countdown-card">
+          <div class="countdown-label">GIORNI PROBABILI RIMASTI ALLA RAZZA UMANA</div>
+          <div class="countdown-number-row">
+            <span class="countdown-number" id="hero-days">--</span>
+            <span class="countdown-unit">GIORNI</span>
+          </div>
+          <div class="countdown-years-row">
+            Equivalenti a circa <span id="hero-years" class="text-bold">--</span> anni di aspettativa di vita residua al tasso di rischio attuale
+          </div>
+
+          <div class="lifespan-comparison-bar">
+            <div class="comparison-track" role="progressbar" aria-valuenow="0.28" aria-valuemin="0" aria-valuemax="100">
+              <div class="comparison-fill" id="comparison-fill" style="width: 0.28%;"></div>
+            </div>
+            <div class="comparison-legend">
+              <span><strong>Residuo Effettivo</strong>: <span id="leg-eff">Caricamento...</span></span>
+              <span class="tag-eroded"><strong>-99.7%</strong> di futuro potenziale eroso da minacce umane</span>
+              <span><strong>Naturale Biologico</strong>: <span id="leg-bio">~73.050.000 giorni</span></span>
+            </div>
+          </div>
+
+          <div class="hero-chips">
+            <div class="chip">
+              <span class="chip-label">Fluttuazione di Oggi</span>
+              <span class="chip-val chip-positive" id="hero-delta-days">--</span>
+            </div>
+            <div class="chip">
+              <span class="chip-label">Fragilità Sistemica (VIX)</span>
+              <span class="chip-val" id="hero-vix-mult">--</span>
+            </div>
+            <div class="chip">
+              <span class="chip-label">Fonte Biologica</span>
+              <span class="chip-val">Science 2023 / Nature 1993</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 Time Horizons Section -->
+    <section id="horizons" class="horizons-section" aria-labelledby="horizons-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="horizons-heading" class="section-title">Probabilità di Estinzione per Orizzonte Temporale</h2>
+          <p class="section-desc">
+            La probabilità che la specie umana si estingua irreversibilmente entro una finestra temporale definita, calcolata combinando le baseline di Toby Ord con i modulatori dei dati odierni.
+          </p>
+        </div>
+
+        <div class="horizons-grid" id="horizons-cards-container">
+          <!-- Generato dinamicamente via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Risk Categories Breakdown -->
+    <section id="categories" class="categories-section" aria-labelledby="categories-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="categories-heading" class="section-title">Scomposizione per Macrocategoria di Minaccia</h2>
+          <p class="section-desc">
+            Come ciascuna categoria incide sulla probabilità complessiva e come i dati rilevati oggi modulano la baseline di partenza.
+          </p>
+        </div>
+
+        <div class="categories-grid" id="categories-container">
+          <!-- Generato dinamicamente via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Charts Section (Table Formats) -->
+    <section id="charts" class="charts-section" aria-labelledby="charts-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="charts-heading" class="section-title">Grafici Storici e Indicatori Chiave</h2>
+          <p class="section-desc">
+            Consultazione delle serie storiche complete per ciascun indicatore (Formato Tabella). Visualizza l'evoluzione di VIX, CO₂, ghiacci artici, indice geopolitico e clima spaziale.
+          </p>
+        </div>
+
+        <div class="chart-tabs-bar" role="tablist">
+          <button class="chart-tab active" data-chart="vix" role="tab" aria-selected="true">Volatilità VIX (Stress Finanziario)</button>
+          <button class="chart-tab" data-chart="co2" role="tab" aria-selected="false">CO₂ Atmosferica (Mauna Loa)</button>
+          <button class="chart-tab" data-chart="ice" role="tab" aria-selected="false">Ghiacci Artici (NSIDC)</button>
+          <button class="chart-tab" data-chart="gpr" role="tab" aria-selected="false">Rischio Geopolitico (GPR)</button>
+          <button class="chart-tab" data-chart="kp" role="tab" aria-selected="false">Tempeste Solari (Kp Index)</button>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-header">
+            <div class="chart-info">
+              <h3 id="current-chart-title">CBOE Volatility Index (VIX) – Storico Giornaliero</h3>
+              <span class="chart-meta" id="current-chart-meta">365 punti temporali | Fonte: CBOE Global Markets</span>
+            </div>
+            <div class="chart-stat-pill" id="current-chart-stat">
+              Valore attuale: --
+            </div>
+          </div>
+          <div class="canvas-wrapper">
+            <canvas id="mainChartCanvas" aria-label="Grafico serie storica indicatore"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News & Alerts Feed Section (Text Format) -->
+    <section id="news" class="news-section" aria-labelledby="news-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="news-heading" class="section-title">Feed Notizie & Allerte per Argomento</h2>
+          <p class="section-desc">
+            Gli ultimi bollettini, notifiche ufficiali e articoli estratti automaticamente dalle fonti primarie (OMS, CIDRAP, NOAA, GDELT).
+          </p>
+        </div>
+
+        <div class="news-filter-bar" role="toolbar" aria-label="Filtro notizie">
+          <button class="news-filter-btn active" data-filter="all">Tutte le Notizie</button>
+          <button class="news-filter-btn" data-filter="pandemics_biosecurity">Pandemie & Biosicurezza</button>
+          <button class="news-filter-btn" data-filter="geopolitics_nuclear">Guerra & Geopolitica</button>
+          <button class="news-filter-btn" data-filter="climate_biosphere">Clima & Biosfera</button>
+          <button class="news-filter-btn" data-filter="cosmic_natural_hazards">Rischi Cosmici & Terremoti</button>
+          <button class="news-filter-btn" data-filter="systemic_fragility">Finanza & Mercati</button>
+        </div>
+
+        <div class="news-grid" id="news-grid-container" aria-live="polite">
+          <!-- Notizie inserite dinamicamente via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Methodology & Scientific Citations -->
+    <section id="methodology" class="methodology-section" aria-labelledby="method-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="method-heading" class="section-title">Metodologia Scientifica & Trasparenza</h2>
+          <p class="section-desc">
+            Perché questo calcolo è fondato e difendibile: le basi teoriche della genetica evolutiva e le stime del rischio antropogenico.
+          </p>
+        </div>
+
+        <div class="methodology-content">
+          <div class="method-card">
+            <h3>🧬 La Scadenza Biologica Naturale (~200.000 Anni)</h3>
+            <p>
+              Dal punto di vista della genetica delle popolazioni e della paleontologia evolutiva, una specie di mammifero come <em>Homo sapiens</em> ha una durata media di vita di circa 1-2 milioni di anni. Essendo emersi circa 200.000-300.000 anni fa, il tempo residuo prima del decadimento genetico naturale o della speciazione è di circa <strong>200.000 anni</strong> (~73 milioni di giorni).
+            </p>
+            <div class="cite-box">
+              <strong>Riferimenti Chiave:</strong>
+              <ul>
+                <li><strong>Science (2023)</strong>: <em>Genomic inference of a severe human bottleneck during the Early to Middle Pleistocene transition</em> (Hu, Hao, Du, et al.).</li>
+                <li><strong>Nature (1993)</strong>: <em>Implications of the Copernican Principle on our Future Prospects</em> (J. Richard Gott III, Princeton University).</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="method-card">
+            <h3>⚠️ L'Accorciamento Antropogenico nel XXI Secolo</h3>
+            <p>
+              L'umanità ha sviluppato nel secolo scorso capacità tecnologiche con potenziale di autodistruzione totale (armi nucleari, biologia sintetica ingegnerizzata, intelligenza artificiale non allineata e crisi climatica). Secondo il Future of Humanity Institute dell'Università di Oxford, il rischio di estinzione nel XXI secolo è di circa <strong>1 su 6 (16%)</strong>.
+            </p>
+            <div class="cite-box">
+              <strong>Riferimenti Chiave:</strong>
+              <ul>
+                <li><strong>Oxford University (2020)</strong>: <em>The Precipice: Existential Risk and the Future of Humanity</em> (Toby Ord).</li>
+                <li><strong>Oxford University Press (2008)</strong>: <em>Global Catastrophic Risks</em> (Nick Bostrom & Milan Cirkovic).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-container">
+      <div class="footer-left">
+        <strong>EXTINCTION RISK WATCH</strong> – Progetto di Ricerca e Sensibilizzazione Politica.
+        <div class="footer-sub">Dati aggiornati automaticamente ogni 10 minuti da fonti scientifiche aperte e libere.</div>
+      </div>
+      <div class="footer-right">
+        <span>Codice Sorgente Aperto & Open Data</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

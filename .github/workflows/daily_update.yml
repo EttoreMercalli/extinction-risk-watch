@@ -1,0 +1,41 @@
+name: Aggiornamento Quotidiano Dati & Indice
+
+on:
+  schedule:
+    # Esecuzione automatica ogni mattina alle 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Permette l'avvio manuale da GitHub
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configura Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installa dipendenze
+        run: |
+          pip install requests xlrd
+
+      - name: Esegui Pipeline di Estrazione e Calcolo
+        run: |
+          python extract_data.py
+          python build_site_data.py
+
+      - name: Commit e push dei dati aggiornati
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add public/data/index.json data/extracted_sample.json data/extinction_lifespan_output.json
+          git diff-index --quiet HEAD || git commit -m "chore(data): aggiornamento automatico dati e indici [skip ci]"
+          git push

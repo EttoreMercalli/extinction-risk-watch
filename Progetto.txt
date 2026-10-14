@@ -1,0 +1,144 @@
+Ho un idea per per fare un sito web, molto semplice nella consultazione ma un po' complesso nel reperire i dati. È un idea piu politica e dimostrativa che altro: vorrei creare un orologio o qualcosa di simile che indichi il rischio di estinzione della razza umana, cioè il livello di probabilità che la razza umana sia estinta tra 1, 10 e 100 anni. L'idea è prendere indici finanziari, notizie su pandemie e guerre, dati inquinamento e altri fattori e creare un coefficiente. Non serve sia accuratissimo, ma deve solo dare un idea di massima per sensibilizzare. Come prima parte del progetto vorrei tu facessi un analisi di tutte le informazioni che servono come input per poi andare a unirle tutte: verifica tutto ciò che potrebbe estinguere la razza umana in macrocategorie, poi verifica dove potresti prendere queste informazioni. Tieni conto che mi piacerebbe che l'indice si aggiornasse in tempo reale, ma basterebbe amche cambiasse giornalmente. Prenditi pure il tuo tempo per analizzare ciò che ti ho detto per il lavoro preparatorio
+
+Ottima idea, e ha già un precedente illustre: il Doomsday Clock del Bulletin of the Atomic Scientists, che a gennaio 2026 è stato portato a 85 secondi dalla mezzanotte, il punto più vicino da quando esiste (1947). Il tuo progetto si distinguerebbe perché sarebbe quantitativo, aggiornato ogni giorno e diviso per orizzonte temporale (1, 10, 100 anni). 
+abc11
+
+Una premessa di metodo
+
+Prima delle fonti c’è un punto importante. Quasi nessun dato in tempo reale misura direttamente il rischio di estinzione. Il VIX o un focolaio di influenza aviaria segnalano tensione, non la fine della specie. L’approccio più solido e più difendibile in pubblico è quindi a due livelli:
+
+Baseline: per ogni categoria, una probabilità di partenza presa dalle stime degli esperti. Il riferimento classico è Toby Ord (The Precipice, 2020), che stima circa 1 su 6 di catastrofe esistenziale nel secolo. Per categoria: IA non allineata circa 1/10, pandemie ingegnerizzate circa 1/30, guerra nucleare circa 1/1000, clima circa 1/1000, rischi naturali complessivi circa 1/10.000.
+Modulatori: i dati giornalieri spostano la baseline verso l’alto o verso il basso, ad esempio entro ±50%. Non la creano da zero.
+
+Così l’indice resta sensato e si muove ogni giorno. Inoltre, se qualcuno ti contesta, puoi citare fonti accademiche.
+
+Le macrocategorie e dove trovare i dati
+
+1. Guerra nucleare
+
+Strutturali (annuali): SIPRI Yearbook e FAS Nuclear Notebook per il numero di testate, il Doomsday Clock, lo stato dei trattati (il New START è scaduto a febbraio 2026).
+Dinamici: GDELT (gratuito, aggiornato ogni 15 minuti; misura eventi e tono delle notizie tra potenze nucleari), ACLED (conflitti, settimanale, API con registrazione e licenza restrittiva per usi commerciali), il Geopolitical Risk Index di Caldara-Iacoviello (giornaliero, scaricabile).
+Previsioni: domande su Metaculus e Polymarket relative a detonazioni nucleari (API pubbliche).
+
+2. Pandemie (naturali e ingegnerizzate)
+
+WHO Disease Outbreak News (RSS), stato delle emergenze PHEIC, ProMED, CIDRAP, Global.health, il CDC per l’H5N1.
+Il rischio ingegnerizzato non si misura direttamente. Si possono usare come proxy le previsioni su Metaculus e notizie su biosicurezza e regolazione.
+
+3. Intelligenza artificiale
+
+È il rischio con la baseline più alta e i dati meno “misurabili”. Proxy possibili: tempistiche AGI su Metaculus, dati su compute e modelli di Epoch AI, l’AI Incident Database, notizie su regolamentazione e accordi internazionali (via GDELT).
+
+4. Clima e ambiente
+
+Fonti ottime e quasi in tempo reale: CO₂ giornaliera a Mauna Loa (NOAA), temperatura globale giornaliera (Copernicus Climate Pulse), ghiaccio marino (NSIDC, giornaliero), anomalie mensili (NASA GISTEMP).
+Strutturali: Planetary Boundaries dello Stockholm Resilience Centre, Global Forest Watch.
+
+5. Collasso alimentare ed ecosistemico
+
+FAO Food Price Index (mensile), IPC per le carestie, Living Planet Index (biennale).
+
+6. Rischi naturali e cosmici
+
+NASA CNEOS Sentry per gli asteroidi (API gratuita, giornaliera), NOAA SWPC per le tempeste solari (tempo reale), Smithsonian Global Volcanism Program (settimanale), USGS.
+Sono rischi bassissimi ma con dati eccellenti. Per il sito sono perfetti per dare movimento visivo.
+
+7. Fragilità sistemica (moltiplicatore, non causa)
+
+Qui entrano gli indici finanziari: VIX, OFR Financial Stress Index (giornaliero), St. Louis Fed Financial Stress Index, tutti via API FRED gratuita.
+Strutturali: Global Peace Index, Fragile States Index, V-Dem (annuali).
+Consiglio di usarli come moltiplicatore di tutte le altre categorie: un mondo in crisi gestisce peggio ogni altra minaccia.
+
+8. Aggregatori di giudizio umano
+
+Metaculus, Polymarket, Kalshi, Good Judgment Open per le probabilità in tempo reale, il WEF Global Risks Report (annuale).
+Sono preziosi perché “incorporano” già le notizie.
+Aspetti pratici da tenere presenti
+Aggiornamento: un aggiornamento giornaliero è realistico e consigliabile. Il tempo reale vero ha senso solo per GDELT, i mercati di previsione e la finanza, e rischierebbe di far “ballare” l’indice per rumore.
+Notizie: puoi far classificare ogni giorno a un LLM i titoli di GDELT per categoria e gravità, così ottieni un segnale strutturato invece di un semplice conteggio.
+Licenze: verifica i termini d’uso di ACLED, Polymarket ed Epoch se il sito avrà monetizzazione. GDELT, FRED, NOAA e NASA sono liberi.
+Trasparenza: per un progetto politico, pubblicare la formula e le fonti è la tua migliore difesa dalle critiche di allarmismo.
+
+Il passo successivo naturale è definire la formula: pesi, normalizzazione dei modulatori e come derivare i tre orizzonti (1 anno non è semplicemente un centesimo del valore a 100 anni, perché alcuni rischi come l’IA sono concentrati nei prossimi decenni).
+
+Vuoi che metta questa analisi in un documento da tenere come base del progetto?
+
+Intanto voglio capire se una pagine web puo e in che modo acquisice le informazioni da tutte le fonti che hai citato. Analizza ogni singola fonte e verifica come costruire la piattaforma migliore per acquisire e tradurre le informazioni che ci servono, prima da dare in pasto all'algoritmo che ci darà l'indicatore
+
+In pratica, a costo quasi zero: un repository GitHub con script Python, eseguiti da GitHub Actions (cron giornaliero, orario per le fonti veloci). I dati finiscono in un database leggero (SQLite o Supabase). Ogni giorno il sistema genera un index.json, pubblicato su Cloudflare Pages o GitHub Pages. Il sito non sa nemmeno che le fonti esistono: legge solo quel file. Il visitatore percepisce comunque il “tempo reale” se aggiorni le fonti veloci ogni ora.
+
+Analisi fonte per fonte
+
+Ho diviso le fonti in tre livelli: A automatiche e libere, B automatiche ma con registrazione o restrizioni, C manuali (annuali, da aggiornare a mano in un file di configurazione).
+
+Guerra e geopolitica
+
+GDELT (A): API DOC 2.0 in JSON senza chiave, più file CSV ogni 15 minuti. È la fonte più ricca per volume e tono delle notizie tra potenze nucleari. Il volume è enorme, quindi conviene interrogarla con query mirate.
+Geopolitical Risk Index (A): file Excel scaricabile dal sito di Iacoviello, da leggere con uno script.
+ACLED (B): ha cambiato sistema di accesso. Abbandona le vecchie chiavi a favore di autenticazione via cookie o token OAuth per l’accesso programmatico, e le nuove organizzazioni ricevono accesso pubblico finché il loro livello non viene valutato. Fattibile, ma il livello pubblico potrebbe limitare i dati recenti. 
+acleddata
+acleddata
+SIPRI, FAS, Doomsday Clock, trattati (C): una riga in un file di configurazione, aggiornata una volta l’anno.
+
+Pandemie
+
+WHO Disease Outbreak News (A): pagina e feed pubblici, da leggere ogni giorno.
+CIDRAP, ECDC (A): feed RSS, perfetti da dare all’LLM.
+CDC (A): dataset aperti via data.cdc.gov.
+ProMED (da escludere): è passato a pagamento, e l’ente ha dichiarato che l’unica strada era un modello ad abbonamento, dismettendo di fatto gli scraper. Costa e lo scraping viola i termini. 
+isid
+
+Intelligenza artificiale
+
+Metaculus (B, delicato): tutte le richieste API richiedono un token, e soprattutto sulla maggior parte delle domande i dati aggregati della community non sono inclusi nelle risposte API, bisogna chiedere accesso con un modulo. Va fatto subito, perché è il dato più prezioso. 
+githubusercontent
+githubusercontent
+Epoch AI (A): dataset CSV scaricabili su modelli e potenza di calcolo.
+AI Incident Database (A): snapshot scaricabili.
+Notizie su IA e regolazione: via GDELT più LLM.
+
+Mercati di previsione
+
+Polymarket (A): l’accesso in sola lettura non richiede autenticazione. 
+newyorkcityservers
+Manifold (A): endpoint pubblici per dati di mercato senza autenticazione. 
+newyorkcityservers
+Kalshi (B): dati di mercato leggibili, da verificare i requisiti di accesso.
+
+Clima e ambiente (tutto A, eccellente)
+
+NOAA Mauna Loa CO₂: file di testo giornaliero.
+Copernicus Climate Pulse: CSV giornaliero della temperatura globale, con un paio di giorni di ritardo.
+NSIDC ghiaccio marino: CSV giornaliero.
+NASA GISTEMP: CSV mensile.
+Global Forest Watch: API con chiave gratuita (B).
+
+Cibo
+
+FAO Food Price Index (A): CSV mensile.
+IPC carestie (B): API con chiave.
+
+Rischi naturali (tutto A, JSON senza chiave)
+
+NASA Sentry per gli asteroidi, NOAA SWPC per le tempeste solari (in tempo reale), USGS per i terremoti, Smithsonian GVP per i vulcani (settimanale).
+
+Fragilità finanziaria e sistemica
+
+FRED (B, chiave gratuita): VIX giornaliero, St. Louis Fed Stress Index settimanale. Non permette CORS, quindi va letto dal backend.
+OFR Financial Stress Index (A): CSV giornaliero.
+Global Peace Index, Fragile States, V-Dem, WEF (C): annuali.
+Lo strato di traduzione
+
+È il cuore del sistema e si divide in due.
+
+I numeri (CO₂, VIX, Kp solare…) diventano un percentile rispetto agli ultimi 5-10 anni di storico. Un VIX al 95° percentile vale 0,95, indipendentemente dall’unità di misura. Per questo al primo avvio serve un backfill, cioè scaricare lo storico di ogni serie.
+
+Il testo (notizie, bollettini OMS) viene passato ogni giorno a un modello piccolo ed economico, come Claude Haiku. Il modello restituisce per ogni notizia un JSON strutturato: categoria, gravità da 0 a 5, portata globale o locale, novità rispetto ai giorni precedenti. Con qualche centinaio di titoli al giorno il costo è nell’ordine di pochi euro al mese.
+
+Servono anche due protezioni. Se una fonte non risponde, si usa l’ultimo valore valido, con un peso che cala nei giorni. Sul sito conviene poi mostrare la “freschezza” di ogni dato, il che aiuta anche la credibilità.
+
+Cosa fare subito
+
+Due cose hanno tempi di attesa, quindi conviene avviarle per prime: la richiesta di accesso dati a Metaculus e la registrazione su myACLED. Tutto il resto si può iniziare a costruire oggi, partendo dalle fonti di livello A.
+
+Vuoi che il prossimo passo sia scrivere i primi connettori in Python, partendo dalle fonti libere, oppure progettare prima la formula dell’indice?

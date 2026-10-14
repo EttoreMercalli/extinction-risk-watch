@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff3366"/>
+      <stop offset="50%" stop-color="#ffb703"/>
+      <stop offset="100%" stop-color="#00f0ff"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#07090e" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  <!-- Radar pulse circle -->
+  <circle cx="32" cy="32" r="22" fill="none" stroke="#00f0ff" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.6"/>
+  <!-- Outer gradient danger arc -->
+  <circle cx="32" cy="32" r="26" fill="none" stroke="url(#ring)" stroke-width="3" stroke-dasharray="120 45" stroke-linecap="round"/>
+  <!-- Center dot -->
+  <circle cx="32" cy="32" r="5" fill="#ff3366"/>
+  <circle cx="32" cy="32" r="12" fill="url(#glow)"/>
+</svg>

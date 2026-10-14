@@ -1,0 +1,397 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "1.0.0",
+  "title": "Extinction Risk Watch - Target Data Sources",
+  "description": "Catalogo delle sorgenti dati per il calcolo dell'indice di rischio di estinzione umana a 1, 10 e 100 anni.",
+  "sources": [
+    {
+      "id": "nasa_sentry",
+      "name": "NASA CNEOS Sentry (Asteroid Impact Risk)",
+      "category": "Rischi Naturali e Cosmici",
+      "level": "A",
+      "enabled": true,
+      "endpoint": "https://ssd-api.jpl.nasa.gov/sentry.api",
+      "method": "GET",
+      "format": "json",
+      "frequency": "daily",
+      "target_metric": "Probabilità di impatto asteroidale cumulativa e oggetti sulla scala Palermo / Torino",
+      "description": "Sistema automatico JPL/NASA che analizza le orbite degli asteroidi e calcola il rischio di collisione per i prossimi 100 anni.",
+      "validation": {
+        "expected_status": [200],
+        "min_bytes": 100000,
+        "parse_test": "json",
+        "required_keys": ["count", "data", "signature"]
+      },
+      "notes": "Completamente aperto e gratuito, nessun token richiesto. Payload di circa 580 KB."
+    },
+    {
+      "id": "noaa_swpc_kp",
+      "name": "NOAA Space Weather (Planetary K-Index - Tempeste Solari)",
+      "category": "Rischi Naturali e Cosmici",
+      "level": "A",
+      "enabled": true,
+      "endpoint": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json",
+      "method": "GET",
+      "format": "json",
+      "frequency": "hourly",
+      "target_metric": "Indice geomagnetico planetario Kp (scala 0-9) per rischio tempeste solari di classe Carrington",
+      "description": "Monitoraggio in tempo reale del clima spaziale e delle tempeste geomagnetiche che potrebbero collassare le reti elettriche mondiali.",
+      "validation": {
+        "expected_status": [200],
+        "min_bytes": 1000,
+        "parse_test": "json"
+      },
+      "notes": "Aggiornato costantemente ogni minuto/ora dal SWPC della NOAA."
+    },
+    {
+      "id": "usgs_earthquakes",
+      "name": "USGS Earthquakes (Significant Monthly Events)",
+      "category": "Rischi Naturali e Cosmici",
+      "level": "A",
+      "enabled": true,
+      "endpoint": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson",
+      "method": "GET",
+      "format": "json",
+      "frequency": "realtime",
+      "target_metric": "Frequenza ed energia rilasciata da eventi sismici globali significativi (M > 6.0)",
+      "description": "Feed GeoJSON ufficiale dell'USGS che traccia i sismi più rilevanti a livello globale nell'ultimo mese.",
+      "validation": {
+        "expected_status": [200],
+        "min_bytes": 2000,
+        "parse_test": "json",
+        "required_keys": ["type", "features", "metadata"]
+      },
+      "notes": "Libero e ad altissima affidabilità con latenza inferiore a 300ms."
+    },
+    {
+      "id": "noaa_co2_mlo",
+      "name": "NOAA Mauna Loa Daily Atmospheric CO2 Trend",
+      "category": "Clima e Ambiente",
+      "level": "A",
+      "enabled": true,
+      "endpoint": "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_daily_mlo.txt",
+      "method": "GET",
+      "format": "text",
+      "frequency": "daily",
+      "target_metric": "Concentrazione di CO2 atmosferica globale in ppm (parti per milione)",
+      "description": "La serie temporale di riferimento mondiale (Curva di Keeling) aggiornata quotidianamente dall'osservatorio di Mauna Loa (Hawaii).",
+      "validation": {
+        "expected_status": [200],
+        "min_bytes": 100000,
+        "parse_test": "text",
+        "min_lines": 500
+      },
+      "notes": "File di testo a colonne fisse con storico completo dal 1958 a oggi."
+    },
+    {
+      "id": "nsidc_arctic_ice",
+      "name": "NSIDC Sea Ice Index (Daily Arctic Extent v4.0)",
+      "category": "Clima e Ambiente",
+      "level": "A",
+      "enabled": true,
+      "endpoint": "https://noaadata.apps.nsidc.org/NOAA/G02135/north/daily/data/N_seaice_extent_daily_v4.0.csv",
+      "method": "GET",
+      "format": "csv",
+      "frequency": "daily",
+      "target_metric": "Estensione della calotta glaciale artica (milioni di km²)",
+      "description": "Dataset ufficiale NOAA/NSIDC sulla fusione dei ghiacci artici con aggiornamento giornaliero satellitare.",
+      "validation": {
+        "expected_status": [200],
+        "min_bytes": 500000,
+        "parse_test": "csv",
+        "min_lines": 1000
+      },
+      "notes": "Accessibile direttamente in CSV. Rappresenta uno dei tipping points critici del sistema climatico terrestre."
+    },
+    {
+      "id": "gpr_iacoviello_daily",
+      "name": "Geopolitical Risk Index (Caldara & Iacoviello)",
+      "category": "Guerra Nucleare e Geopolitica",
+      "level": "A",
+      "enabled": true,
+      "endpoint": "https://www.matteoiacoviello.com/gpr_files/data_gpr_daily_recent.xls",
+      "method": "GET",
+      "format": "xls",
+      "frequency": "weekly",
+      "target_metric": "Indice giornaliero di minacce e atti geopolitici (GPR, GPRA, GPRT)",
+      "description": "Indice accademico di riferimento (American Economic Review) basato sull'analisi testuale delle minacce di guerra, arsenali e tensioni nucleari.",
+      "validation": {
+        "expected_status": [200],
+        "min_bytes": 1000000,
+        "parse_test": "binary"
+      },
+      "notes": "File Excel (.xls) aggiornato regolarmente ogni lunedì mattina, copre la serie dal 1985 ad oggi."
+    },
+    {
+      "id": "gdelt_15min_feed",
+      "name": "GDELT Project (15-min Global Events & Mentions)",
+      "category": "Guerra Nucleare e Geopolitica",
+      "level": "A",
+      "enabled": true,
+      "endpoint": "http://data.gdeltproject.org/gdeltv2/lastupdate.txt",
+      "method": "GET",
+      "format": "text",
+      "frequency": "hourly",
+      "target_metric": "Eventi mondiali di conflitto, escalation militare e menzioni nucleari",
+      "description": "File statico aggiornato ogni 15 minuti contenente i puntatori ai dump CSV compressi degli eventi globali monitorati in oltre 100 lingue.",
+      "validation": {
+        "expected_status": [200],
+        "min_bytes": 100,
+        "parse_test": "text",
+        "min_lines": 3
+      },
+      "notes": "Evita i blocchi 429 della Doc API scaricando direttamente il dump batch statico senza rate limit."
+    },
+    {
+      "id": "who_don_api",
+      "name": "WHO Disease Outbreak News (DON API)",
+      "category": "Pandemie e Rischi Biologici",
+      "level": "A",
+      "enabled": true,
+      "endpoint": "https://www.who.int/api/news/diseaseoutbreaknews",
+      "method": "GET",
+      "format": "json",
+      "frequency": "daily",
+      "target_metric": "Nuovi focolai epidemici globali, notifiche di patogeni emergenti (es. H5N1, Marburg, Mpox)",
+      "description": "API REST ufficiale dell'Organizzazione Mondiale della Sanità per le allerte sanitarie mondiali.",
+      "validation": {
+        "expected_status": [200],
+        "min_bytes": 10000,
+        "parse_test": "json",
+        "required_keys": ["value"]
+      },
+      "notes": "Ritorna oggetti strutturati con data di pubblicazione, patogeno, area geografica e valutazione di rischio."
+    },
+    {
+      "id": "cidrap_news_rss",
+      "name": "CIDRAP News RSS (Center for Infectious Disease Research & Policy)",
+      "category": "Pandemie e Rischi Biologici",
+      "level": "A",
+      "enabled": true,
+      "endpoint": "https://www.cidrap.umn.edu/news/178636/rss",
+      "method": "GET",
+      "format": "rss_xml",
+      "frequency": "daily",
+      "target_metric": "Notizie di biosicurezza, mutazioni virali e focolai infettivi",
+      "description": "Feed RSS del centro di ricerca di Michael Osterholm (University of Minnesota), autorevole fonte su biosicurezza e pandemie.",
+      "validation": {
+        "expected_status": [200],
+        "min_bytes": 2000,
+        "parse_test": "xml"
+      },
+      "notes": "Perfetto per essere sintetizzato e valutato da un modello linguistico leggero per gravità (0-5)."
+    },
+    {
+      "id": "epoch_ai_notable",
+      "name": "Epoch AI Notable AI Systems & Compute Database",
+      "category": "Intelligenza Artificiale",
+      "level": "A",
+      "enabled": true,
+      "endpoint": "https://epoch.ai/data/notable_ai_models.csv",
+      "method": "GET",
+      "format": "csv",
+      "frequency": "weekly",
+      "target_metric": "Crescita esponenziale di compute (FLOPs), parametri e capacità dei modelli di frontiera",
+      "description": "Database scientifico di riferimento internazionale sull'evoluzione delle capacità dell'IA verso l'AGI.",
+      "validation": {
+        "expected_status": [200],
+        "min_bytes": 500000,
+        "parse_test": "csv",
+        "min_lines": 500
+      },
+      "notes": "Scaricabile in formato CSV (~2.2 MB), contiene oltre 1000 modelli catalogati con dati di addestramento."
+    },
+    {
+      "id": "ai_incident_db_portal",
+      "name": "AI Incident Database (Weekly Snapshots)",
+      "category": "Intelligenza Artificiale",
+      "level": "A",
+      "enabled": true,
+      "endpoint": "https://incidentdatabase.ai/research/snapshots/",
+      "method": "GET",
+      "format": "html",
+      "frequency": "weekly",
+      "target_metric": "Frequenza cumulativa e gravità degli incidenti da sistemi di IA nel mondo reale",
+      "description": "Piattaforma aperta della Responsible AI Collaborative che indicizza tutti i fallimenti e danni causati da IA.",
+      "validation": {
+        "expected_status": [200],
+        "min_bytes": 50000,
+        "parse_test": "html"
+      },
+      "notes": "Permette il download di snapshot completi in JSON e CSV."
+    },
+    {
+      "id": "cboe_vix_history",
+      "name": "CBOE Official VIX Volatility Index Daily History",
+      "category": "Fragilità Finanziaria e Sistemica",
+      "level": "A",
+      "enabled": true,
+      "endpoint": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+      "method": "GET",
+      "format": "csv",
+      "frequency": "daily",
+      "target_metric": "Indice di volatilità implicita CBOE VIX (indice della paura)",
+      "description": "Storico ufficiale completo dal 1990 ad oggi dell'indice VIX, pubblicato direttamente dall'emittente CBOE.",
+      "validation": {
+        "expected_status": [200],
+        "min_bytes": 200000,
+        "parse_test": "csv",
+        "min_lines": 5000
+      },
+      "notes": "Moltiplicatore di fragilità: una volatilità alta indica stress sistemico e ridotta resilienza alle catastrofi."
+    },
+    {
+      "id": "yahoo_finance_vix",
+      "name": "Yahoo Finance Realtime VIX Chart API",
+      "category": "Fragilità Finanziaria e Sistemica",
+      "level": "A",
+      "enabled": true,
+      "endpoint": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX",
+      "method": "GET",
+      "format": "json",
+      "frequency": "realtime",
+      "target_metric": "Valore spot intraday del VIX in tempo reale",
+      "description": "Endpoint JSON rapido per ottenere l'ultima quotazione intraday del VIX senza autenticazione.",
+      "validation": {
+        "expected_status": [200],
+        "min_bytes": 2000,
+        "parse_test": "json",
+        "required_keys": ["chart"]
+      },
+      "notes": "Ottimo per aggiornamenti orari/intraday veloci."
+    },
+    {
+      "id": "polymarket_gamma",
+      "name": "Polymarket Gamma API (Prediction Markets)",
+      "category": "Mercati di Previsione",
+      "level": "A",
+      "enabled": true,
+      "endpoint": "https://gamma-api.polymarket.com/events?closed=false&limit=10",
+      "method": "GET",
+      "format": "json",
+      "frequency": "hourly",
+      "target_metric": "Probabilità di mercato aggregate su eventi geopolitici, nucleari, pandemici e di IA",
+      "description": "Il più grande mercato di previsione decentralizzato. Espone un'API REST pubblica senza chiavi di accesso per consultare prezzi e probabilità.",
+      "validation": {
+        "expected_status": [200],
+        "min_bytes": 10000,
+        "parse_test": "json"
+      },
+      "notes": "Permette di filtrare mercati specifici come 'Will a nuclear weapon detonate in 2026?|2027?'."
+    },
+    {
+      "id": "manifold_markets_api",
+      "name": "Manifold Markets API (Probabilistic Forecasts)",
+      "category": "Mercati di Previsione",
+      "level": "A",
+      "enabled": true,
+      "endpoint": "https://api.manifold.markets/v0/markets?limit=10",
+      "method": "GET",
+      "format": "json",
+      "frequency": "hourly",
+      "target_metric": "Previsioni probabilistiche della folla su rischi esistenziali e AGI timelines",
+      "description": "Piattaforma di play-money prediction markets focalizzata su domande a lungo termine, AGI, biosicurezza e allineamento IA.",
+      "validation": {
+        "expected_status": [200],
+        "min_bytes": 2000,
+        "parse_test": "json"
+      },
+      "notes": "API aperta senza autenticazione, supporta filtri per tag e parole chiave."
+    },
+    {
+      "id": "metaculus_api",
+      "name": "Metaculus Aggregated Forecasts API",
+      "category": "Mercati di Previsione",
+      "level": "B",
+      "enabled": false,
+      "endpoint": "https://www.metaculus.com/api2/questions/",
+      "method": "GET",
+      "format": "json",
+      "frequency": "daily",
+      "target_metric": "Probabilità della community su estinzione umana, data arrivo AGI, guerra termonucleare",
+      "description": "Piattaforma di previsione calibrata di livello accademico/governativo con le domande più specifiche sui rischi catastrofici globali.",
+      "validation": {
+        "expected_status": [200, 401],
+        "min_bytes": 500,
+        "parse_test": "json"
+      },
+      "notes": "Richiede token di autenticazione e approvazione per accedere alle stime aggregate della community."
+    },
+    {
+      "id": "fred_stlouis_api",
+      "name": "Federal Reserve FRED API (Financial Stress Indices)",
+      "category": "Fragilità Finanziaria e Sistemica",
+      "level": "B",
+      "enabled": false,
+      "endpoint": "https://api.stlouisfed.org/fred/series/observations",
+      "method": "GET",
+      "format": "json",
+      "frequency": "daily",
+      "target_metric": "St. Louis Fed Financial Stress Index (STLFSI4) & VIXCLS",
+      "description": "API della Federal Reserve Bank di St. Louis.",
+      "validation": {
+        "expected_status": [200, 400],
+        "min_bytes": 100,
+        "parse_test": "json"
+      },
+      "notes": "Richiede una API key gratuita ottenibile con registrazione sul sito FRED."
+    },
+    {
+      "id": "toby_ord_precipice_baseline",
+      "name": "The Precipice - Baseline Probabilities (Toby Ord, 2020)",
+      "category": "Baseline Strutturale",
+      "level": "C",
+      "enabled": true,
+      "endpoint": "local://config/baseline_precipice.json",
+      "method": "LOCAL",
+      "format": "json",
+      "frequency": "annual",
+      "target_metric": "Probabilità di partenza per orizzonte 100 anni: AI non allineata (1/10), Pandemie ingegnerizzate (1/30), Guerra nucleare (1/1000), Clima (1/1000), Supervulcani/Impatti (1/10000)",
+      "description": "Stime strutturali di base derivate dalla letteratura accademica sul rischio esistenziale del Future of Humanity Institute di Oxford.",
+      "validation": {
+        "expected_status": [200],
+        "min_bytes": 50,
+        "parse_test": "local"
+      },
+      "notes": "Dato strutturale cablato nel modello di calcolo, aggiornato solo in caso di revisioni accademiche."
+    },
+    {
+      "id": "sipri_nuclear_forces",
+      "name": "SIPRI Nuclear Forces Data & FAS Nuclear Notebook",
+      "category": "Guerra Nucleare e Geopolitica",
+      "level": "C",
+      "enabled": true,
+      "endpoint": "local://config/baseline_sipri.json",
+      "method": "LOCAL",
+      "format": "json",
+      "frequency": "annual",
+      "target_metric": "Numero totale di testate nucleari operative, dispiegate e in riserva delle potenze atomiche",
+      "description": "Rapporto annuale dello Stockholm International Peace Research Institute e della Federation of American Scientists.",
+      "validation": {
+        "expected_status": [200],
+        "min_bytes": 50,
+        "parse_test": "local"
+      },
+      "notes": "Aggiornato una volta all'anno (giugno) nel file di configurazione."
+    },
+    {
+      "id": "doomsday_clock_bulletin",
+      "name": "Bulletin of the Atomic Scientists (Doomsday Clock)",
+      "category": "Baseline Strutturale",
+      "level": "C",
+      "enabled": true,
+      "endpoint": "local://config/baseline_doomsday.json",
+      "method": "LOCAL",
+      "format": "json",
+      "frequency": "annual",
+      "target_metric": "Secondi alla mezzanotte simbolica (es. 85 secondi a gennaio 2026)",
+      "description": "L'indicatore simbolico storico del Bulletin of the Atomic Scientists.",
+      "validation": {
+        "expected_status": [200],
+        "min_bytes": 50,
+        "parse_test": "local"
+      },
+      "notes": "Aggiornato annualmente ogni gennaio tramite conferenza stampa."
+    }
+  ]
+}
