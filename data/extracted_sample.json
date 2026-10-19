@@ -1538,15 +1538,14 @@
         "metric_id": "co2_mauna_loa",
         "name": "Concentrazione Atmosferica CO2 (Mauna Loa)",
         "unit": "ppm",
-        "current_value": 426.71,
-        "current_date": "2026-10-16",
-        "total_records": 16004,
+        "current_value": 427.25,
+        "current_date": "2026-10-17",
+        "total_records": 16005,
         "min_value": 326.06,
         "max_value": 433.95,
         "mean_value": 375.11,
-        "percentile_5y": 0.975,
+        "percentile_5y": 0.98,
         "sparkline": [
-          427.13,
           426.57,
           426.62,
           426.25,
@@ -1575,22 +1574,22 @@
           426.78,
           427.01,
           426.84,
-          426.71
+          426.71,
+          427.25
         ]
       },
       "sea_ice": {
         "metric_id": "arctic_sea_ice",
         "name": "Estensione Calotta Glaciale Artica",
         "unit": "milioni kmq",
-        "current_value": 6.73,
-        "current_date": "2026-10-16",
-        "total_records": 15872,
+        "current_value": 6.72,
+        "current_date": "2026-10-17",
+        "total_records": 15873,
         "min_value": 3.34,
         "max_value": 16.64,
         "mean_value": 11.16,
-        "percentile_5y": 0.86,
+        "percentile_5y": 0.861,
         "sparkline": [
-          4.63,
           4.67,
           4.71,
           4.71,
@@ -1619,16 +1618,13 @@
           6.33,
           6.54,
           6.81,
-          6.73
+          6.73,
+          6.72
         ]
       }
     },
     "time_series": {
       "co2_chart": [
-        {
-          "date": "2025-05-21",
-          "value": 430.88
-        },
         {
           "date": "2025-05-22",
           "value": 429.89
@@ -3084,13 +3080,13 @@
         {
           "date": "2026-10-16",
           "value": 426.71
+        },
+        {
+          "date": "2026-10-17",
+          "value": 427.25
         }
       ],
       "sea_ice_chart": [
-        {
-          "date": "2025-10-17",
-          "value": 6.129
-        },
         {
           "date": "2025-10-18",
           "value": 6.213
@@ -4545,17 +4541,21 @@
         },
         {
           "date": "2026-10-16",
-          "value": 6.732
+          "value": 6.731
+        },
+        {
+          "date": "2026-10-17",
+          "value": 6.717
         }
       ]
     },
     "news_items": [
       {
-        "title": "Concentrazione CO2 a quota 426.7 ppm a Mauna Loa",
-        "date": "2026-10-16",
+        "title": "Concentrazione CO2 a quota 427.2 ppm a Mauna Loa",
+        "date": "2026-10-17",
         "source": "NOAA Global Monitoring Laboratory",
         "url": "https://gml.noaa.gov/ccgg/trends/",
-        "summary": "L'osservatorio di Mauna Loa registra 426.71 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
+        "summary": "L'osservatorio di Mauna Loa registra 427.25 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
         "category": "Clima e Ambiente",
         "severity": 3,
         "tags": [
@@ -4566,11 +4566,11 @@
         ]
       },
       {
-        "title": "Estensione ghiaccio marino artico: 6.73 milioni di kmq",
-        "date": "2026-10-16",
+        "title": "Estensione ghiaccio marino artico: 6.72 milioni di kmq",
+        "date": "2026-10-17",
         "source": "National Snow and Ice Data Center (NSIDC)",
         "url": "https://nsidc.org/arcticseaicenews/",
-        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 6.73 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
+        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 6.72 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
         "category": "Clima e Ambiente",
         "severity": 2,
         "tags": [
@@ -4595,7 +4595,7 @@
         "total_records": 15261,
         "min_value": 0.0,
         "max_value": 540.83,
-        "mean_value": 143.1,
+        "mean_value": 143.11,
         "percentile_5y": 0.982,
         "sparkline": [
           198.19,
@@ -6123,7 +6123,7 @@
         "name": "Indice di Allerta Epidemica Globale",
         "unit": "notifiche attive",
         "current_value": 12.0,
-        "current_date": "2026-10-18",
+        "current_date": "2026-10-19",
         "total_records": 12,
         "min_value": 0.0,
         "max_value": 20.0,
@@ -6326,22 +6326,14 @@
         "metric_id": "solar_kp_index",
         "name": "Indice Geomagnetico Planetario Kp (Tempeste Solari)",
         "unit": "scala Kp (0-9)",
-        "current_value": 2.33,
-        "current_date": "2026-10-18",
+        "current_value": 0.33,
+        "current_date": "2026-10-19",
         "total_records": 58,
-        "min_value": 0.67,
-        "max_value": 4.0,
-        "mean_value": 2.23,
-        "percentile_5y": 0.444,
+        "min_value": 0.33,
+        "max_value": 3.67,
+        "mean_value": 2.0,
+        "percentile_5y": 0.408,
         "sparkline": [
-          2.0,
-          2.0,
-          2.67,
-          2.67,
-          2.0,
-          0.67,
-          1.33,
-          3.0,
           2.67,
           3.0,
           2.33,
@@ -6363,44 +6355,20 @@
           3.0,
           1.0,
           2.0,
-          2.33
+          2.33,
+          2.0,
+          1.67,
+          0.33,
+          1.33,
+          1.67,
+          0.33,
+          0.33,
+          0.33
         ]
       }
     },
     "time_series": {
       "kp_hourly_chart": [
-        {
-          "date": "2026-10-11T00:00",
-          "value": 4.0
-        },
-        {
-          "date": "2026-10-11T03:00",
-          "value": 3.67
-        },
-        {
-          "date": "2026-10-11T06:00",
-          "value": 2.67
-        },
-        {
-          "date": "2026-10-11T09:00",
-          "value": 3.0
-        },
-        {
-          "date": "2026-10-11T12:00",
-          "value": 2.33
-        },
-        {
-          "date": "2026-10-11T15:00",
-          "value": 2.33
-        },
-        {
-          "date": "2026-10-11T18:00",
-          "value": 1.67
-        },
-        {
-          "date": "2026-10-11T21:00",
-          "value": 1.67
-        },
         {
           "date": "2026-10-12T00:00",
           "value": 1.67
@@ -6600,16 +6568,48 @@
         {
           "date": "2026-10-18T03:00",
           "value": 2.33
+        },
+        {
+          "date": "2026-10-18T06:00",
+          "value": 2.0
+        },
+        {
+          "date": "2026-10-18T09:00",
+          "value": 1.67
+        },
+        {
+          "date": "2026-10-18T12:00",
+          "value": 0.33
+        },
+        {
+          "date": "2026-10-18T15:00",
+          "value": 1.33
+        },
+        {
+          "date": "2026-10-18T18:00",
+          "value": 1.67
+        },
+        {
+          "date": "2026-10-18T21:00",
+          "value": 0.33
+        },
+        {
+          "date": "2026-10-19T00:00",
+          "value": 0.33
+        },
+        {
+          "date": "2026-10-19T03:00",
+          "value": 0.33
         }
       ]
     },
     "news_items": [
       {
-        "title": "Monitoraggio Clima Spaziale: Kp a 2.3 (Picco 4.0)",
-        "date": "2026-10-18",
+        "title": "Monitoraggio Clima Spaziale: Kp a 0.3 (Picco 3.7)",
+        "date": "2026-10-19",
         "source": "NOAA Space Weather Prediction Center",
         "url": "https://www.swpc.noaa.gov/",
-        "summary": "CLIMA SPAZIALE QUIETO (Kp=4.0): nessun rischio immediato da brillamenti o tempeste geomagnetiche.",
+        "summary": "CLIMA SPAZIALE QUIETO (Kp=3.67): nessun rischio immediato da brillamenti o tempeste geomagnetiche.",
         "category": "Rischi Naturali e Cosmici",
         "severity": 1,
         "tags": [
@@ -6621,7 +6621,7 @@
       },
       {
         "title": "Attivita Sismica Significativa: 15 eventi nell'ultimo mese",
-        "date": "2026-10-18",
+        "date": "2026-10-19",
         "source": "USGS Earthquake Hazards Program",
         "url": "https://earthquake.usgs.gov/",
         "summary": "Eventi tellurici globali maggiori registrati dai sismografi planetari. Evento di rilievo: M 7.7 - 12 km WSW of Pitaloza Arriba, Panama.",
