@@ -7,15 +7,14 @@
         "metric_id": "vix_index",
         "name": "CBOE Volatility Index (VIX)",
         "unit": "punti",
-        "current_value": 19.99,
-        "current_date": "2026-10-16",
-        "total_records": 9296,
+        "current_value": 18.44,
+        "current_date": "2026-10-19",
+        "total_records": 9297,
         "min_value": 11.86,
         "max_value": 52.33,
         "mean_value": 19.05,
-        "percentile_5y": 0.674,
+        "percentile_5y": 0.564,
         "sparkline": [
-          15.3,
           15.72,
           16.46,
           17.84,
@@ -44,16 +43,13 @@
           15.27,
           16.87,
           16.46,
-          19.99
+          19.99,
+          18.44
         ]
       }
     },
     "time_series": {
       "vix_daily_chart": [
-        {
-          "date": "2025-05-21",
-          "value": 20.87
-        },
         {
           "date": "2025-05-22",
           "value": 20.28
@@ -1509,13 +1505,17 @@
         {
           "date": "2026-10-16",
           "value": 19.99
+        },
+        {
+          "date": "2026-10-19",
+          "value": 18.44
         }
       ]
     },
     "news_items": [
       {
-        "title": "Indice VIX a quota 19.99 (STABILITÀ FINANZIARIA)",
-        "date": "2026-10-16",
+        "title": "Indice VIX a quota 18.44 (STABILITÀ FINANZIARIA)",
+        "date": "2026-10-19",
         "source": "CBOE Global Markets",
         "url": "https://www.cboe.com/tradable_products/vix/",
         "summary": "STABILITÀ FINANZIARIA: volatilità contenuta, assenza di shock sistemici immediati sulla liquidità globale.",
@@ -1538,15 +1538,14 @@
         "metric_id": "co2_mauna_loa",
         "name": "Concentrazione Atmosferica CO2 (Mauna Loa)",
         "unit": "ppm",
-        "current_value": 427.25,
-        "current_date": "2026-10-17",
-        "total_records": 16005,
+        "current_value": 426.67,
+        "current_date": "2026-10-18",
+        "total_records": 16006,
         "min_value": 326.06,
         "max_value": 433.95,
         "mean_value": 375.11,
-        "percentile_5y": 0.98,
+        "percentile_5y": 0.974,
         "sparkline": [
-          426.57,
           426.62,
           426.25,
           425.73,
@@ -1575,7 +1574,8 @@
           427.01,
           426.84,
           426.71,
-          427.25
+          427.25,
+          426.67
         ]
       },
       "sea_ice": {
@@ -1625,10 +1625,6 @@
     },
     "time_series": {
       "co2_chart": [
-        {
-          "date": "2025-05-22",
-          "value": 429.89
-        },
         {
           "date": "2025-05-23",
           "value": 429.52
@@ -3084,6 +3080,10 @@
         {
           "date": "2026-10-17",
           "value": 427.25
+        },
+        {
+          "date": "2026-10-18",
+          "value": 426.67
         }
       ],
       "sea_ice_chart": [
@@ -4551,11 +4551,11 @@
     },
     "news_items": [
       {
-        "title": "Concentrazione CO2 a quota 427.2 ppm a Mauna Loa",
-        "date": "2026-10-17",
+        "title": "Concentrazione CO2 a quota 426.7 ppm a Mauna Loa",
+        "date": "2026-10-18",
         "source": "NOAA Global Monitoring Laboratory",
         "url": "https://gml.noaa.gov/ccgg/trends/",
-        "summary": "L'osservatorio di Mauna Loa registra 427.25 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
+        "summary": "L'osservatorio di Mauna Loa registra 426.67 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
         "category": "Clima e Ambiente",
         "severity": 3,
         "tags": [
@@ -4590,73 +4590,49 @@
         "metric_id": "gprd_index",
         "name": "Geopolitical Risk Index (GPR Daily)",
         "unit": "indice",
-        "current_value": 342.4,
-        "current_date": "2026-10-13",
-        "total_records": 15261,
+        "current_value": 248.66,
+        "current_date": "2026-10-19",
+        "total_records": 15267,
         "min_value": 0.0,
         "max_value": 540.83,
-        "mean_value": 143.11,
-        "percentile_5y": 0.982,
+        "mean_value": 143.13,
+        "percentile_5y": 0.933,
         "sparkline": [
-          198.19,
-          211.73,
-          226.02,
-          109.06,
-          121.56,
-          128.18,
           148.79,
           172.28,
-          184.03,
+          183.64,
           210.99,
           144.02,
           228.23,
           157.43,
-          140.96,
-          191.57,
+          140.59,
+          207.04,
           198.45,
           156.5,
           177.46,
-          265.78,
-          161.08,
-          137.64,
-          159.12,
-          201.89,
-          116.83,
-          160.06,
+          264.75,
+          161.42,
+          146.41,
+          158.08,
+          201.44,
+          130.31,
+          166.67,
           179.96,
-          162.8,
-          122.69,
+          156.05,
+          123.01,
           221.35,
-          342.4
+          310.98,
+          133.57,
+          209.75,
+          104.39,
+          114.46,
+          123.67,
+          248.66
         ]
       }
     },
     "time_series": {
       "gpr_daily_chart": [
-        {
-          "date": "2025-10-14",
-          "value": 202.95819091796875
-        },
-        {
-          "date": "2025-10-15",
-          "value": 184.0315399169922
-        },
-        {
-          "date": "2025-10-16",
-          "value": 149.9516143798828
-        },
-        {
-          "date": "2025-10-17",
-          "value": 133.89991760253906
-        },
-        {
-          "date": "2025-10-18",
-          "value": 114.5556640625
-        },
-        {
-          "date": "2025-10-19",
-          "value": 103.2244873046875
-        },
         {
           "date": "2025-10-20",
           "value": 161.07623291015625
@@ -5519,7 +5495,7 @@
         },
         {
           "date": "2026-05-23",
-          "value": 116.60237884521484
+          "value": 137.8028106689453
         },
         {
           "date": "2026-05-24",
@@ -5727,7 +5703,7 @@
         },
         {
           "date": "2026-07-14",
-          "value": 333.8753967285156
+          "value": 333.2168884277344
         },
         {
           "date": "2026-07-15",
@@ -5907,7 +5883,7 @@
         },
         {
           "date": "2026-08-28",
-          "value": 148.3239288330078
+          "value": 148.60116577148438
         },
         {
           "date": "2026-08-29",
@@ -5975,27 +5951,27 @@
         },
         {
           "date": "2026-09-14",
-          "value": 198.18780517578125
+          "value": 176.06167602539062
         },
         {
           "date": "2026-09-15",
-          "value": 211.7311248779297
+          "value": 167.80361938476562
         },
         {
           "date": "2026-09-16",
-          "value": 226.0174102783203
+          "value": 205.43055725097656
         },
         {
           "date": "2026-09-17",
-          "value": 109.05572509765625
+          "value": 128.58396911621094
         },
         {
           "date": "2026-09-18",
-          "value": 121.5621109008789
+          "value": 101.23297119140625
         },
         {
           "date": "2026-09-19",
-          "value": 128.18490600585938
+          "value": 98.34185028076172
         },
         {
           "date": "2026-09-20",
@@ -6007,7 +5983,7 @@
         },
         {
           "date": "2026-09-22",
-          "value": 184.0315399169922
+          "value": 183.63914489746094
         },
         {
           "date": "2026-09-23",
@@ -6027,11 +6003,11 @@
         },
         {
           "date": "2026-09-27",
-          "value": 140.9603271484375
+          "value": 140.58642578125
         },
         {
           "date": "2026-09-28",
-          "value": 191.57017517089844
+          "value": 207.0354766845703
         },
         {
           "date": "2026-09-29",
@@ -6047,31 +6023,31 @@
         },
         {
           "date": "2026-10-02",
-          "value": 265.7833251953125
+          "value": 264.74713134765625
         },
         {
           "date": "2026-10-03",
-          "value": 161.07623291015625
+          "value": 161.41749572753906
         },
         {
           "date": "2026-10-04",
-          "value": 137.6413116455078
+          "value": 146.41183471679688
         },
         {
           "date": "2026-10-05",
-          "value": 159.1189727783203
+          "value": 158.08349609375
         },
         {
           "date": "2026-10-06",
-          "value": 201.89463806152344
+          "value": 201.43992614746094
         },
         {
           "date": "2026-10-07",
-          "value": 116.83330535888672
+          "value": 130.30804443359375
         },
         {
           "date": "2026-10-08",
-          "value": 160.06105041503906
+          "value": 166.67005920410156
         },
         {
           "date": "2026-10-09",
@@ -6079,11 +6055,11 @@
         },
         {
           "date": "2026-10-10",
-          "value": 162.79713439941406
+          "value": 156.0524444580078
         },
         {
           "date": "2026-10-11",
-          "value": 122.68769073486328
+          "value": 123.01311492919922
         },
         {
           "date": "2026-10-12",
@@ -6091,19 +6067,43 @@
         },
         {
           "date": "2026-10-13",
-          "value": 342.40484619140625
+          "value": 310.9757385253906
+        },
+        {
+          "date": "2026-10-14",
+          "value": 133.57127380371094
+        },
+        {
+          "date": "2026-10-15",
+          "value": 209.7477264404297
+        },
+        {
+          "date": "2026-10-16",
+          "value": 104.38764190673828
+        },
+        {
+          "date": "2026-10-17",
+          "value": 114.4586410522461
+        },
+        {
+          "date": "2026-10-18",
+          "value": 123.669189453125
+        },
+        {
+          "date": "2026-10-19",
+          "value": 248.66458129882812
         }
       ]
     },
     "news_items": [
       {
-        "title": "Indice di Rischio Geopolitico GPR a quota 342.4 (ALLERTA ROSSA GEOPOLITICA)",
-        "date": "2026-10-13",
+        "title": "Indice di Rischio Geopolitico GPR a quota 248.7 (TENSIONE GEOPOLITICA ACUTA)",
+        "date": "2026-10-19",
         "source": "Federal Reserve Board / Matteo Iacoviello",
         "url": "https://www.matteoiacoviello.com/gpr.htm",
-        "summary": "ALLERTA ROSSA GEOPOLITICA: picco storico di minacce e tensioni belliche tra superpotenze. Rischio di escalation nucleare ai massimi. Ultimi eventi tracciati: 2022-02-25: Russia / Ukraine Tensions",
+        "summary": "TENSIONE GEOPOLITICA ACUTA: frequenza anomala di minacce militari e crisi internazionali nei media globali. Ultimi eventi tracciati: 2022-02-25: Russia / Ukraine Tensions",
         "category": "Guerra Nucleare e Geopolitica",
-        "severity": 5,
+        "severity": 4,
         "tags": [
           "Geopolitica",
           "Guerra",
@@ -6123,7 +6123,7 @@
         "name": "Indice di Allerta Epidemica Globale",
         "unit": "notifiche attive",
         "current_value": 12.0,
-        "current_date": "2026-10-19",
+        "current_date": "2026-10-20",
         "total_records": 12,
         "min_value": 0.0,
         "max_value": 20.0,
@@ -6326,22 +6326,14 @@
         "metric_id": "solar_kp_index",
         "name": "Indice Geomagnetico Planetario Kp (Tempeste Solari)",
         "unit": "scala Kp (0-9)",
-        "current_value": 0.33,
-        "current_date": "2026-10-19",
+        "current_value": 1.0,
+        "current_date": "2026-10-20",
         "total_records": 58,
         "min_value": 0.33,
         "max_value": 3.67,
-        "mean_value": 2.0,
+        "mean_value": 1.85,
         "percentile_5y": 0.408,
         "sparkline": [
-          2.67,
-          3.0,
-          2.33,
-          2.33,
-          3.33,
-          2.0,
-          1.67,
-          2.33,
           1.67,
           3.33,
           3.67,
@@ -6363,44 +6355,20 @@
           1.67,
           0.33,
           0.33,
-          0.33
+          0.33,
+          0.33,
+          1.0,
+          0.33,
+          0.33,
+          0.67,
+          0.67,
+          1.0,
+          1.0
         ]
       }
     },
     "time_series": {
       "kp_hourly_chart": [
-        {
-          "date": "2026-10-12T00:00",
-          "value": 1.67
-        },
-        {
-          "date": "2026-10-12T03:00",
-          "value": 2.33
-        },
-        {
-          "date": "2026-10-12T06:00",
-          "value": 3.33
-        },
-        {
-          "date": "2026-10-12T09:00",
-          "value": 1.33
-        },
-        {
-          "date": "2026-10-12T12:00",
-          "value": 0.67
-        },
-        {
-          "date": "2026-10-12T15:00",
-          "value": 1.33
-        },
-        {
-          "date": "2026-10-12T18:00",
-          "value": 2.0
-        },
-        {
-          "date": "2026-10-12T21:00",
-          "value": 1.33
-        },
         {
           "date": "2026-10-13T00:00",
           "value": 3.33
@@ -6600,13 +6568,45 @@
         {
           "date": "2026-10-19T03:00",
           "value": 0.33
+        },
+        {
+          "date": "2026-10-19T06:00",
+          "value": 0.33
+        },
+        {
+          "date": "2026-10-19T09:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-10-19T12:00",
+          "value": 0.33
+        },
+        {
+          "date": "2026-10-19T15:00",
+          "value": 0.33
+        },
+        {
+          "date": "2026-10-19T18:00",
+          "value": 0.67
+        },
+        {
+          "date": "2026-10-19T21:00",
+          "value": 0.67
+        },
+        {
+          "date": "2026-10-20T00:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-10-20T03:00",
+          "value": 1.0
         }
       ]
     },
     "news_items": [
       {
-        "title": "Monitoraggio Clima Spaziale: Kp a 0.3 (Picco 3.7)",
-        "date": "2026-10-19",
+        "title": "Monitoraggio Clima Spaziale: Kp a 1.0 (Picco 3.7)",
+        "date": "2026-10-20",
         "source": "NOAA Space Weather Prediction Center",
         "url": "https://www.swpc.noaa.gov/",
         "summary": "CLIMA SPAZIALE QUIETO (Kp=3.67): nessun rischio immediato da brillamenti o tempeste geomagnetiche.",
@@ -6620,8 +6620,8 @@
         ]
       },
       {
-        "title": "Attivita Sismica Significativa: 15 eventi nell'ultimo mese",
-        "date": "2026-10-19",
+        "title": "Attivita Sismica Significativa: 16 eventi nell'ultimo mese",
+        "date": "2026-10-20",
         "source": "USGS Earthquake Hazards Program",
         "url": "https://earthquake.usgs.gov/",
         "summary": "Eventi tellurici globali maggiori registrati dai sismografi planetari. Evento di rilievo: M 7.7 - 12 km WSW of Pitaloza Arriba, Panama.",
