@@ -7,15 +7,14 @@
         "metric_id": "vix_index",
         "name": "CBOE Volatility Index (VIX)",
         "unit": "punti",
-        "current_value": 17.31,
-        "current_date": "2026-10-20",
-        "total_records": 9298,
+        "current_value": 16.68,
+        "current_date": "2026-10-21",
+        "total_records": 9299,
         "min_value": 11.86,
         "max_value": 52.33,
         "mean_value": 19.06,
-        "percentile_5y": 0.477,
+        "percentile_5y": 0.404,
         "sparkline": [
-          16.46,
           17.84,
           15.84,
           17.1,
@@ -44,16 +43,13 @@
           16.46,
           19.99,
           18.44,
-          17.31
+          17.31,
+          16.68
         ]
       }
     },
     "time_series": {
       "vix_daily_chart": [
-        {
-          "date": "2025-05-23",
-          "value": 22.29
-        },
         {
           "date": "2025-05-26",
           "value": 20.57
@@ -1509,13 +1505,17 @@
         {
           "date": "2026-10-20",
           "value": 17.31
+        },
+        {
+          "date": "2026-10-21",
+          "value": 16.68
         }
       ]
     },
     "news_items": [
       {
-        "title": "Indice VIX a quota 17.31 (STABILITÀ FINANZIARIA)",
-        "date": "2026-10-20",
+        "title": "Indice VIX a quota 16.68 (STABILITÀ FINANZIARIA)",
+        "date": "2026-10-21",
         "source": "CBOE Global Markets",
         "url": "https://www.cboe.com/tradable_products/vix/",
         "summary": "STABILITÀ FINANZIARIA: volatilità contenuta, assenza di shock sistemici immediati sulla liquidità globale.",
@@ -1538,15 +1538,14 @@
         "metric_id": "co2_mauna_loa",
         "name": "Concentrazione Atmosferica CO2 (Mauna Loa)",
         "unit": "ppm",
-        "current_value": 426.73,
-        "current_date": "2026-10-19",
-        "total_records": 16007,
+        "current_value": 426.65,
+        "current_date": "2026-10-20",
+        "total_records": 16008,
         "min_value": 326.06,
         "max_value": 433.95,
         "mean_value": 375.12,
-        "percentile_5y": 0.975,
+        "percentile_5y": 0.974,
         "sparkline": [
-          426.25,
           425.73,
           425.23,
           425.04,
@@ -1575,7 +1574,8 @@
           426.71,
           427.25,
           426.67,
-          426.73
+          426.73,
+          426.65
         ]
       },
       "sea_ice": {
@@ -1625,10 +1625,6 @@
     },
     "time_series": {
       "co2_chart": [
-        {
-          "date": "2025-05-24",
-          "value": 430.3
-        },
         {
           "date": "2025-05-25",
           "value": 430.43
@@ -3084,6 +3080,10 @@
         {
           "date": "2026-10-19",
           "value": 426.73
+        },
+        {
+          "date": "2026-10-20",
+          "value": 426.65
         }
       ],
       "sea_ice_chart": [
@@ -4551,11 +4551,11 @@
     },
     "news_items": [
       {
-        "title": "Concentrazione CO2 a quota 426.7 ppm a Mauna Loa",
-        "date": "2026-10-19",
+        "title": "Concentrazione CO2 a quota 426.6 ppm a Mauna Loa",
+        "date": "2026-10-20",
         "source": "NOAA Global Monitoring Laboratory",
         "url": "https://gml.noaa.gov/ccgg/trends/",
-        "summary": "L'osservatorio di Mauna Loa registra 426.73 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
+        "summary": "L'osservatorio di Mauna Loa registra 426.65 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
         "category": "Clima e Ambiente",
         "severity": 3,
         "tags": [
@@ -4595,7 +4595,7 @@
         "total_records": 15267,
         "min_value": 0.0,
         "max_value": 540.83,
-        "mean_value": 143.16,
+        "mean_value": 143.19,
         "percentile_5y": 0.933,
         "sparkline": [
           148.79,
@@ -6123,7 +6123,7 @@
         "name": "Indice di Allerta Epidemica Globale",
         "unit": "notifiche attive",
         "current_value": 12.0,
-        "current_date": "2026-10-21",
+        "current_date": "2026-10-22",
         "total_records": 12,
         "min_value": 0.0,
         "max_value": 20.0,
@@ -6326,22 +6326,14 @@
         "metric_id": "solar_kp_index",
         "name": "Indice Geomagnetico Planetario Kp (Tempeste Solari)",
         "unit": "scala Kp (0-9)",
-        "current_value": 4.0,
-        "current_date": "2026-10-21",
+        "current_value": 3.0,
+        "current_date": "2026-10-22",
         "total_records": 58,
         "min_value": 0.33,
-        "max_value": 4.0,
-        "mean_value": 1.84,
-        "percentile_5y": 0.444,
+        "max_value": 4.67,
+        "mean_value": 1.91,
+        "percentile_5y": 0.519,
         "sparkline": [
-          0.67,
-          2.67,
-          3.0,
-          1.0,
-          2.0,
-          2.33,
-          2.0,
-          1.67,
           0.33,
           1.33,
           1.67,
@@ -6363,44 +6355,20 @@
           2.67,
           3.0,
           3.67,
-          4.0
+          4.0,
+          2.0,
+          2.33,
+          1.67,
+          3.33,
+          3.67,
+          4.67,
+          2.33,
+          3.0
         ]
       }
     },
     "time_series": {
       "kp_hourly_chart": [
-        {
-          "date": "2026-10-14T00:00",
-          "value": 2.33
-        },
-        {
-          "date": "2026-10-14T03:00",
-          "value": 3.33
-        },
-        {
-          "date": "2026-10-14T06:00",
-          "value": 1.67
-        },
-        {
-          "date": "2026-10-14T09:00",
-          "value": 2.33
-        },
-        {
-          "date": "2026-10-14T12:00",
-          "value": 2.0
-        },
-        {
-          "date": "2026-10-14T15:00",
-          "value": 2.0
-        },
-        {
-          "date": "2026-10-14T18:00",
-          "value": 2.67
-        },
-        {
-          "date": "2026-10-14T21:00",
-          "value": 2.67
-        },
         {
           "date": "2026-10-15T00:00",
           "value": 2.0
@@ -6600,16 +6568,48 @@
         {
           "date": "2026-10-21T03:00",
           "value": 4.0
+        },
+        {
+          "date": "2026-10-21T06:00",
+          "value": 2.0
+        },
+        {
+          "date": "2026-10-21T09:00",
+          "value": 2.33
+        },
+        {
+          "date": "2026-10-21T12:00",
+          "value": 1.67
+        },
+        {
+          "date": "2026-10-21T15:00",
+          "value": 3.33
+        },
+        {
+          "date": "2026-10-21T18:00",
+          "value": 3.67
+        },
+        {
+          "date": "2026-10-21T21:00",
+          "value": 4.67
+        },
+        {
+          "date": "2026-10-22T00:00",
+          "value": 2.33
+        },
+        {
+          "date": "2026-10-22T03:00",
+          "value": 3.0
         }
       ]
     },
     "news_items": [
       {
-        "title": "Monitoraggio Clima Spaziale: Kp a 4.0 (Picco 4.0)",
-        "date": "2026-10-21",
+        "title": "Monitoraggio Clima Spaziale: Kp a 3.0 (Picco 4.7)",
+        "date": "2026-10-22",
         "source": "NOAA Space Weather Prediction Center",
         "url": "https://www.swpc.noaa.gov/",
-        "summary": "CLIMA SPAZIALE QUIETO (Kp=4.0): nessun rischio immediato da brillamenti o tempeste geomagnetiche.",
+        "summary": "CLIMA SPAZIALE QUIETO (Kp=4.67): nessun rischio immediato da brillamenti o tempeste geomagnetiche.",
         "category": "Rischi Naturali e Cosmici",
         "severity": 1,
         "tags": [
@@ -6621,7 +6621,7 @@
       },
       {
         "title": "Attivita Sismica Significativa: 15 eventi nell'ultimo mese",
-        "date": "2026-10-21",
+        "date": "2026-10-22",
         "source": "USGS Earthquake Hazards Program",
         "url": "https://earthquake.usgs.gov/",
         "summary": "Eventi tellurici globali maggiori registrati dai sismografi planetari. Evento di rilievo: M 7.7 - 12 km WSW of Pitaloza Arriba, Panama.",
