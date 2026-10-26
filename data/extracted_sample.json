@@ -1538,15 +1538,14 @@
         "metric_id": "co2_mauna_loa",
         "name": "Concentrazione Atmosferica CO2 (Mauna Loa)",
         "unit": "ppm",
-        "current_value": 426.77,
-        "current_date": "2026-10-23",
-        "total_records": 16011,
+        "current_value": 426.96,
+        "current_date": "2026-10-24",
+        "total_records": 16012,
         "min_value": 326.06,
         "max_value": 433.95,
         "mean_value": 375.13,
-        "percentile_5y": 0.975,
+        "percentile_5y": 0.977,
         "sparkline": [
-          425.57,
           425.53,
           426.53,
           426.4,
@@ -1575,7 +1574,8 @@
           426.65,
           426.85,
           426.46,
-          426.77
+          426.77,
+          426.96
         ]
       },
       "sea_ice": {
@@ -1625,10 +1625,6 @@
     },
     "time_series": {
       "co2_chart": [
-        {
-          "date": "2025-05-28",
-          "value": 429.17
-        },
         {
           "date": "2025-05-29",
           "value": 430.71
@@ -3084,6 +3080,10 @@
         {
           "date": "2026-10-23",
           "value": 426.77
+        },
+        {
+          "date": "2026-10-24",
+          "value": 426.96
         }
       ],
       "sea_ice_chart": [
@@ -4551,11 +4551,11 @@
     },
     "news_items": [
       {
-        "title": "Concentrazione CO2 a quota 426.8 ppm a Mauna Loa",
-        "date": "2026-10-23",
+        "title": "Concentrazione CO2 a quota 427.0 ppm a Mauna Loa",
+        "date": "2026-10-24",
         "source": "NOAA Global Monitoring Laboratory",
         "url": "https://gml.noaa.gov/ccgg/trends/",
-        "summary": "L'osservatorio di Mauna Loa registra 426.77 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
+        "summary": "L'osservatorio di Mauna Loa registra 426.96 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
         "category": "Clima e Ambiente",
         "severity": 3,
         "tags": [
@@ -6123,7 +6123,7 @@
         "name": "Indice di Allerta Epidemica Globale",
         "unit": "notifiche attive",
         "current_value": 12.0,
-        "current_date": "2026-10-25",
+        "current_date": "2026-10-26",
         "total_records": 12,
         "min_value": 0.0,
         "max_value": 20.0,
@@ -6326,22 +6326,14 @@
         "metric_id": "solar_kp_index",
         "name": "Indice Geomagnetico Planetario Kp (Tempeste Solari)",
         "unit": "scala Kp (0-9)",
-        "current_value": 0.67,
-        "current_date": "2026-10-25",
+        "current_value": 1.0,
+        "current_date": "2026-10-26",
         "total_records": 58,
         "min_value": 0.33,
         "max_value": 4.67,
-        "mean_value": 1.99,
+        "mean_value": 1.98,
         "percentile_5y": 0.519,
         "sparkline": [
-          1.67,
-          3.33,
-          3.67,
-          4.67,
-          2.33,
-          3.0,
-          3.0,
-          4.33,
           4.0,
           3.67,
           3.67,
@@ -6362,45 +6354,21 @@
           1.67,
           1.67,
           0.67,
+          2.0,
+          1.33,
           0.67,
-          0.67
+          2.0,
+          1.67,
+          1.67,
+          1.0,
+          1.0,
+          0.33,
+          1.0
         ]
       }
     },
     "time_series": {
       "kp_hourly_chart": [
-        {
-          "date": "2026-10-18T00:00",
-          "value": 2.0
-        },
-        {
-          "date": "2026-10-18T03:00",
-          "value": 2.33
-        },
-        {
-          "date": "2026-10-18T06:00",
-          "value": 2.0
-        },
-        {
-          "date": "2026-10-18T09:00",
-          "value": 1.67
-        },
-        {
-          "date": "2026-10-18T12:00",
-          "value": 0.33
-        },
-        {
-          "date": "2026-10-18T15:00",
-          "value": 1.33
-        },
-        {
-          "date": "2026-10-18T18:00",
-          "value": 1.67
-        },
-        {
-          "date": "2026-10-18T21:00",
-          "value": 0.33
-        },
         {
           "date": "2026-10-19T00:00",
           "value": 0.33
@@ -6595,18 +6563,50 @@
         },
         {
           "date": "2026-10-25T00:00",
-          "value": 0.67
+          "value": 2.0
         },
         {
           "date": "2026-10-25T03:00",
+          "value": 1.33
+        },
+        {
+          "date": "2026-10-25T06:00",
           "value": 0.67
+        },
+        {
+          "date": "2026-10-25T09:00",
+          "value": 2.0
+        },
+        {
+          "date": "2026-10-25T12:00",
+          "value": 1.67
+        },
+        {
+          "date": "2026-10-25T15:00",
+          "value": 1.67
+        },
+        {
+          "date": "2026-10-25T18:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-10-25T21:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-10-26T00:00",
+          "value": 0.33
+        },
+        {
+          "date": "2026-10-26T03:00",
+          "value": 1.0
         }
       ]
     },
     "news_items": [
       {
-        "title": "Monitoraggio Clima Spaziale: Kp a 0.7 (Picco 4.7)",
-        "date": "2026-10-25",
+        "title": "Monitoraggio Clima Spaziale: Kp a 1.0 (Picco 4.7)",
+        "date": "2026-10-26",
         "source": "NOAA Space Weather Prediction Center",
         "url": "https://www.swpc.noaa.gov/",
         "summary": "CLIMA SPAZIALE QUIETO (Kp=4.67): nessun rischio immediato da brillamenti o tempeste geomagnetiche.",
@@ -6620,8 +6620,8 @@
         ]
       },
       {
-        "title": "Attivita Sismica Significativa: 21 eventi nell'ultimo mese",
-        "date": "2026-10-25",
+        "title": "Attivita Sismica Significativa: 20 eventi nell'ultimo mese",
+        "date": "2026-10-26",
         "source": "USGS Earthquake Hazards Program",
         "url": "https://earthquake.usgs.gov/",
         "summary": "Eventi tellurici globali maggiori registrati dai sismografi planetari. Evento di rilievo: M 7.7 - 12 km WSW of Pitaloza Arriba, Panama.",

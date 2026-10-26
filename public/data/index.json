@@ -3,7 +3,7 @@
     "title": "Extinction Risk Watch",
     "subtitle": "Quantificazione del Rischio di Estinzione Umana e Monitoraggio in Tempo Reale",
     "version": "1.0.0",
-    "generated_at": "2026-10-25T06:32:27.535562+00:00",
+    "generated_at": "2026-10-26T06:42:11.218887+00:00",
     "status": "LIVE"
   },
   "hero_lifespan": {
@@ -17,42 +17,42 @@
   "horizons": {
     "1_year": {
       "horizon_years": 1,
-      "probability": 0.0028672722447422583,
+      "probability": 0.0028672730764327525,
       "percentage_str": "0.287%",
       "odds_str": "1 su 349",
-      "delta_vs_baseline": 0.00033707469208721363,
+      "delta_vs_baseline": 0.0003370755237777079,
       "risk_tier": "ELEVATO"
     },
     "5_years": {
       "horizon_years": 5,
-      "probability": 0.019462887660588346,
+      "probability": 0.019462897883979258,
       "percentage_str": "1.95%",
       "odds_str": "1 su 51",
-      "delta_vs_baseline": 0.0020776437053311447,
+      "delta_vs_baseline": 0.0020776539287220563,
       "risk_tier": "ELEVATO"
     },
     "10_years": {
       "horizon_years": 10,
-      "probability": 0.05554255470709202,
+      "probability": 0.05554258622028263,
       "percentage_str": "5.55%",
       "odds_str": "1 su 18",
-      "delta_vs_baseline": 0.005854530713958361,
+      "delta_vs_baseline": 0.005854562227148974,
       "risk_tier": "ELEVATO"
     },
     "50_years": {
       "horizon_years": 50,
-      "probability": 0.14420843707509146,
+      "probability": 0.14420865137114858,
       "percentage_str": "14.42%",
       "odds_str": "1 su 7",
-      "delta_vs_baseline": 0.01442291531922224,
+      "delta_vs_baseline": 0.014423129615279362,
       "risk_tier": "ELEVATO"
     },
     "100_years": {
       "horizon_years": 100,
-      "probability": 0.17802235016546009,
+      "probability": 0.17802269338068566,
       "percentage_str": "17.80%",
       "odds_str": "1 su 6",
-      "delta_vs_baseline": 0.01731513854885547,
+      "delta_vs_baseline": 0.017315481764081042,
       "risk_tier": "ELEVATO"
     }
   },
@@ -91,13 +91,13 @@
       "category_id": "climate",
       "category_name": "Collasso Climatico ed Ecosistemico",
       "baseline_100y": 0.001,
-      "modulator": 1.167,
+      "modulator": 1.168,
       "prob_1y": 2e-06,
       "prob_5y": 3e-05,
       "prob_10y": 0.0001,
       "prob_50y": 0.0007,
       "prob_100y": 0.0012,
-      "percentile_driver": 0.918,
+      "percentile_driver": 0.919,
       "status_label": "PRESSIONE COSTANTE"
     },
     "cosmic": {
@@ -1608,10 +1608,6 @@
     "climate_biosphere": {
       "co2_chart": [
         {
-          "date": "2025-05-28",
-          "value": 429.17
-        },
-        {
           "date": "2025-05-29",
           "value": 430.71
         },
@@ -3066,6 +3062,10 @@
         {
           "date": "2026-10-23",
           "value": 426.77
+        },
+        {
+          "date": "2026-10-24",
+          "value": 426.96
         }
       ],
       "sea_ice_chart": [
@@ -5998,38 +5998,6 @@
     "cosmic_natural_hazards": {
       "kp_hourly_chart": [
         {
-          "date": "2026-10-18T00:00",
-          "value": 2.0
-        },
-        {
-          "date": "2026-10-18T03:00",
-          "value": 2.33
-        },
-        {
-          "date": "2026-10-18T06:00",
-          "value": 2.0
-        },
-        {
-          "date": "2026-10-18T09:00",
-          "value": 1.67
-        },
-        {
-          "date": "2026-10-18T12:00",
-          "value": 0.33
-        },
-        {
-          "date": "2026-10-18T15:00",
-          "value": 1.33
-        },
-        {
-          "date": "2026-10-18T18:00",
-          "value": 1.67
-        },
-        {
-          "date": "2026-10-18T21:00",
-          "value": 0.33
-        },
-        {
           "date": "2026-10-19T00:00",
           "value": 0.33
         },
@@ -6223,11 +6191,43 @@
         },
         {
           "date": "2026-10-25T00:00",
-          "value": 0.67
+          "value": 2.0
         },
         {
           "date": "2026-10-25T03:00",
+          "value": 1.33
+        },
+        {
+          "date": "2026-10-25T06:00",
           "value": 0.67
+        },
+        {
+          "date": "2026-10-25T09:00",
+          "value": 2.0
+        },
+        {
+          "date": "2026-10-25T12:00",
+          "value": 1.67
+        },
+        {
+          "date": "2026-10-25T15:00",
+          "value": 1.67
+        },
+        {
+          "date": "2026-10-25T18:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-10-25T21:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-10-26T00:00",
+          "value": 0.33
+        },
+        {
+          "date": "2026-10-26T03:00",
+          "value": 1.0
         }
       ]
     }
@@ -6252,11 +6252,11 @@
     ],
     "climate_biosphere": [
       {
-        "title": "Concentrazione CO2 a quota 426.8 ppm a Mauna Loa",
-        "date": "2026-10-23",
+        "title": "Concentrazione CO2 a quota 427.0 ppm a Mauna Loa",
+        "date": "2026-10-24",
         "source": "NOAA Global Monitoring Laboratory",
         "url": "https://gml.noaa.gov/ccgg/trends/",
-        "summary": "L'osservatorio di Mauna Loa registra 426.77 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
+        "summary": "L'osservatorio di Mauna Loa registra 426.96 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
         "category": "Clima e Ambiente",
         "severity": 3,
         "tags": [
@@ -6484,8 +6484,8 @@
     ],
     "cosmic_natural_hazards": [
       {
-        "title": "Monitoraggio Clima Spaziale: Kp a 0.7 (Picco 4.7)",
-        "date": "2026-10-25",
+        "title": "Monitoraggio Clima Spaziale: Kp a 1.0 (Picco 4.7)",
+        "date": "2026-10-26",
         "source": "NOAA Space Weather Prediction Center",
         "url": "https://www.swpc.noaa.gov/",
         "summary": "CLIMA SPAZIALE QUIETO (Kp=4.67): nessun rischio immediato da brillamenti o tempeste geomagnetiche.",
@@ -6499,8 +6499,8 @@
         ]
       },
       {
-        "title": "Attivita Sismica Significativa: 21 eventi nell'ultimo mese",
-        "date": "2026-10-25",
+        "title": "Attivita Sismica Significativa: 20 eventi nell'ultimo mese",
+        "date": "2026-10-26",
         "source": "USGS Earthquake Hazards Program",
         "url": "https://earthquake.usgs.gov/",
         "summary": "Eventi tellurici globali maggiori registrati dai sismografi planetari. Evento di rilievo: M 7.7 - 12 km WSW of Pitaloza Arriba, Panama.",
