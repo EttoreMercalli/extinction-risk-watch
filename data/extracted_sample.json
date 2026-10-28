@@ -7,15 +7,14 @@
         "metric_id": "vix_index",
         "name": "CBOE Volatility Index (VIX)",
         "unit": "punti",
-        "current_value": 18.39,
-        "current_date": "2026-10-26",
-        "total_records": 9302,
+        "current_value": 17.52,
+        "current_date": "2026-10-27",
+        "total_records": 9303,
         "min_value": 11.86,
         "max_value": 52.33,
         "mean_value": 19.06,
-        "percentile_5y": 0.557,
+        "percentile_5y": 0.491,
         "sparkline": [
-          17.2,
           17.71,
           15.44,
           14.81,
@@ -44,16 +43,13 @@
           16.68,
           19.03,
           19.45,
-          18.39
+          18.39,
+          17.52
         ]
       }
     },
     "time_series": {
       "vix_daily_chart": [
-        {
-          "date": "2025-05-29",
-          "value": 19.18
-        },
         {
           "date": "2025-05-30",
           "value": 18.57
@@ -1509,13 +1505,17 @@
         {
           "date": "2026-10-26",
           "value": 18.39
+        },
+        {
+          "date": "2026-10-27",
+          "value": 17.52
         }
       ]
     },
     "news_items": [
       {
-        "title": "Indice VIX a quota 18.39 (STABILITÀ FINANZIARIA)",
-        "date": "2026-10-26",
+        "title": "Indice VIX a quota 17.52 (STABILITÀ FINANZIARIA)",
+        "date": "2026-10-27",
         "source": "CBOE Global Markets",
         "url": "https://www.cboe.com/tradable_products/vix/",
         "summary": "STABILITÀ FINANZIARIA: volatilità contenuta, assenza di shock sistemici immediati sulla liquidità globale.",
@@ -1538,15 +1538,14 @@
         "metric_id": "co2_mauna_loa",
         "name": "Concentrazione Atmosferica CO2 (Mauna Loa)",
         "unit": "ppm",
-        "current_value": 427.13,
-        "current_date": "2026-10-25",
-        "total_records": 16013,
+        "current_value": 427.18,
+        "current_date": "2026-10-26",
+        "total_records": 16014,
         "min_value": 326.06,
         "max_value": 433.95,
         "mean_value": 375.14,
         "percentile_5y": 0.979,
         "sparkline": [
-          426.53,
           426.4,
           426.42,
           426.32,
@@ -1575,7 +1574,8 @@
           426.46,
           426.77,
           426.96,
-          427.13
+          427.13,
+          427.18
         ]
       },
       "sea_ice": {
@@ -1625,10 +1625,6 @@
     },
     "time_series": {
       "co2_chart": [
-        {
-          "date": "2025-06-01",
-          "value": 429.33
-        },
         {
           "date": "2025-06-02",
           "value": 429.07
@@ -3084,6 +3080,10 @@
         {
           "date": "2026-10-25",
           "value": 427.13
+        },
+        {
+          "date": "2026-10-26",
+          "value": 427.18
         }
       ],
       "sea_ice_chart": [
@@ -4551,11 +4551,11 @@
     },
     "news_items": [
       {
-        "title": "Concentrazione CO2 a quota 427.1 ppm a Mauna Loa",
-        "date": "2026-10-25",
+        "title": "Concentrazione CO2 a quota 427.2 ppm a Mauna Loa",
+        "date": "2026-10-26",
         "source": "NOAA Global Monitoring Laboratory",
         "url": "https://gml.noaa.gov/ccgg/trends/",
-        "summary": "L'osservatorio di Mauna Loa registra 427.13 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
+        "summary": "L'osservatorio di Mauna Loa registra 427.18 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
         "category": "Clima e Ambiente",
         "severity": 3,
         "tags": [
@@ -4595,7 +4595,7 @@
         "total_records": 15274,
         "min_value": 0.0,
         "max_value": 540.83,
-        "mean_value": 143.42,
+        "mean_value": 143.44,
         "percentile_5y": 0.701,
         "sparkline": [
           140.59,
@@ -6123,7 +6123,7 @@
         "name": "Indice di Allerta Epidemica Globale",
         "unit": "notifiche attive",
         "current_value": 12.0,
-        "current_date": "2026-10-27",
+        "current_date": "2026-10-28",
         "total_records": 12,
         "min_value": 0.0,
         "max_value": 20.0,
@@ -6136,6 +6136,36 @@
     },
     "time_series": {},
     "news_items": [
+      {
+        "title": "Policy brief suggests speedier, fairer COVID vaccine rollout could have averted millions of deaths by 2022",
+        "date": "Tue, 27 Oct 2026",
+        "source": "CIDRAP (University of Minnesota)",
+        "url": "https://www.cidrap.umn.edu/covid-19/policy-brief-suggests-speedier-fairer-covid-vaccine-rollout-could-have-averted-millions",
+        "summary": "<p><span>Wealthy countries had at least one dose per person, compared with one for every 25 in low-income nations.</span></p>",
+        "category": "Pandemie e Rischi Biologici",
+        "severity": 1,
+        "tags": [
+          "Pandemie",
+          "Infezioni",
+          "Biosicurezza",
+          "CIDRAP"
+        ]
+      },
+      {
+        "title": "Japan’s COVID-19 efforts protected Olympians, Paralympians in 2021, analysis finds",
+        "date": "Tue, 27 Oct 2026",
+        "source": "CIDRAP (University of Minnesota)",
+        "url": "https://www.cidrap.umn.edu/covid-19/japan-s-covid-19-efforts-protected-olympians-paralympians-2021-analysis-finds",
+        "summary": "<p><span>Very few athletes and team members tested positive for the virus during the events in Tokyo.</span></p>",
+        "category": "Pandemie e Rischi Biologici",
+        "severity": 1,
+        "tags": [
+          "Pandemie",
+          "Infezioni",
+          "Biosicurezza",
+          "CIDRAP"
+        ]
+      },
       {
         "title": "Spouses are better predictors of severe COVID-19 infection than siblings, new data reveal",
         "date": "Fri, 23 Oct 2026",
@@ -6187,36 +6217,6 @@
         "source": "CIDRAP (University of Minnesota)",
         "url": "https://www.cidrap.umn.edu/public-health/trust-science-under-pressure-global-survey-finds",
         "summary": "<p><span>In a survey of more than 140,000 adults in 140 countries, 72% said they trust in science, down from 80% in 2020.</span></p>",
-        "category": "Pandemie e Rischi Biologici",
-        "severity": 1,
-        "tags": [
-          "Pandemie",
-          "Infezioni",
-          "Biosicurezza",
-          "CIDRAP"
-        ]
-      },
-      {
-        "title": "Long-COVID symptoms may be linked to bacterial mix in the mouth, lungs",
-        "date": "Mon, 12 Oct 2026",
-        "source": "CIDRAP (University of Minnesota)",
-        "url": "https://www.cidrap.umn.edu/covid-19/long-covid-symptoms-may-be-linked-bacterial-mix-mouth-lungs",
-        "summary": "<p><span>The oral microbiota is significantly less diverse in people with severe persistent symptoms than in those with mild symptoms.</span></p>",
-        "category": "Pandemie e Rischi Biologici",
-        "severity": 1,
-        "tags": [
-          "Pandemie",
-          "Infezioni",
-          "Biosicurezza",
-          "CIDRAP"
-        ]
-      },
-      {
-        "title": "Personality traits may help explain persistent mental distress during COVID pandemic",
-        "date": "Fri, 09 Oct 2026",
-        "source": "CIDRAP (University of Minnesota)",
-        "url": "https://www.cidrap.umn.edu/covid-19/personality-traits-may-help-explain-persistent-mental-distress-during-covid-pandemic",
-        "summary": "<p><span>People with higher levels of neuroticism experienced greater mental distress, relaxed less, and drank more.</span></p>",
         "category": "Pandemie e Rischi Biologici",
         "severity": 1,
         "tags": [
@@ -6326,22 +6326,14 @@
         "metric_id": "solar_kp_index",
         "name": "Indice Geomagnetico Planetario Kp (Tempeste Solari)",
         "unit": "scala Kp (0-9)",
-        "current_value": 2.67,
-        "current_date": "2026-10-27",
+        "current_value": 1.67,
+        "current_date": "2026-10-28",
         "total_records": 58,
         "min_value": 0.33,
         "max_value": 4.67,
-        "mean_value": 2.12,
+        "mean_value": 2.08,
         "percentile_5y": 0.519,
         "sparkline": [
-          2.67,
-          2.67,
-          4.33,
-          1.67,
-          2.0,
-          1.33,
-          0.67,
-          2.0,
           1.67,
           1.67,
           1.67,
@@ -6363,44 +6355,20 @@
           0.67,
           0.67,
           1.67,
-          2.67
+          2.67,
+          1.67,
+          1.33,
+          2.0,
+          1.0,
+          2.0,
+          1.0,
+          2.33,
+          1.67
         ]
       }
     },
     "time_series": {
       "kp_hourly_chart": [
-        {
-          "date": "2026-10-20T00:00",
-          "value": 1.0
-        },
-        {
-          "date": "2026-10-20T03:00",
-          "value": 1.0
-        },
-        {
-          "date": "2026-10-20T06:00",
-          "value": 1.0
-        },
-        {
-          "date": "2026-10-20T09:00",
-          "value": 2.0
-        },
-        {
-          "date": "2026-10-20T12:00",
-          "value": 2.0
-        },
-        {
-          "date": "2026-10-20T15:00",
-          "value": 2.67
-        },
-        {
-          "date": "2026-10-20T18:00",
-          "value": 2.67
-        },
-        {
-          "date": "2026-10-20T21:00",
-          "value": 3.0
-        },
         {
           "date": "2026-10-21T00:00",
           "value": 3.67
@@ -6600,13 +6568,45 @@
         {
           "date": "2026-10-27T03:00",
           "value": 2.67
+        },
+        {
+          "date": "2026-10-27T06:00",
+          "value": 1.67
+        },
+        {
+          "date": "2026-10-27T09:00",
+          "value": 1.33
+        },
+        {
+          "date": "2026-10-27T12:00",
+          "value": 2.0
+        },
+        {
+          "date": "2026-10-27T15:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-10-27T18:00",
+          "value": 2.0
+        },
+        {
+          "date": "2026-10-27T21:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-10-28T00:00",
+          "value": 2.33
+        },
+        {
+          "date": "2026-10-28T03:00",
+          "value": 1.67
         }
       ]
     },
     "news_items": [
       {
-        "title": "Monitoraggio Clima Spaziale: Kp a 2.7 (Picco 4.7)",
-        "date": "2026-10-27",
+        "title": "Monitoraggio Clima Spaziale: Kp a 1.7 (Picco 4.7)",
+        "date": "2026-10-28",
         "source": "NOAA Space Weather Prediction Center",
         "url": "https://www.swpc.noaa.gov/",
         "summary": "CLIMA SPAZIALE QUIETO (Kp=4.67): nessun rischio immediato da brillamenti o tempeste geomagnetiche.",
@@ -6621,7 +6621,7 @@
       },
       {
         "title": "Attivita Sismica Significativa: 18 eventi nell'ultimo mese",
-        "date": "2026-10-27",
+        "date": "2026-10-28",
         "source": "USGS Earthquake Hazards Program",
         "url": "https://earthquake.usgs.gov/",
         "summary": "Eventi tellurici globali maggiori registrati dai sismografi planetari. Evento di rilievo: M 7.7 - 12 km WSW of Pitaloza Arriba, Panama.",
