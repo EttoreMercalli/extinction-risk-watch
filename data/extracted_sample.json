@@ -7,15 +7,14 @@
         "metric_id": "vix_index",
         "name": "CBOE Volatility Index (VIX)",
         "unit": "punti",
-        "current_value": 17.52,
-        "current_date": "2026-10-27",
-        "total_records": 9303,
+        "current_value": 16.91,
+        "current_date": "2026-10-28",
+        "total_records": 9304,
         "min_value": 11.86,
         "max_value": 52.33,
         "mean_value": 19.06,
-        "percentile_5y": 0.491,
+        "percentile_5y": 0.428,
         "sparkline": [
-          17.71,
           15.44,
           14.81,
           14.87,
@@ -44,16 +43,13 @@
           19.03,
           19.45,
           18.39,
-          17.52
+          17.52,
+          16.91
         ]
       }
     },
     "time_series": {
       "vix_daily_chart": [
-        {
-          "date": "2025-05-30",
-          "value": 18.57
-        },
         {
           "date": "2025-06-02",
           "value": 18.36
@@ -1509,13 +1505,17 @@
         {
           "date": "2026-10-27",
           "value": 17.52
+        },
+        {
+          "date": "2026-10-28",
+          "value": 16.91
         }
       ]
     },
     "news_items": [
       {
-        "title": "Indice VIX a quota 17.52 (STABILITÀ FINANZIARIA)",
-        "date": "2026-10-27",
+        "title": "Indice VIX a quota 16.91 (STABILITÀ FINANZIARIA)",
+        "date": "2026-10-28",
         "source": "CBOE Global Markets",
         "url": "https://www.cboe.com/tradable_products/vix/",
         "summary": "STABILITÀ FINANZIARIA: volatilità contenuta, assenza di shock sistemici immediati sulla liquidità globale.",
@@ -1538,15 +1538,14 @@
         "metric_id": "co2_mauna_loa",
         "name": "Concentrazione Atmosferica CO2 (Mauna Loa)",
         "unit": "ppm",
-        "current_value": 427.18,
-        "current_date": "2026-10-26",
-        "total_records": 16014,
+        "current_value": 427.02,
+        "current_date": "2026-10-27",
+        "total_records": 16015,
         "min_value": 326.06,
         "max_value": 433.95,
         "mean_value": 375.14,
-        "percentile_5y": 0.979,
+        "percentile_5y": 0.978,
         "sparkline": [
-          426.4,
           426.42,
           426.32,
           425.22,
@@ -1575,31 +1574,22 @@
           426.77,
           426.96,
           427.13,
-          427.18
+          427.18,
+          427.02
         ]
       },
       "sea_ice": {
         "metric_id": "arctic_sea_ice",
         "name": "Estensione Calotta Glaciale Artica",
         "unit": "milioni kmq",
-        "current_value": 6.72,
-        "current_date": "2026-10-17",
-        "total_records": 15873,
+        "current_value": 7.6,
+        "current_date": "2026-10-27",
+        "total_records": 15883,
         "min_value": 3.34,
         "max_value": 16.64,
         "mean_value": 11.16,
-        "percentile_5y": 0.861,
+        "percentile_5y": 0.797,
         "sparkline": [
-          4.67,
-          4.71,
-          4.71,
-          4.77,
-          4.87,
-          4.95,
-          4.99,
-          5.17,
-          5.16,
-          5.23,
           5.33,
           5.38,
           5.48,
@@ -1619,16 +1609,22 @@
           6.54,
           6.81,
           6.73,
-          6.72
+          6.72,
+          6.78,
+          6.79,
+          6.82,
+          6.95,
+          7.18,
+          7.36,
+          7.34,
+          7.44,
+          7.53,
+          7.6
         ]
       }
     },
     "time_series": {
       "co2_chart": [
-        {
-          "date": "2025-06-02",
-          "value": 429.07
-        },
         {
           "date": "2025-06-03",
           "value": 430.27
@@ -3084,49 +3080,13 @@
         {
           "date": "2026-10-26",
           "value": 427.18
+        },
+        {
+          "date": "2026-10-27",
+          "value": 427.02
         }
       ],
       "sea_ice_chart": [
-        {
-          "date": "2025-10-18",
-          "value": 6.213
-        },
-        {
-          "date": "2025-10-19",
-          "value": 6.272
-        },
-        {
-          "date": "2025-10-20",
-          "value": 6.398
-        },
-        {
-          "date": "2025-10-21",
-          "value": 6.601
-        },
-        {
-          "date": "2025-10-22",
-          "value": 6.705
-        },
-        {
-          "date": "2025-10-23",
-          "value": 6.877
-        },
-        {
-          "date": "2025-10-24",
-          "value": 7.068
-        },
-        {
-          "date": "2025-10-25",
-          "value": 7.202
-        },
-        {
-          "date": "2025-10-26",
-          "value": 7.268
-        },
-        {
-          "date": "2025-10-27",
-          "value": 7.346
-        },
         {
           "date": "2025-10-28",
           "value": 7.487
@@ -4546,16 +4506,56 @@
         {
           "date": "2026-10-17",
           "value": 6.717
+        },
+        {
+          "date": "2026-10-18",
+          "value": 6.777
+        },
+        {
+          "date": "2026-10-19",
+          "value": 6.792
+        },
+        {
+          "date": "2026-10-20",
+          "value": 6.817
+        },
+        {
+          "date": "2026-10-21",
+          "value": 6.954
+        },
+        {
+          "date": "2026-10-22",
+          "value": 7.178
+        },
+        {
+          "date": "2026-10-23",
+          "value": 7.364
+        },
+        {
+          "date": "2026-10-24",
+          "value": 7.344
+        },
+        {
+          "date": "2026-10-25",
+          "value": 7.438
+        },
+        {
+          "date": "2026-10-26",
+          "value": 7.525
+        },
+        {
+          "date": "2026-10-27",
+          "value": 7.601
         }
       ]
     },
     "news_items": [
       {
-        "title": "Concentrazione CO2 a quota 427.2 ppm a Mauna Loa",
-        "date": "2026-10-26",
+        "title": "Concentrazione CO2 a quota 427.0 ppm a Mauna Loa",
+        "date": "2026-10-27",
         "source": "NOAA Global Monitoring Laboratory",
         "url": "https://gml.noaa.gov/ccgg/trends/",
-        "summary": "L'osservatorio di Mauna Loa registra 427.18 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
+        "summary": "L'osservatorio di Mauna Loa registra 427.02 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
         "category": "Clima e Ambiente",
         "severity": 3,
         "tags": [
@@ -4566,11 +4566,11 @@
         ]
       },
       {
-        "title": "Estensione ghiaccio marino artico: 6.72 milioni di kmq",
-        "date": "2026-10-17",
+        "title": "Estensione ghiaccio marino artico: 7.60 milioni di kmq",
+        "date": "2026-10-27",
         "source": "National Snow and Ice Data Center (NSIDC)",
         "url": "https://nsidc.org/arcticseaicenews/",
-        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 6.72 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
+        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 7.60 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
         "category": "Clima e Ambiente",
         "severity": 2,
         "tags": [
@@ -4595,7 +4595,7 @@
         "total_records": 15274,
         "min_value": 0.0,
         "max_value": 540.83,
-        "mean_value": 143.44,
+        "mean_value": 143.49,
         "percentile_5y": 0.701,
         "sparkline": [
           140.59,
@@ -6123,7 +6123,7 @@
         "name": "Indice di Allerta Epidemica Globale",
         "unit": "notifiche attive",
         "current_value": 12.0,
-        "current_date": "2026-10-28",
+        "current_date": "2026-10-29",
         "total_records": 12,
         "min_value": 0.0,
         "max_value": 20.0,
@@ -6136,6 +6136,21 @@
     },
     "time_series": {},
     "news_items": [
+      {
+        "title": "The 3 public health threats that scare Michael Osterholm most—and 4 bonus frights",
+        "date": "Wed, 28 Oct 2026",
+        "source": "CIDRAP (University of Minnesota)",
+        "url": "https://www.cidrap.umn.edu/influenza-general/3-public-health-threats-scare-michael-osterholm-most-and-4-bonus-frights",
+        "summary": "<p><span>The gap between the diseases we fear and the actual dangers we face is significant. This Halloween, CIDRAP Director Michael Osterholm outlines the public health threats that worry him most.</",
+        "category": "Pandemie e Rischi Biologici",
+        "severity": 1,
+        "tags": [
+          "Pandemie",
+          "Infezioni",
+          "Biosicurezza",
+          "CIDRAP"
+        ]
+      },
       {
         "title": "Policy brief suggests speedier, fairer COVID vaccine rollout could have averted millions of deaths by 2022",
         "date": "Tue, 27 Oct 2026",
@@ -6204,21 +6219,6 @@
         "summary": "<p><span>During surprise drills, facilities conducted symptom screening in 93% of cases but asked about exposure to avian flu in only 10%.</span></p>",
         "category": "Pandemie e Rischi Biologici",
         "severity": 2,
-        "tags": [
-          "Pandemie",
-          "Infezioni",
-          "Biosicurezza",
-          "CIDRAP"
-        ]
-      },
-      {
-        "title": "Trust in science ‘under pressure,’ global survey finds",
-        "date": "Tue, 13 Oct 2026",
-        "source": "CIDRAP (University of Minnesota)",
-        "url": "https://www.cidrap.umn.edu/public-health/trust-science-under-pressure-global-survey-finds",
-        "summary": "<p><span>In a survey of more than 140,000 adults in 140 countries, 72% said they trust in science, down from 80% in 2020.</span></p>",
-        "category": "Pandemie e Rischi Biologici",
-        "severity": 1,
         "tags": [
           "Pandemie",
           "Infezioni",
@@ -6326,22 +6326,14 @@
         "metric_id": "solar_kp_index",
         "name": "Indice Geomagnetico Planetario Kp (Tempeste Solari)",
         "unit": "scala Kp (0-9)",
-        "current_value": 1.67,
-        "current_date": "2026-10-28",
+        "current_value": 2.33,
+        "current_date": "2026-10-29",
         "total_records": 58,
         "min_value": 0.33,
-        "max_value": 4.67,
-        "mean_value": 2.08,
-        "percentile_5y": 0.519,
+        "max_value": 4.33,
+        "mean_value": 1.9,
+        "percentile_5y": 0.481,
         "sparkline": [
-          1.67,
-          1.67,
-          1.67,
-          0.67,
-          2.0,
-          1.33,
-          0.67,
-          2.0,
           1.67,
           1.67,
           1.0,
@@ -6363,44 +6355,20 @@
           2.0,
           1.0,
           2.33,
-          1.67
+          1.67,
+          2.33,
+          1.67,
+          0.67,
+          1.33,
+          2.33,
+          2.33,
+          1.67,
+          2.33
         ]
       }
     },
     "time_series": {
       "kp_hourly_chart": [
-        {
-          "date": "2026-10-21T00:00",
-          "value": 3.67
-        },
-        {
-          "date": "2026-10-21T03:00",
-          "value": 4.0
-        },
-        {
-          "date": "2026-10-21T06:00",
-          "value": 2.0
-        },
-        {
-          "date": "2026-10-21T09:00",
-          "value": 2.33
-        },
-        {
-          "date": "2026-10-21T12:00",
-          "value": 1.67
-        },
-        {
-          "date": "2026-10-21T15:00",
-          "value": 3.33
-        },
-        {
-          "date": "2026-10-21T18:00",
-          "value": 3.67
-        },
-        {
-          "date": "2026-10-21T21:00",
-          "value": 4.67
-        },
         {
           "date": "2026-10-22T00:00",
           "value": 2.33
@@ -6600,16 +6568,48 @@
         {
           "date": "2026-10-28T03:00",
           "value": 1.67
+        },
+        {
+          "date": "2026-10-28T06:00",
+          "value": 2.33
+        },
+        {
+          "date": "2026-10-28T09:00",
+          "value": 1.67
+        },
+        {
+          "date": "2026-10-28T12:00",
+          "value": 0.67
+        },
+        {
+          "date": "2026-10-28T15:00",
+          "value": 1.33
+        },
+        {
+          "date": "2026-10-28T18:00",
+          "value": 2.33
+        },
+        {
+          "date": "2026-10-28T21:00",
+          "value": 2.33
+        },
+        {
+          "date": "2026-10-29T00:00",
+          "value": 1.67
+        },
+        {
+          "date": "2026-10-29T03:00",
+          "value": 2.33
         }
       ]
     },
     "news_items": [
       {
-        "title": "Monitoraggio Clima Spaziale: Kp a 1.7 (Picco 4.7)",
-        "date": "2026-10-28",
+        "title": "Monitoraggio Clima Spaziale: Kp a 2.3 (Picco 4.3)",
+        "date": "2026-10-29",
         "source": "NOAA Space Weather Prediction Center",
         "url": "https://www.swpc.noaa.gov/",
-        "summary": "CLIMA SPAZIALE QUIETO (Kp=4.67): nessun rischio immediato da brillamenti o tempeste geomagnetiche.",
+        "summary": "CLIMA SPAZIALE QUIETO (Kp=4.33): nessun rischio immediato da brillamenti o tempeste geomagnetiche.",
         "category": "Rischi Naturali e Cosmici",
         "severity": 1,
         "tags": [
@@ -6621,7 +6621,7 @@
       },
       {
         "title": "Attivita Sismica Significativa: 18 eventi nell'ultimo mese",
-        "date": "2026-10-28",
+        "date": "2026-10-29",
         "source": "USGS Earthquake Hazards Program",
         "url": "https://earthquake.usgs.gov/",
         "summary": "Eventi tellurici globali maggiori registrati dai sismografi planetari. Evento di rilievo: M 7.7 - 12 km WSW of Pitaloza Arriba, Panama.",
