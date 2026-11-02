@@ -3,56 +3,56 @@
     "title": "Extinction Risk Watch",
     "subtitle": "Quantificazione del Rischio di Estinzione Umana e Monitoraggio in Tempo Reale",
     "version": "1.0.0",
-    "generated_at": "2026-11-01T06:50:40.257280+00:00",
+    "generated_at": "2026-11-02T07:16:26.958662+00:00",
     "status": "LIVE"
   },
   "hero_lifespan": {
     "biological_baseline_years": 200000.0,
     "biological_baseline_days": 73050000,
     "effective_expected_years": 508.2,
-    "effective_expected_days": 185602,
+    "effective_expected_days": 185603,
     "future_potential_lost_pct": 99.75,
-    "daily_delta_days_vs_norm": -21860
+    "daily_delta_days_vs_norm": -21859
   },
   "horizons": {
     "1_year": {
       "horizon_years": 1,
-      "probability": 0.0028473151390140394,
+      "probability": 0.0028472486513850814,
       "percentage_str": "0.285%",
       "odds_str": "1 su 351",
-      "delta_vs_baseline": 0.0003171175863589948,
+      "delta_vs_baseline": 0.0003170510987300368,
       "risk_tier": "ELEVATO"
     },
     "5_years": {
       "horizon_years": 5,
-      "probability": 0.019403646846508416,
+      "probability": 0.01940349258551466,
       "percentage_str": "1.94%",
       "odds_str": "1 su 52",
-      "delta_vs_baseline": 0.002018402891251214,
+      "delta_vs_baseline": 0.0020182486302574576,
       "risk_tier": "ELEVATO"
     },
     "10_years": {
       "horizon_years": 10,
-      "probability": 0.055442289648944154,
+      "probability": 0.055442116484786697,
       "percentage_str": "5.54%",
       "odds_str": "1 su 18",
-      "delta_vs_baseline": 0.005754265655810498,
+      "delta_vs_baseline": 0.00575409249165304,
       "risk_tier": "ELEVATO"
     },
     "50_years": {
       "horizon_years": 50,
-      "probability": 0.14393611813888296,
+      "probability": 0.14393554713398005,
       "percentage_str": "14.39%",
       "odds_str": "1 su 7",
-      "delta_vs_baseline": 0.014150596383013747,
+      "delta_vs_baseline": 0.014150025378110831,
       "risk_tier": "ELEVATO"
     },
     "100_years": {
       "horizon_years": 100,
-      "probability": 0.17766132604680995,
+      "probability": 0.17766046862803242,
       "percentage_str": "17.77%",
       "odds_str": "1 su 6",
-      "delta_vs_baseline": 0.016954114430205336,
+      "delta_vs_baseline": 0.016953257011427803,
       "risk_tier": "ELEVATO"
     }
   },
@@ -65,14 +65,14 @@
       "category_id": "nuclear_war",
       "category_name": "Guerra Nucleare & Conflitti",
       "baseline_100y": 0.001,
-      "modulator": 1.161,
-      "prob_1y": 4.4e-05,
+      "modulator": 1.16,
+      "prob_1y": 4.3e-05,
       "prob_5y": 0.00013,
       "prob_10y": 0.00024,
       "prob_50y": 0.0008,
       "prob_100y": 0.0012,
-      "percentile_driver": 0.701,
-      "status_label": "TENSIONE"
+      "percentile_driver": 0.7,
+      "status_label": "NORMALE"
     },
     "pandemics": {
       "category_id": "pandemics",
@@ -1608,10 +1608,6 @@
     "climate_biosphere": {
       "co2_chart": [
         {
-          "date": "2025-06-05",
-          "value": 430.7
-        },
-        {
           "date": "2025-06-06",
           "value": 430.39
         },
@@ -3066,13 +3062,13 @@
         {
           "date": "2026-10-29",
           "value": 427.2
+        },
+        {
+          "date": "2026-10-31",
+          "value": 427.9
         }
       ],
       "sea_ice_chart": [
-        {
-          "date": "2025-10-31",
-          "value": 7.676
-        },
         {
           "date": "2025-11-01",
           "value": 7.872
@@ -4528,6 +4524,10 @@
         {
           "date": "2026-10-30",
           "value": 7.755
+        },
+        {
+          "date": "2026-10-31",
+          "value": 7.84
         }
       ]
     },
@@ -5998,38 +5998,6 @@
     "cosmic_natural_hazards": {
       "kp_hourly_chart": [
         {
-          "date": "2026-10-25T00:00",
-          "value": 2.0
-        },
-        {
-          "date": "2026-10-25T03:00",
-          "value": 1.33
-        },
-        {
-          "date": "2026-10-25T06:00",
-          "value": 0.67
-        },
-        {
-          "date": "2026-10-25T09:00",
-          "value": 2.0
-        },
-        {
-          "date": "2026-10-25T12:00",
-          "value": 1.67
-        },
-        {
-          "date": "2026-10-25T15:00",
-          "value": 1.67
-        },
-        {
-          "date": "2026-10-25T18:00",
-          "value": 1.0
-        },
-        {
-          "date": "2026-10-25T21:00",
-          "value": 1.0
-        },
-        {
           "date": "2026-10-26T00:00",
           "value": 0.33
         },
@@ -6228,6 +6196,38 @@
         {
           "date": "2026-11-01T03:00",
           "value": 4.33
+        },
+        {
+          "date": "2026-11-01T06:00",
+          "value": 3.33
+        },
+        {
+          "date": "2026-11-01T09:00",
+          "value": 3.33
+        },
+        {
+          "date": "2026-11-01T12:00",
+          "value": 3.0
+        },
+        {
+          "date": "2026-11-01T15:00",
+          "value": 2.33
+        },
+        {
+          "date": "2026-11-01T18:00",
+          "value": 3.0
+        },
+        {
+          "date": "2026-11-01T21:00",
+          "value": 2.0
+        },
+        {
+          "date": "2026-11-02T00:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-11-02T03:00",
+          "value": 2.0
         }
       ]
     }
@@ -6252,11 +6252,11 @@
     ],
     "climate_biosphere": [
       {
-        "title": "Concentrazione CO2 a quota 427.2 ppm a Mauna Loa",
-        "date": "2026-10-29",
+        "title": "Concentrazione CO2 a quota 427.9 ppm a Mauna Loa",
+        "date": "2026-10-31",
         "source": "NOAA Global Monitoring Laboratory",
         "url": "https://gml.noaa.gov/ccgg/trends/",
-        "summary": "L'osservatorio di Mauna Loa registra 427.20 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
+        "summary": "L'osservatorio di Mauna Loa registra 427.90 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
         "category": "Clima e Ambiente",
         "severity": 3,
         "tags": [
@@ -6267,11 +6267,11 @@
         ]
       },
       {
-        "title": "Estensione ghiaccio marino artico: 7.75 milioni di kmq",
-        "date": "2026-10-30",
+        "title": "Estensione ghiaccio marino artico: 7.84 milioni di kmq",
+        "date": "2026-10-31",
         "source": "National Snow and Ice Data Center (NSIDC)",
         "url": "https://nsidc.org/arcticseaicenews/",
-        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 7.75 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
+        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 7.84 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
         "category": "Clima e Ambiente",
         "severity": 2,
         "tags": [
@@ -6484,8 +6484,8 @@
     ],
     "cosmic_natural_hazards": [
       {
-        "title": "Monitoraggio Clima Spaziale: Kp a 4.3 (Picco 6.0)",
-        "date": "2026-11-01",
+        "title": "Monitoraggio Clima Spaziale: Kp a 2.0 (Picco 6.0)",
+        "date": "2026-11-02",
         "source": "NOAA Space Weather Prediction Center",
         "url": "https://www.swpc.noaa.gov/",
         "summary": "TEMPESTA SOLARE MINORE (Kp=6.0): aurore boreali visibili, attivita solare moderata.",
@@ -6499,8 +6499,8 @@
         ]
       },
       {
-        "title": "Attivita Sismica Significativa: 18 eventi nell'ultimo mese",
-        "date": "2026-11-01",
+        "title": "Attivita Sismica Significativa: 17 eventi nell'ultimo mese",
+        "date": "2026-11-02",
         "source": "USGS Earthquake Hazards Program",
         "url": "https://earthquake.usgs.gov/",
         "summary": "Eventi tellurici globali maggiori registrati dai sismografi planetari. Evento di rilievo: M 7.7 - 12 km WSW of Pitaloza Arriba, Panama.",
@@ -6540,5 +6540,5 @@
       "url": "https://theprecipice.com/"
     }
   ],
-  "verdict": "Aspettativa biologica naturale della specie: ~200.000 anni (~73.050.000 giorni). Al tasso di rischio antropogenico attuale. l'aspettativa di vita residua e compressa a ~185.602 giorni (~508 anni). con un'erosione del 99.7% del futuro potenziale naturale della specie umana. Probabilita di estinzione sui 5 orizzonti: 1y: 0.285%. 5y: 1.94%. 10y: 5.54%. 50y: 14.39%. 100y: 17.77%."
+  "verdict": "Aspettativa biologica naturale della specie: ~200.000 anni (~73.050.000 giorni). Al tasso di rischio antropogenico attuale. l'aspettativa di vita residua e compressa a ~185.603 giorni (~508 anni). con un'erosione del 99.7% del futuro potenziale naturale della specie umana. Probabilita di estinzione sui 5 orizzonti: 1y: 0.285%. 5y: 1.94%. 10y: 5.54%. 50y: 14.39%. 100y: 17.77%."
 }
