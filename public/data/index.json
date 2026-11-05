@@ -3,62 +3,62 @@
     "title": "Extinction Risk Watch",
     "subtitle": "Quantificazione del Rischio di Estinzione Umana e Monitoraggio in Tempo Reale",
     "version": "1.0.0",
-    "generated_at": "2026-11-04T07:04:50.112978+00:00",
+    "generated_at": "2026-11-05T07:09:30.835913+00:00",
     "status": "LIVE"
   },
   "hero_lifespan": {
     "biological_baseline_years": 200000.0,
     "biological_baseline_days": 73050000,
-    "effective_expected_years": 497.1,
-    "effective_expected_days": 181554,
-    "future_potential_lost_pct": 99.75,
-    "daily_delta_days_vs_norm": -25908
+    "effective_expected_years": 550.1,
+    "effective_expected_days": 200936,
+    "future_potential_lost_pct": 99.72,
+    "daily_delta_days_vs_norm": -6526
   },
   "horizons": {
     "1_year": {
       "horizon_years": 1,
-      "probability": 0.002887051304167332,
-      "percentage_str": "0.289%",
-      "odds_str": "1 su 346",
-      "delta_vs_baseline": 0.00035685375151228715,
+      "probability": 0.002622321725291976,
+      "percentage_str": "0.262%",
+      "odds_str": "1 su 381",
+      "delta_vs_baseline": 9.212417263693151e-05,
       "risk_tier": "ELEVATO"
     },
     "5_years": {
       "horizon_years": 5,
-      "probability": 0.019786874213933103,
-      "percentage_str": "1.98%",
-      "odds_str": "1 su 51",
-      "delta_vs_baseline": 0.002401630258675902,
+      "probability": 0.017978900791400854,
+      "percentage_str": "1.80%",
+      "odds_str": "1 su 56",
+      "delta_vs_baseline": 0.0005936568361436523,
       "risk_tier": "ELEVATO"
     },
     "10_years": {
       "horizon_years": 10,
-      "probability": 0.05662770880108692,
-      "percentage_str": "5.66%",
-      "odds_str": "1 su 18",
-      "delta_vs_baseline": 0.006939684807953261,
+      "probability": 0.05149472712685277,
+      "percentage_str": "5.15%",
+      "odds_str": "1 su 19",
+      "delta_vs_baseline": 0.001806703133719112,
       "risk_tier": "ELEVATO"
     },
     "50_years": {
       "horizon_years": 50,
-      "probability": 0.14689231143089454,
-      "percentage_str": "14.69%",
+      "probability": 0.13392599324103172,
+      "percentage_str": "13.39%",
       "odds_str": "1 su 7",
-      "delta_vs_baseline": 0.017106789675025325,
+      "delta_vs_baseline": 0.0041404714851625,
       "risk_tier": "ELEVATO"
     },
     "100_years": {
       "horizon_years": 100,
-      "probability": 0.18119823975229787,
-      "percentage_str": "18.12%",
+      "probability": 0.16541831559827036,
+      "percentage_str": "16.54%",
       "odds_str": "1 su 6",
-      "delta_vs_baseline": 0.020491028135693257,
+      "delta_vs_baseline": 0.004711103981665743,
       "risk_tier": "ELEVATO"
     }
   },
   "systemic_fragility": {
-    "multiplier": 1.065,
-    "vix_percentile": 0.718
+    "multiplier": 0.968,
+    "vix_percentile": 0.392
   },
   "categories_breakdown": {
     "nuclear_war": {
@@ -66,9 +66,9 @@
       "category_name": "Guerra Nucleare & Conflitti",
       "baseline_100y": 0.001,
       "modulator": 0.791,
-      "prob_1y": 1.9e-05,
+      "prob_1y": 1.7e-05,
       "prob_5y": 7e-05,
-      "prob_10y": 0.00017,
+      "prob_10y": 0.00015,
       "prob_50y": 0.0005,
       "prob_100y": 0.0008,
       "percentile_driver": 0.239,
@@ -79,11 +79,11 @@
       "category_name": "Pandemie (Ingegnerizzate & Naturali)",
       "baseline_100y": 0.0334,
       "modulator": 1.15,
-      "prob_1y": 0.000818,
-      "prob_5y": 0.00409,
-      "prob_10y": 0.01228,
-      "prob_50y": 0.0327,
-      "prob_100y": 0.0409,
+      "prob_1y": 0.000743,
+      "prob_5y": 0.00372,
+      "prob_10y": 0.01115,
+      "prob_50y": 0.0297,
+      "prob_100y": 0.0372,
       "percentile_driver": 0.8,
       "status_label": "ELEVATA"
     },
@@ -94,10 +94,10 @@
       "modulator": 1.15,
       "prob_1y": 2e-06,
       "prob_5y": 3e-05,
-      "prob_10y": 0.0001,
+      "prob_10y": 9e-05,
       "prob_50y": 0.0007,
-      "prob_100y": 0.0012,
-      "percentile_driver": 0.874,
+      "prob_100y": 0.0011,
+      "percentile_driver": 0.875,
       "status_label": "PRESSIONE COSTANTE"
     },
     "cosmic": {
@@ -118,11 +118,11 @@
       "category_name": "Intelligenza Artificiale non Allineata",
       "baseline_100y": 0.1,
       "modulator": 1.06,
-      "prob_1y": 0.001694,
-      "prob_5y": 0.01355,
-      "prob_10y": 0.03953,
-      "prob_50y": 0.096,
-      "prob_100y": 0.1129,
+      "prob_1y": 0.001538,
+      "prob_5y": 0.01231,
+      "prob_10y": 0.0359,
+      "prob_50y": 0.0872,
+      "prob_100y": 0.1026,
       "percentile_driver": 0.7,
       "status_label": "ACCELERAZIONE"
     },
@@ -131,11 +131,11 @@
       "category_name": "Altri Rischi Antropogenici Non Previsti",
       "baseline_100y": 0.0333,
       "modulator": 1.0,
-      "prob_1y": 0.000355,
-      "prob_5y": 0.00213,
-      "prob_10y": 0.00532,
-      "prob_50y": 0.0231,
-      "prob_100y": 0.0355,
+      "prob_1y": 0.000322,
+      "prob_5y": 0.00193,
+      "prob_10y": 0.00483,
+      "prob_50y": 0.0209,
+      "prob_100y": 0.0322,
       "percentile_driver": 0.5,
       "status_label": "COSTANTE"
     }
@@ -143,10 +143,6 @@
   "charts": {
     "systemic_fragility": {
       "vix_daily_chart": [
-        {
-          "date": "2025-06-06",
-          "value": 16.77
-        },
         {
           "date": "2025-06-09",
           "value": 17.16
@@ -1602,15 +1598,15 @@
         {
           "date": "2026-11-03",
           "value": 20.83
+        },
+        {
+          "date": "2026-11-04",
+          "value": 16.61
         }
       ]
     },
     "climate_biosphere": {
       "co2_chart": [
-        {
-          "date": "2025-06-08",
-          "value": 429.77
-        },
         {
           "date": "2025-06-09",
           "value": 430.07
@@ -3066,13 +3062,13 @@
         {
           "date": "2026-11-02",
           "value": 428.26
+        },
+        {
+          "date": "2026-11-03",
+          "value": 428.84
         }
       ],
       "sea_ice_chart": [
-        {
-          "date": "2025-11-03",
-          "value": 7.845
-        },
         {
           "date": "2025-11-04",
           "value": 7.86
@@ -4528,6 +4524,10 @@
         {
           "date": "2026-11-02",
           "value": 8.135
+        },
+        {
+          "date": "2026-11-03",
+          "value": 8.153
         }
       ]
     },
@@ -5998,38 +5998,6 @@
     "cosmic_natural_hazards": {
       "kp_hourly_chart": [
         {
-          "date": "2026-10-28T00:00",
-          "value": 2.33
-        },
-        {
-          "date": "2026-10-28T03:00",
-          "value": 1.67
-        },
-        {
-          "date": "2026-10-28T06:00",
-          "value": 2.33
-        },
-        {
-          "date": "2026-10-28T09:00",
-          "value": 1.67
-        },
-        {
-          "date": "2026-10-28T12:00",
-          "value": 0.67
-        },
-        {
-          "date": "2026-10-28T15:00",
-          "value": 1.33
-        },
-        {
-          "date": "2026-10-28T18:00",
-          "value": 2.33
-        },
-        {
-          "date": "2026-10-28T21:00",
-          "value": 2.33
-        },
-        {
           "date": "2026-10-29T00:00",
           "value": 1.67
         },
@@ -6228,6 +6196,38 @@
         {
           "date": "2026-11-04T03:00",
           "value": 2.67
+        },
+        {
+          "date": "2026-11-04T06:00",
+          "value": 3.33
+        },
+        {
+          "date": "2026-11-04T09:00",
+          "value": 2.33
+        },
+        {
+          "date": "2026-11-04T12:00",
+          "value": 3.0
+        },
+        {
+          "date": "2026-11-04T15:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-11-04T18:00",
+          "value": 1.67
+        },
+        {
+          "date": "2026-11-04T21:00",
+          "value": 1.33
+        },
+        {
+          "date": "2026-11-05T00:00",
+          "value": 1.33
+        },
+        {
+          "date": "2026-11-05T03:00",
+          "value": 1.67
         }
       ]
     }
@@ -6235,13 +6235,13 @@
   "news_feed": {
     "systemic_fragility": [
       {
-        "title": "Indice VIX a quota 20.83 (TENSIONE MODERATA)",
-        "date": "2026-11-03",
+        "title": "Indice VIX a quota 16.61 (STABILITÀ FINANZIARIA)",
+        "date": "2026-11-04",
         "source": "CBOE Global Markets",
         "url": "https://www.cboe.com/tradable_products/vix/",
-        "summary": "TENSIONE MODERATA: mercati in allerta per rischi macroeconomici e geopolitici latenti.",
+        "summary": "STABILITÀ FINANZIARIA: volatilità contenuta, assenza di shock sistemici immediati sulla liquidità globale.",
         "category": "Fragilità Finanziaria e Sistemica",
-        "severity": 3,
+        "severity": 1,
         "tags": [
           "VIX",
           "Mercati",
@@ -6252,11 +6252,11 @@
     ],
     "climate_biosphere": [
       {
-        "title": "Concentrazione CO2 a quota 428.3 ppm a Mauna Loa",
-        "date": "2026-11-02",
+        "title": "Concentrazione CO2 a quota 428.8 ppm a Mauna Loa",
+        "date": "2026-11-03",
         "source": "NOAA Global Monitoring Laboratory",
         "url": "https://gml.noaa.gov/ccgg/trends/",
-        "summary": "L'osservatorio di Mauna Loa registra 428.26 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
+        "summary": "L'osservatorio di Mauna Loa registra 428.84 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
         "category": "Clima e Ambiente",
         "severity": 3,
         "tags": [
@@ -6267,11 +6267,11 @@
         ]
       },
       {
-        "title": "Estensione ghiaccio marino artico: 8.13 milioni di kmq",
-        "date": "2026-11-02",
+        "title": "Estensione ghiaccio marino artico: 8.15 milioni di kmq",
+        "date": "2026-11-03",
         "source": "National Snow and Ice Data Center (NSIDC)",
         "url": "https://nsidc.org/arcticseaicenews/",
-        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 8.13 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
+        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 8.15 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
         "category": "Clima e Ambiente",
         "severity": 2,
         "tags": [
@@ -6301,6 +6301,21 @@
       }
     ],
     "pandemics_biosecurity": [
+      {
+        "title": "Metformin given within a week of COVID-19 slashes risk of long COVID, death by 53%, paper notes",
+        "date": "Wed, 04 Nov 2026",
+        "source": "CIDRAP (University of Minnesota)",
+        "url": "https://www.cidrap.umn.edu/covid-19/metformin-given-within-week-covid-19-slashes-risk-long-covid-death-53-paper-notes",
+        "summary": "<p><span>If replicated in clinical trials, the observational findings could inform ways to prevent the lingering consequences of infection.</span></p>",
+        "category": "Pandemie e Rischi Biologici",
+        "severity": 1,
+        "tags": [
+          "Pandemie",
+          "Infezioni",
+          "Biosicurezza",
+          "CIDRAP"
+        ]
+      },
       {
         "title": "Experts say don't wait. Now is the time to get your flu shot.",
         "date": "Thu, 29 Oct 2026",
@@ -6367,21 +6382,6 @@
         "source": "CIDRAP (University of Minnesota)",
         "url": "https://www.cidrap.umn.edu/covid-19/spouses-are-better-predictors-severe-covid-19-infection-siblings-new-data-reveal",
         "summary": "<p><span>In total, 71% of hospitalized spouses landed in a hospital bed within 5 days of each other.</span></p>",
-        "category": "Pandemie e Rischi Biologici",
-        "severity": 1,
-        "tags": [
-          "Pandemie",
-          "Infezioni",
-          "Biosicurezza",
-          "CIDRAP"
-        ]
-      },
-      {
-        "title": "Poll: Nearly half of US parents believe spacing out vaccines is healthier",
-        "date": "Tue, 20 Oct 2026",
-        "source": "CIDRAP (University of Minnesota)",
-        "url": "https://www.cidrap.umn.edu/childhood-vaccines/poll-nearly-half-us-parents-believe-spacing-out-vaccines-healthier",
-        "summary": "<p><span>At the same time, confidence in the safety of longstanding vaccines, including MMR and polio, remains high.&nbsp;</span></p>",
         "category": "Pandemie e Rischi Biologici",
         "severity": 1,
         "tags": [
@@ -6484,8 +6484,8 @@
     ],
     "cosmic_natural_hazards": [
       {
-        "title": "Monitoraggio Clima Spaziale: Kp a 2.7 (Picco 6.0)",
-        "date": "2026-11-04",
+        "title": "Monitoraggio Clima Spaziale: Kp a 1.7 (Picco 6.0)",
+        "date": "2026-11-05",
         "source": "NOAA Space Weather Prediction Center",
         "url": "https://www.swpc.noaa.gov/",
         "summary": "TEMPESTA SOLARE MINORE (Kp=6.0): aurore boreali visibili, attivita solare moderata.",
@@ -6500,7 +6500,7 @@
       },
       {
         "title": "Attivita Sismica Significativa: 17 eventi nell'ultimo mese",
-        "date": "2026-11-04",
+        "date": "2026-11-05",
         "source": "USGS Earthquake Hazards Program",
         "url": "https://earthquake.usgs.gov/",
         "summary": "Eventi tellurici globali maggiori registrati dai sismografi planetari. Evento di rilievo: M 7.7 - 10 km WSW of Pitaloza Arriba, Panama.",
@@ -6540,5 +6540,5 @@
       "url": "https://theprecipice.com/"
     }
   ],
-  "verdict": "Aspettativa biologica naturale della specie: ~200.000 anni (~73.050.000 giorni). Al tasso di rischio antropogenico attuale. l'aspettativa di vita residua e compressa a ~181.554 giorni (~497 anni). con un'erosione del 99.8% del futuro potenziale naturale della specie umana. Probabilita di estinzione sui 5 orizzonti: 1y: 0.289%. 5y: 1.98%. 10y: 5.66%. 50y: 14.69%. 100y: 18.12%."
+  "verdict": "Aspettativa biologica naturale della specie: ~200.000 anni (~73.050.000 giorni). Al tasso di rischio antropogenico attuale. l'aspettativa di vita residua e compressa a ~200.936 giorni (~550 anni). con un'erosione del 99.7% del futuro potenziale naturale della specie umana. Probabilita di estinzione sui 5 orizzonti: 1y: 0.262%. 5y: 1.80%. 10y: 5.15%. 50y: 13.39%. 100y: 16.54%."
 }
