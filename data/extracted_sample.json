@@ -7,15 +7,14 @@
         "metric_id": "vix_index",
         "name": "CBOE Volatility Index (VIX)",
         "unit": "punti",
-        "current_value": 28.18,
-        "current_date": "2026-11-05",
-        "total_records": 9310,
+        "current_value": 25.64,
+        "current_date": "2026-11-06",
+        "total_records": 9311,
         "min_value": 11.86,
         "max_value": 52.33,
-        "mean_value": 19.08,
-        "percentile_5y": 0.925,
+        "mean_value": 19.09,
+        "percentile_5y": 0.871,
         "sparkline": [
-          14.87,
           16.07,
           16.04,
           16.34,
@@ -44,16 +43,13 @@
           21.15,
           20.83,
           16.61,
-          28.18
+          28.18,
+          25.64
         ]
       }
     },
     "time_series": {
       "vix_daily_chart": [
-        {
-          "date": "2025-06-10",
-          "value": 16.95
-        },
         {
           "date": "2025-06-11",
           "value": 17.26
@@ -1509,13 +1505,17 @@
         {
           "date": "2026-11-05",
           "value": 28.18
+        },
+        {
+          "date": "2026-11-06",
+          "value": 25.64
         }
       ]
     },
     "news_items": [
       {
-        "title": "Indice VIX a quota 28.18 (TENSIONE MODERATA)",
-        "date": "2026-11-05",
+        "title": "Indice VIX a quota 25.64 (TENSIONE MODERATA)",
+        "date": "2026-11-06",
         "source": "CBOE Global Markets",
         "url": "https://www.cboe.com/tradable_products/vix/",
         "summary": "TENSIONE MODERATA: mercati in allerta per rischi macroeconomici e geopolitici latenti.",
@@ -1538,15 +1538,14 @@
         "metric_id": "co2_mauna_loa",
         "name": "Concentrazione Atmosferica CO2 (Mauna Loa)",
         "unit": "ppm",
-        "current_value": 428.95,
-        "current_date": "2026-11-04",
-        "total_records": 16022,
+        "current_value": 428.57,
+        "current_date": "2026-11-05",
+        "total_records": 16023,
         "min_value": 326.06,
         "max_value": 433.95,
         "mean_value": 375.17,
-        "percentile_5y": 0.988,
+        "percentile_5y": 0.987,
         "sparkline": [
-          425.84,
           425.3,
           425.89,
           426.21,
@@ -1575,22 +1574,22 @@
           428.25,
           428.26,
           428.84,
-          428.95
+          428.95,
+          428.57
         ]
       },
       "sea_ice": {
         "metric_id": "arctic_sea_ice",
         "name": "Estensione Calotta Glaciale Artica",
         "unit": "milioni kmq",
-        "current_value": 8.24,
-        "current_date": "2026-11-04",
-        "total_records": 15891,
+        "current_value": 8.31,
+        "current_date": "2026-11-05",
+        "total_records": 15892,
         "min_value": 3.34,
         "max_value": 16.64,
         "mean_value": 11.16,
-        "percentile_5y": 0.756,
+        "percentile_5y": 0.752,
         "sparkline": [
-          5.96,
           6.01,
           6.07,
           6.02,
@@ -1619,16 +1618,13 @@
           8.02,
           8.13,
           8.15,
-          8.24
+          8.24,
+          8.31
         ]
       }
     },
     "time_series": {
       "co2_chart": [
-        {
-          "date": "2025-06-10",
-          "value": 429.42
-        },
         {
           "date": "2025-06-11",
           "value": 429.36
@@ -3084,13 +3080,13 @@
         {
           "date": "2026-11-04",
           "value": 428.95
+        },
+        {
+          "date": "2026-11-05",
+          "value": 428.57
         }
       ],
       "sea_ice_chart": [
-        {
-          "date": "2025-11-05",
-          "value": 7.955
-        },
         {
           "date": "2025-11-06",
           "value": 8.105
@@ -4546,16 +4542,20 @@
         {
           "date": "2026-11-04",
           "value": 8.241
+        },
+        {
+          "date": "2026-11-05",
+          "value": 8.311
         }
       ]
     },
     "news_items": [
       {
-        "title": "Concentrazione CO2 a quota 428.9 ppm a Mauna Loa",
-        "date": "2026-11-04",
+        "title": "Concentrazione CO2 a quota 428.6 ppm a Mauna Loa",
+        "date": "2026-11-05",
         "source": "NOAA Global Monitoring Laboratory",
         "url": "https://gml.noaa.gov/ccgg/trends/",
-        "summary": "L'osservatorio di Mauna Loa registra 428.95 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
+        "summary": "L'osservatorio di Mauna Loa registra 428.57 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
         "category": "Clima e Ambiente",
         "severity": 3,
         "tags": [
@@ -4566,11 +4566,11 @@
         ]
       },
       {
-        "title": "Estensione ghiaccio marino artico: 8.24 milioni di kmq",
-        "date": "2026-11-04",
+        "title": "Estensione ghiaccio marino artico: 8.31 milioni di kmq",
+        "date": "2026-11-05",
         "source": "National Snow and Ice Data Center (NSIDC)",
         "url": "https://nsidc.org/arcticseaicenews/",
-        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 8.24 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
+        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 8.31 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
         "category": "Clima e Ambiente",
         "severity": 2,
         "tags": [
@@ -4595,7 +4595,7 @@
         "total_records": 15281,
         "min_value": 0.0,
         "max_value": 540.83,
-        "mean_value": 143.72,
+        "mean_value": 143.78,
         "percentile_5y": 0.238,
         "sparkline": [
           146.41,
@@ -6123,7 +6123,7 @@
         "name": "Indice di Allerta Epidemica Globale",
         "unit": "notifiche attive",
         "current_value": 12.0,
-        "current_date": "2026-11-06",
+        "current_date": "2026-11-07",
         "total_records": 12,
         "min_value": 0.0,
         "max_value": 20.0,
@@ -6136,6 +6136,21 @@
     },
     "time_series": {},
     "news_items": [
+      {
+        "title": "Quick takes: Cholera in DR Congo, Canada OKs mRNA flu & flu-COVID vaccines, polio in 4 nations",
+        "date": "Fri, 06 Nov 2026",
+        "source": "CIDRAP (University of Minnesota)",
+        "url": "https://www.cidrap.umn.edu/cholera/quick-takes-cholera-dr-congo-canada-oks-mrna-flu-flu-covid-vaccines-polio-4-nations",
+        "summary": "<p><span>The WHO said the DRC is seeing its worst outbreak of cholera in decades.</span></p>",
+        "category": "Pandemie e Rischi Biologici",
+        "severity": 2,
+        "tags": [
+          "Pandemie",
+          "Infezioni",
+          "Biosicurezza",
+          "CIDRAP"
+        ]
+      },
       {
         "title": "New evidence affirms COVID vaccine is safe during pregnancy",
         "date": "Thu, 05 Nov 2026",
@@ -6202,21 +6217,6 @@
         "source": "CIDRAP (University of Minnesota)",
         "url": "https://www.cidrap.umn.edu/covid-19/policy-brief-suggests-speedier-fairer-covid-vaccine-rollout-could-have-averted-millions",
         "summary": "<p><span>Wealthy countries had at least one dose per person, compared with one for every 25 in low-income nations.</span></p>",
-        "category": "Pandemie e Rischi Biologici",
-        "severity": 1,
-        "tags": [
-          "Pandemie",
-          "Infezioni",
-          "Biosicurezza",
-          "CIDRAP"
-        ]
-      },
-      {
-        "title": "Japan’s COVID-19 efforts protected Olympians, Paralympians in 2021, analysis finds",
-        "date": "Tue, 27 Oct 2026",
-        "source": "CIDRAP (University of Minnesota)",
-        "url": "https://www.cidrap.umn.edu/covid-19/japan-s-covid-19-efforts-protected-olympians-paralympians-2021-analysis-finds",
-        "summary": "<p><span>Very few athletes and team members tested positive for the virus during the events in Tokyo.</span></p>",
         "category": "Pandemie e Rischi Biologici",
         "severity": 1,
         "tags": [
@@ -6326,22 +6326,14 @@
         "metric_id": "solar_kp_index",
         "name": "Indice Geomagnetico Planetario Kp (Tempeste Solari)",
         "unit": "scala Kp (0-9)",
-        "current_value": 0.67,
-        "current_date": "2026-11-06",
+        "current_value": 2.33,
+        "current_date": "2026-11-07",
         "total_records": 58,
         "min_value": 0.33,
         "max_value": 6.0,
-        "mean_value": 2.2,
+        "mean_value": 2.25,
         "percentile_5y": 0.667,
         "sparkline": [
-          1.67,
-          1.67,
-          1.0,
-          0.33,
-          0.67,
-          1.67,
-          2.0,
-          1.67,
           0.67,
           1.33,
           1.67,
@@ -6363,44 +6355,20 @@
           2.0,
           2.33,
           2.33,
-          0.67
+          0.67,
+          2.67,
+          2.33,
+          2.0,
+          2.0,
+          2.33,
+          3.33,
+          3.0,
+          2.33
         ]
       }
     },
     "time_series": {
       "kp_hourly_chart": [
-        {
-          "date": "2026-10-30T00:00",
-          "value": 1.67
-        },
-        {
-          "date": "2026-10-30T03:00",
-          "value": 1.67
-        },
-        {
-          "date": "2026-10-30T06:00",
-          "value": 2.33
-        },
-        {
-          "date": "2026-10-30T09:00",
-          "value": 1.67
-        },
-        {
-          "date": "2026-10-30T12:00",
-          "value": 2.33
-        },
-        {
-          "date": "2026-10-30T15:00",
-          "value": 1.67
-        },
-        {
-          "date": "2026-10-30T18:00",
-          "value": 1.33
-        },
-        {
-          "date": "2026-10-30T21:00",
-          "value": 4.33
-        },
         {
           "date": "2026-10-31T00:00",
           "value": 3.0
@@ -6600,13 +6568,45 @@
         {
           "date": "2026-11-06T03:00",
           "value": 0.67
+        },
+        {
+          "date": "2026-11-06T06:00",
+          "value": 2.67
+        },
+        {
+          "date": "2026-11-06T09:00",
+          "value": 2.33
+        },
+        {
+          "date": "2026-11-06T12:00",
+          "value": 2.0
+        },
+        {
+          "date": "2026-11-06T15:00",
+          "value": 2.0
+        },
+        {
+          "date": "2026-11-06T18:00",
+          "value": 2.33
+        },
+        {
+          "date": "2026-11-06T21:00",
+          "value": 3.33
+        },
+        {
+          "date": "2026-11-07T00:00",
+          "value": 3.0
+        },
+        {
+          "date": "2026-11-07T03:00",
+          "value": 2.33
         }
       ]
     },
     "news_items": [
       {
-        "title": "Monitoraggio Clima Spaziale: Kp a 0.7 (Picco 6.0)",
-        "date": "2026-11-06",
+        "title": "Monitoraggio Clima Spaziale: Kp a 2.3 (Picco 6.0)",
+        "date": "2026-11-07",
         "source": "NOAA Space Weather Prediction Center",
         "url": "https://www.swpc.noaa.gov/",
         "summary": "TEMPESTA SOLARE MINORE (Kp=6.0): aurore boreali visibili, attivita solare moderata.",
@@ -6620,8 +6620,8 @@
         ]
       },
       {
-        "title": "Attivita Sismica Significativa: 16 eventi nell'ultimo mese",
-        "date": "2026-11-06",
+        "title": "Attivita Sismica Significativa: 15 eventi nell'ultimo mese",
+        "date": "2026-11-07",
         "source": "USGS Earthquake Hazards Program",
         "url": "https://earthquake.usgs.gov/",
         "summary": "Eventi tellurici globali maggiori registrati dai sismografi planetari. Evento di rilievo: M 7.7 - 10 km WSW of Pitaloza Arriba, Panama.",
