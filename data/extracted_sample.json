@@ -7,15 +7,14 @@
         "metric_id": "vix_index",
         "name": "CBOE Volatility Index (VIX)",
         "unit": "punti",
-        "current_value": 19.3,
-        "current_date": "2026-11-13",
-        "total_records": 9316,
+        "current_value": 22.91,
+        "current_date": "2026-11-16",
+        "total_records": 9317,
         "min_value": 11.86,
         "max_value": 52.33,
         "mean_value": 19.1,
-        "percentile_5y": 0.625,
+        "percentile_5y": 0.801,
         "sparkline": [
-          15.52,
           15.01,
           15.08,
           15.41,
@@ -44,16 +43,13 @@
           19.46,
           17.49,
           18.7,
-          19.3
+          19.3,
+          22.91
         ]
       }
     },
     "time_series": {
       "vix_daily_chart": [
-        {
-          "date": "2025-06-18",
-          "value": 20.14
-        },
         {
           "date": "2025-06-19",
           "value": 22.17
@@ -1509,18 +1505,22 @@
         {
           "date": "2026-11-13",
           "value": 19.3
+        },
+        {
+          "date": "2026-11-16",
+          "value": 22.91
         }
       ]
     },
     "news_items": [
       {
-        "title": "Indice VIX a quota 19.30 (STABILITÀ FINANZIARIA)",
-        "date": "2026-11-13",
+        "title": "Indice VIX a quota 22.91 (TENSIONE MODERATA)",
+        "date": "2026-11-16",
         "source": "CBOE Global Markets",
         "url": "https://www.cboe.com/tradable_products/vix/",
-        "summary": "STABILITÀ FINANZIARIA: volatilità contenuta, assenza di shock sistemici immediati sulla liquidità globale.",
+        "summary": "TENSIONE MODERATA: mercati in allerta per rischi macroeconomici e geopolitici latenti.",
         "category": "Fragilità Finanziaria e Sistemica",
-        "severity": 1,
+        "severity": 3,
         "tags": [
           "VIX",
           "Mercati",
@@ -1538,15 +1538,14 @@
         "metric_id": "co2_mauna_loa",
         "name": "Concentrazione Atmosferica CO2 (Mauna Loa)",
         "unit": "ppm",
-        "current_value": 428.19,
-        "current_date": "2026-11-15",
-        "total_records": 16033,
+        "current_value": 429.89,
+        "current_date": "2026-11-16",
+        "total_records": 16034,
         "min_value": 326.06,
         "max_value": 433.95,
-        "mean_value": 375.2,
-        "percentile_5y": 0.984,
+        "mean_value": 375.21,
+        "percentile_5y": 0.992,
         "sparkline": [
-          426.71,
           427.25,
           426.67,
           426.73,
@@ -1575,22 +1574,22 @@
           429.42,
           428.88,
           428.69,
-          428.19
+          428.19,
+          429.89
         ]
       },
       "sea_ice": {
         "metric_id": "arctic_sea_ice",
         "name": "Estensione Calotta Glaciale Artica",
         "unit": "milioni kmq",
-        "current_value": 9.0,
-        "current_date": "2026-11-15",
-        "total_records": 15902,
+        "current_value": 9.02,
+        "current_date": "2026-11-16",
+        "total_records": 15903,
         "min_value": 3.34,
         "max_value": 16.64,
         "mean_value": 11.16,
-        "percentile_5y": 0.709,
+        "percentile_5y": 0.708,
         "sparkline": [
-          6.72,
           6.78,
           6.79,
           6.82,
@@ -1619,16 +1618,13 @@
           8.85,
           8.95,
           8.91,
-          9.0
+          9.0,
+          9.02
         ]
       }
     },
     "time_series": {
       "co2_chart": [
-        {
-          "date": "2025-06-22",
-          "value": 430.54
-        },
         {
           "date": "2025-06-23",
           "value": 429.82
@@ -3084,13 +3080,13 @@
         {
           "date": "2026-11-15",
           "value": 428.19
+        },
+        {
+          "date": "2026-11-16",
+          "value": 429.89
         }
       ],
       "sea_ice_chart": [
-        {
-          "date": "2025-11-16",
-          "value": 8.925
-        },
         {
           "date": "2025-11-17",
           "value": 8.974
@@ -4546,16 +4542,20 @@
         {
           "date": "2026-11-15",
           "value": 8.999
+        },
+        {
+          "date": "2026-11-16",
+          "value": 9.019
         }
       ]
     },
     "news_items": [
       {
-        "title": "Concentrazione CO2 a quota 428.2 ppm a Mauna Loa",
-        "date": "2026-11-15",
+        "title": "Concentrazione CO2 a quota 429.9 ppm a Mauna Loa",
+        "date": "2026-11-16",
         "source": "NOAA Global Monitoring Laboratory",
         "url": "https://gml.noaa.gov/ccgg/trends/",
-        "summary": "L'osservatorio di Mauna Loa registra 428.19 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
+        "summary": "L'osservatorio di Mauna Loa registra 429.89 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
         "category": "Clima e Ambiente",
         "severity": 3,
         "tags": [
@@ -4566,11 +4566,11 @@
         ]
       },
       {
-        "title": "Estensione ghiaccio marino artico: 9.00 milioni di kmq",
-        "date": "2026-11-15",
+        "title": "Estensione ghiaccio marino artico: 9.02 milioni di kmq",
+        "date": "2026-11-16",
         "source": "National Snow and Ice Data Center (NSIDC)",
         "url": "https://nsidc.org/arcticseaicenews/",
-        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 9.00 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
+        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 9.02 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
         "category": "Clima e Ambiente",
         "severity": 2,
         "tags": [
@@ -4595,7 +4595,7 @@
         "total_records": 15295,
         "min_value": 0.0,
         "max_value": 540.83,
-        "mean_value": 143.92,
+        "mean_value": 143.93,
         "percentile_5y": 0.817,
         "sparkline": [
           124.0,
@@ -6123,7 +6123,7 @@
         "name": "Indice di Allerta Epidemica Globale",
         "unit": "notifiche attive",
         "current_value": 12.0,
-        "current_date": "2026-11-16",
+        "current_date": "2026-11-17",
         "total_records": 12,
         "min_value": 0.0,
         "max_value": 20.0,
@@ -6136,6 +6136,21 @@
     },
     "time_series": {},
     "news_items": [
+      {
+        "title": "Shoulder injuries rare but slightly more common after COVID vaccines than flu shots, study finds",
+        "date": "Mon, 16 Nov 2026",
+        "source": "CIDRAP (University of Minnesota)",
+        "url": "https://www.cidrap.umn.edu/covid-19/shoulder-injuries-rare-slightly-more-common-after-covid-vaccines-flu-shots-study-finds",
+        "summary": "<p><span>The most likely cause is inadvertent injection into the shoulder joint or surrounding structures rather than the deltoid-muscle target.</span></p>",
+        "category": "Pandemie e Rischi Biologici",
+        "severity": 2,
+        "tags": [
+          "Pandemie",
+          "Infezioni",
+          "Biosicurezza",
+          "CIDRAP"
+        ]
+      },
       {
         "title": "Analysis: COVID vaccines generated up to $809 in economic benefits for every dollar spent",
         "date": "Fri, 13 Nov 2026",
@@ -6202,21 +6217,6 @@
         "source": "CIDRAP (University of Minnesota)",
         "url": "https://www.cidrap.umn.edu/covid-19/new-study-links-covid-fewer-long-term-health-problems-previously-thought",
         "summary": "<p><span>By comparing test-negative with test-positive patients, researchers winnow the proportion of &nbsp;symptoms attributable to long COVID by 84%.</span></p>",
-        "category": "Pandemie e Rischi Biologici",
-        "severity": 1,
-        "tags": [
-          "Pandemie",
-          "Infezioni",
-          "Biosicurezza",
-          "CIDRAP"
-        ]
-      },
-      {
-        "title": "Norovirus No. 1 cause of cruise ship outbreaks for past 30 years, but other pathogens gaining",
-        "date": "Mon, 09 Nov 2026",
-        "source": "CIDRAP (University of Minnesota)",
-        "url": "https://www.cidrap.umn.edu/norovirus/norovirus-no-1-cause-cruise-ship-outbreaks-past-30-years-other-pathogens-gaining",
-        "summary": "<p><span>Nearly 6 decades of data show that the epidemiologic landscape has diversified to include respiratory viruses and other emerging pathogens.&nbsp;</span></p>",
         "category": "Pandemie e Rischi Biologici",
         "severity": 1,
         "tags": [
@@ -6326,22 +6326,14 @@
         "metric_id": "solar_kp_index",
         "name": "Indice Geomagnetico Planetario Kp (Tempeste Solari)",
         "unit": "scala Kp (0-9)",
-        "current_value": 1.33,
-        "current_date": "2026-11-16",
+        "current_value": 0.67,
+        "current_date": "2026-11-17",
         "total_records": 61,
         "min_value": 0.33,
-        "max_value": 3.33,
-        "mean_value": 1.44,
-        "percentile_5y": 0.37,
+        "max_value": 3.0,
+        "mean_value": 1.19,
+        "percentile_5y": 0.333,
         "sparkline": [
-          1.67,
-          1.33,
-          0.33,
-          1.33,
-          1.0,
-          0.67,
-          0.67,
-          0.67,
           0.67,
           0.33,
           0.67,
@@ -6363,44 +6355,20 @@
           0.33,
           0.33,
           0.67,
-          1.33
+          1.33,
+          0.67,
+          0.67,
+          0.67,
+          0.67,
+          0.33,
+          1.0,
+          1.0,
+          0.67
         ]
       }
     },
     "time_series": {
       "kp_hourly_chart": [
-        {
-          "date": "2026-11-09T00:00",
-          "value": 3.0
-        },
-        {
-          "date": "2026-11-09T03:00",
-          "value": 3.33
-        },
-        {
-          "date": "2026-11-09T06:00",
-          "value": 2.67
-        },
-        {
-          "date": "2026-11-09T09:00",
-          "value": 2.67
-        },
-        {
-          "date": "2026-11-09T12:00",
-          "value": 2.0
-        },
-        {
-          "date": "2026-11-09T15:00",
-          "value": 2.67
-        },
-        {
-          "date": "2026-11-09T18:00",
-          "value": 2.67
-        },
-        {
-          "date": "2026-11-09T21:00",
-          "value": 2.0
-        },
         {
           "date": "2026-11-10T00:00",
           "value": 3.0
@@ -6612,16 +6580,48 @@
         {
           "date": "2026-11-16T12:00",
           "value": 1.33
+        },
+        {
+          "date": "2026-11-16T15:00",
+          "value": 0.67
+        },
+        {
+          "date": "2026-11-16T18:00",
+          "value": 0.67
+        },
+        {
+          "date": "2026-11-16T21:00",
+          "value": 0.67
+        },
+        {
+          "date": "2026-11-17T00:00",
+          "value": 0.67
+        },
+        {
+          "date": "2026-11-17T03:00",
+          "value": 0.33
+        },
+        {
+          "date": "2026-11-17T06:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-11-17T09:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-11-17T12:00",
+          "value": 0.67
         }
       ]
     },
     "news_items": [
       {
-        "title": "Monitoraggio Clima Spaziale: Kp a 1.3 (Picco 3.3)",
-        "date": "2026-11-16",
+        "title": "Monitoraggio Clima Spaziale: Kp a 0.7 (Picco 3.0)",
+        "date": "2026-11-17",
         "source": "NOAA Space Weather Prediction Center",
         "url": "https://www.swpc.noaa.gov/",
-        "summary": "CLIMA SPAZIALE QUIETO (Kp=3.33): nessun rischio immediato da brillamenti o tempeste geomagnetiche.",
+        "summary": "CLIMA SPAZIALE QUIETO (Kp=3.0): nessun rischio immediato da brillamenti o tempeste geomagnetiche.",
         "category": "Rischi Naturali e Cosmici",
         "severity": 1,
         "tags": [
@@ -6632,8 +6632,8 @@
         ]
       },
       {
-        "title": "Attivita Sismica Significativa: 6 eventi nell'ultimo mese",
-        "date": "2026-11-16",
+        "title": "Attivita Sismica Significativa: 7 eventi nell'ultimo mese",
+        "date": "2026-11-17",
         "source": "USGS Earthquake Hazards Program",
         "url": "https://earthquake.usgs.gov/",
         "summary": "Eventi tellurici globali maggiori registrati dai sismografi planetari. Evento di rilievo: M 7.0 - 189 km ENE of Nagqu, China.",
