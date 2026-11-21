@@ -7,15 +7,14 @@
         "metric_id": "vix_index",
         "name": "CBOE Volatility Index (VIX)",
         "unit": "punti",
-        "current_value": 28.44,
-        "current_date": "2026-11-19",
-        "total_records": 9320,
+        "current_value": 35.89,
+        "current_date": "2026-11-20",
+        "total_records": 9321,
         "min_value": 11.86,
         "max_value": 52.33,
-        "mean_value": 19.12,
-        "percentile_5y": 0.929,
+        "mean_value": 19.13,
+        "percentile_5y": 0.995,
         "sparkline": [
-          14.84,
           15.21,
           15.27,
           16.87,
@@ -44,16 +43,13 @@
           22.91,
           25.46,
           24.56,
-          28.44
+          28.44,
+          35.89
         ]
       }
     },
     "time_series": {
       "vix_daily_chart": [
-        {
-          "date": "2025-06-24",
-          "value": 17.48
-        },
         {
           "date": "2025-06-25",
           "value": 16.76
@@ -1509,18 +1505,22 @@
         {
           "date": "2026-11-19",
           "value": 28.44
+        },
+        {
+          "date": "2026-11-20",
+          "value": 35.89
         }
       ]
     },
     "news_items": [
       {
-        "title": "Indice VIX a quota 28.44 (TENSIONE MODERATA)",
-        "date": "2026-11-19",
+        "title": "Indice VIX a quota 35.89 (ELEVATA TURBOLENZA GLOBALE)",
+        "date": "2026-11-20",
         "source": "CBOE Global Markets",
         "url": "https://www.cboe.com/tradable_products/vix/",
-        "summary": "TENSIONE MODERATA: mercati in allerta per rischi macroeconomici e geopolitici latenti.",
+        "summary": "ELEVATA TURBOLENZA GLOBALE: volatilità implicita sui massimi plurimensili. Segnali di stress sistemico acuto.",
         "category": "Fragilità Finanziaria e Sistemica",
-        "severity": 3,
+        "severity": 4,
         "tags": [
           "VIX",
           "Mercati",
@@ -1538,15 +1538,14 @@
         "metric_id": "co2_mauna_loa",
         "name": "Concentrazione Atmosferica CO2 (Mauna Loa)",
         "unit": "ppm",
-        "current_value": 428.55,
-        "current_date": "2026-11-18",
-        "total_records": 16036,
+        "current_value": 429.16,
+        "current_date": "2026-11-19",
+        "total_records": 16037,
         "min_value": 326.06,
         "max_value": 433.95,
-        "mean_value": 375.21,
-        "percentile_5y": 0.987,
+        "mean_value": 375.22,
+        "percentile_5y": 0.989,
         "sparkline": [
-          426.73,
           426.65,
           426.85,
           426.46,
@@ -1571,26 +1570,26 @@
           428.38,
           429.42,
           428.88,
+          428.64,
+          428.3,
+          429.88,
+          429.08,
           428.69,
-          428.19,
-          429.89,
-          429.12,
-          428.55
+          429.16
         ]
       },
       "sea_ice": {
         "metric_id": "arctic_sea_ice",
         "name": "Estensione Calotta Glaciale Artica",
         "unit": "milioni kmq",
-        "current_value": 9.05,
-        "current_date": "2026-11-19",
-        "total_records": 15906,
+        "current_value": 9.07,
+        "current_date": "2026-11-20",
+        "total_records": 15907,
         "min_value": 3.34,
         "max_value": 16.64,
         "mean_value": 11.16,
-        "percentile_5y": 0.706,
+        "percentile_5y": 0.704,
         "sparkline": [
-          6.95,
           7.18,
           7.36,
           7.34,
@@ -1619,16 +1618,13 @@
           9.02,
           8.99,
           9.08,
-          9.05
+          9.05,
+          9.07
         ]
       }
     },
     "time_series": {
       "co2_chart": [
-        {
-          "date": "2025-06-25",
-          "value": 429.3
-        },
         {
           "date": "2025-06-27",
           "value": 428.48
@@ -3067,30 +3063,30 @@
         },
         {
           "date": "2026-11-14",
-          "value": 428.69
+          "value": 428.64
         },
         {
           "date": "2026-11-15",
-          "value": 428.19
+          "value": 428.3
         },
         {
           "date": "2026-11-16",
-          "value": 429.89
+          "value": 429.88
         },
         {
           "date": "2026-11-17",
-          "value": 429.12
+          "value": 429.08
         },
         {
           "date": "2026-11-18",
-          "value": 428.55
+          "value": 428.69
+        },
+        {
+          "date": "2026-11-19",
+          "value": 429.16
         }
       ],
       "sea_ice_chart": [
-        {
-          "date": "2025-11-20",
-          "value": 9.027
-        },
         {
           "date": "2025-11-21",
           "value": 9.081
@@ -4546,16 +4542,20 @@
         {
           "date": "2026-11-19",
           "value": 9.048
+        },
+        {
+          "date": "2026-11-20",
+          "value": 9.074
         }
       ]
     },
     "news_items": [
       {
-        "title": "Concentrazione CO2 a quota 428.6 ppm a Mauna Loa",
-        "date": "2026-11-18",
+        "title": "Concentrazione CO2 a quota 429.2 ppm a Mauna Loa",
+        "date": "2026-11-19",
         "source": "NOAA Global Monitoring Laboratory",
         "url": "https://gml.noaa.gov/ccgg/trends/",
-        "summary": "L'osservatorio di Mauna Loa registra 428.55 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
+        "summary": "L'osservatorio di Mauna Loa registra 429.16 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
         "category": "Clima e Ambiente",
         "severity": 3,
         "tags": [
@@ -4566,11 +4566,11 @@
         ]
       },
       {
-        "title": "Estensione ghiaccio marino artico: 9.05 milioni di kmq",
-        "date": "2026-11-19",
+        "title": "Estensione ghiaccio marino artico: 9.07 milioni di kmq",
+        "date": "2026-11-20",
         "source": "National Snow and Ice Data Center (NSIDC)",
         "url": "https://nsidc.org/arcticseaicenews/",
-        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 9.05 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
+        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 9.07 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
         "category": "Clima e Ambiente",
         "severity": 2,
         "tags": [
@@ -4595,7 +4595,7 @@
         "total_records": 15295,
         "min_value": 0.0,
         "max_value": 540.83,
-        "mean_value": 143.99,
+        "mean_value": 144.05,
         "percentile_5y": 0.817,
         "sparkline": [
           124.0,
@@ -6123,7 +6123,7 @@
         "name": "Indice di Allerta Epidemica Globale",
         "unit": "notifiche attive",
         "current_value": 12.0,
-        "current_date": "2026-11-20",
+        "current_date": "2026-11-21",
         "total_records": 12,
         "min_value": 0.0,
         "max_value": 20.0,
@@ -6136,6 +6136,21 @@
     },
     "time_series": {},
     "news_items": [
+      {
+        "title": "US flu activity continues to climb",
+        "date": "Fri, 20 Nov 2026",
+        "source": "CIDRAP (University of Minnesota)",
+        "url": "https://www.cidrap.umn.edu/influenza-general/us-flu-activity-continues-climb",
+        "summary": "<p><span>More Americans are seeking healthcare for flulike symptoms, but the virus does not yet appear to cause more severe illness.</span></p>",
+        "category": "Pandemie e Rischi Biologici",
+        "severity": 2,
+        "tags": [
+          "Pandemie",
+          "Infezioni",
+          "Biosicurezza",
+          "CIDRAP"
+        ]
+      },
       {
         "title": "Two studies in US veterans find updated COVID vaccines protect against severe illness",
         "date": "Wed, 18 Nov 2026",
@@ -6202,21 +6217,6 @@
         "source": "CIDRAP (University of Minnesota)",
         "url": "https://www.cidrap.umn.edu/covid-19/common-diabetes-drug-linked-lower-risk-death-after-covid-infection",
         "summary": "<p><span>In people with type 2 diabetes, the risk of death within a year was 39% lower than in those taking a different drug.&nbsp;</span></p>",
-        "category": "Pandemie e Rischi Biologici",
-        "severity": 1,
-        "tags": [
-          "Pandemie",
-          "Infezioni",
-          "Biosicurezza",
-          "CIDRAP"
-        ]
-      },
-      {
-        "title": "CIDRAP Op-Ed: Why my kids and I still get a COVID vaccine every year",
-        "date": "Tue, 10 Nov 2026",
-        "source": "CIDRAP (University of Minnesota)",
-        "url": "https://www.cidrap.umn.edu/covid-19/cidrap-op-ed-why-my-kids-and-i-still-get-covid-vaccine-every-year",
-        "summary": "<p dir=\"ltr\"><span>There has been a lot of back-and-forth about whether healthy kids need a COVID vaccine at all, but a smaller benefit is still a benefit.</span></p>",
         "category": "Pandemie e Rischi Biologici",
         "severity": 1,
         "tags": [
@@ -6326,21 +6326,14 @@
         "metric_id": "solar_kp_index",
         "name": "Indice Geomagnetico Planetario Kp (Tempeste Solari)",
         "unit": "scala Kp (0-9)",
-        "current_value": 0.33,
-        "current_date": "2026-11-20",
-        "total_records": 61,
+        "current_value": 2.0,
+        "current_date": "2026-11-21",
+        "total_records": 60,
         "min_value": 0.33,
         "max_value": 5.0,
-        "mean_value": 1.32,
+        "mean_value": 1.38,
         "percentile_5y": 0.556,
         "sparkline": [
-          0.67,
-          0.67,
-          0.33,
-          1.0,
-          1.0,
-          0.67,
-          1.67,
           2.0,
           3.0,
           2.33,
@@ -6363,44 +6356,19 @@
           2.0,
           1.33,
           0.67,
-          0.33
+          0.33,
+          0.33,
+          1.67,
+          0.67,
+          2.67,
+          0.33,
+          1.33,
+          2.0
         ]
       }
     },
     "time_series": {
       "kp_hourly_chart": [
-        {
-          "date": "2026-11-13T00:00",
-          "value": 1.33
-        },
-        {
-          "date": "2026-11-13T03:00",
-          "value": 0.33
-        },
-        {
-          "date": "2026-11-13T06:00",
-          "value": 1.33
-        },
-        {
-          "date": "2026-11-13T09:00",
-          "value": 1.0
-        },
-        {
-          "date": "2026-11-13T12:00",
-          "value": 0.67
-        },
-        {
-          "date": "2026-11-13T15:00",
-          "value": 0.67
-        },
-        {
-          "date": "2026-11-13T18:00",
-          "value": 0.67
-        },
-        {
-          "date": "2026-11-13T21:00",
-          "value": 0.67
-        },
         {
           "date": "2026-11-14T00:00",
           "value": 0.33
@@ -6612,13 +6580,41 @@
         {
           "date": "2026-11-20T12:00",
           "value": 0.33
+        },
+        {
+          "date": "2026-11-20T15:00",
+          "value": 0.33
+        },
+        {
+          "date": "2026-11-20T18:00",
+          "value": 1.67
+        },
+        {
+          "date": "2026-11-20T21:00",
+          "value": 0.67
+        },
+        {
+          "date": "2026-11-21T00:00",
+          "value": 2.67
+        },
+        {
+          "date": "2026-11-21T03:00",
+          "value": 0.33
+        },
+        {
+          "date": "2026-11-21T06:00",
+          "value": 1.33
+        },
+        {
+          "date": "2026-11-21T09:00",
+          "value": 2.0
         }
       ]
     },
     "news_items": [
       {
-        "title": "Monitoraggio Clima Spaziale: Kp a 0.3 (Picco 5.0)",
-        "date": "2026-11-20",
+        "title": "Monitoraggio Clima Spaziale: Kp a 2.0 (Picco 5.0)",
+        "date": "2026-11-21",
         "source": "NOAA Space Weather Prediction Center",
         "url": "https://www.swpc.noaa.gov/",
         "summary": "TEMPESTA SOLARE MINORE (Kp=5.0): aurore boreali visibili, attivita solare moderata.",
@@ -6632,8 +6628,8 @@
         ]
       },
       {
-        "title": "Attivita Sismica Significativa: 9 eventi nell'ultimo mese",
-        "date": "2026-11-20",
+        "title": "Attivita Sismica Significativa: 12 eventi nell'ultimo mese",
+        "date": "2026-11-21",
         "source": "USGS Earthquake Hazards Program",
         "url": "https://earthquake.usgs.gov/",
         "summary": "Eventi tellurici globali maggiori registrati dai sismografi planetari. Evento di rilievo: M 7.0 - 189 km ENE of Nagqu, China.",
