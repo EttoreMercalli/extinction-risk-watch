@@ -1582,15 +1582,14 @@
         "metric_id": "arctic_sea_ice",
         "name": "Estensione Calotta Glaciale Artica",
         "unit": "milioni kmq",
-        "current_value": 9.07,
-        "current_date": "2026-11-20",
-        "total_records": 15907,
+        "current_value": 9.09,
+        "current_date": "2026-11-21",
+        "total_records": 15908,
         "min_value": 3.34,
         "max_value": 16.64,
         "mean_value": 11.16,
-        "percentile_5y": 0.704,
+        "percentile_5y": 0.703,
         "sparkline": [
-          7.18,
           7.36,
           7.34,
           7.44,
@@ -1619,7 +1618,8 @@
           8.99,
           9.08,
           9.05,
-          9.07
+          9.07,
+          9.09
         ]
       }
     },
@@ -3088,10 +3088,6 @@
       ],
       "sea_ice_chart": [
         {
-          "date": "2025-11-21",
-          "value": 9.081
-        },
-        {
           "date": "2025-11-22",
           "value": 9.138
         },
@@ -4546,6 +4542,10 @@
         {
           "date": "2026-11-20",
           "value": 9.074
+        },
+        {
+          "date": "2026-11-21",
+          "value": 9.094
         }
       ]
     },
@@ -4566,11 +4566,11 @@
         ]
       },
       {
-        "title": "Estensione ghiaccio marino artico: 9.07 milioni di kmq",
-        "date": "2026-11-20",
+        "title": "Estensione ghiaccio marino artico: 9.09 milioni di kmq",
+        "date": "2026-11-21",
         "source": "National Snow and Ice Data Center (NSIDC)",
         "url": "https://nsidc.org/arcticseaicenews/",
-        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 9.07 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
+        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 9.09 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
         "category": "Clima e Ambiente",
         "severity": 2,
         "tags": [
@@ -4595,8 +4595,8 @@
         "total_records": 15295,
         "min_value": 0.0,
         "max_value": 540.83,
-        "mean_value": 144.05,
-        "percentile_5y": 0.817,
+        "mean_value": 144.06,
+        "percentile_5y": 0.816,
         "sparkline": [
           124.0,
           220.84,
@@ -6123,7 +6123,7 @@
         "name": "Indice di Allerta Epidemica Globale",
         "unit": "notifiche attive",
         "current_value": 12.0,
-        "current_date": "2026-11-21",
+        "current_date": "2026-11-22",
         "total_records": 12,
         "min_value": 0.0,
         "max_value": 20.0,
@@ -6326,22 +6326,14 @@
         "metric_id": "solar_kp_index",
         "name": "Indice Geomagnetico Planetario Kp (Tempeste Solari)",
         "unit": "scala Kp (0-9)",
-        "current_value": 2.0,
-        "current_date": "2026-11-21",
+        "current_value": 0.33,
+        "current_date": "2026-11-22",
         "total_records": 60,
         "min_value": 0.33,
         "max_value": 5.0,
-        "mean_value": 1.38,
+        "mean_value": 1.41,
         "percentile_5y": 0.556,
         "sparkline": [
-          2.0,
-          3.0,
-          2.33,
-          3.33,
-          2.33,
-          2.33,
-          2.67,
-          2.67,
           1.33,
           1.33,
           5.0,
@@ -6363,44 +6355,20 @@
           2.67,
           0.33,
           1.33,
-          2.0
+          2.0,
+          1.0,
+          1.67,
+          1.33,
+          1.33,
+          0.67,
+          1.0,
+          2.33,
+          0.33
         ]
       }
     },
     "time_series": {
       "kp_hourly_chart": [
-        {
-          "date": "2026-11-14T00:00",
-          "value": 0.33
-        },
-        {
-          "date": "2026-11-14T03:00",
-          "value": 0.67
-        },
-        {
-          "date": "2026-11-14T06:00",
-          "value": 1.0
-        },
-        {
-          "date": "2026-11-14T09:00",
-          "value": 1.33
-        },
-        {
-          "date": "2026-11-14T12:00",
-          "value": 1.67
-        },
-        {
-          "date": "2026-11-14T15:00",
-          "value": 1.0
-        },
-        {
-          "date": "2026-11-14T18:00",
-          "value": 1.0
-        },
-        {
-          "date": "2026-11-14T21:00",
-          "value": 1.33
-        },
         {
           "date": "2026-11-15T00:00",
           "value": 2.0
@@ -6608,13 +6576,45 @@
         {
           "date": "2026-11-21T09:00",
           "value": 2.0
+        },
+        {
+          "date": "2026-11-21T12:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-11-21T15:00",
+          "value": 1.67
+        },
+        {
+          "date": "2026-11-21T18:00",
+          "value": 1.33
+        },
+        {
+          "date": "2026-11-21T21:00",
+          "value": 1.33
+        },
+        {
+          "date": "2026-11-22T00:00",
+          "value": 0.67
+        },
+        {
+          "date": "2026-11-22T03:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-11-22T06:00",
+          "value": 2.33
+        },
+        {
+          "date": "2026-11-22T09:00",
+          "value": 0.33
         }
       ]
     },
     "news_items": [
       {
-        "title": "Monitoraggio Clima Spaziale: Kp a 2.0 (Picco 5.0)",
-        "date": "2026-11-21",
+        "title": "Monitoraggio Clima Spaziale: Kp a 0.3 (Picco 5.0)",
+        "date": "2026-11-22",
         "source": "NOAA Space Weather Prediction Center",
         "url": "https://www.swpc.noaa.gov/",
         "summary": "TEMPESTA SOLARE MINORE (Kp=5.0): aurore boreali visibili, attivita solare moderata.",
@@ -6628,13 +6628,13 @@
         ]
       },
       {
-        "title": "Attivita Sismica Significativa: 12 eventi nell'ultimo mese",
-        "date": "2026-11-21",
+        "title": "Attivita Sismica Significativa: 11 eventi nell'ultimo mese",
+        "date": "2026-11-22",
         "source": "USGS Earthquake Hazards Program",
         "url": "https://earthquake.usgs.gov/",
-        "summary": "Eventi tellurici globali maggiori registrati dai sismografi planetari. Evento di rilievo: M 7.0 - 189 km ENE of Nagqu, China.",
+        "summary": "Eventi tellurici globali maggiori registrati dai sismografi planetari. Evento di rilievo: M 6.8 - 105 km NE of Lospalos, Timor Leste.",
         "category": "Rischi Naturali e Cosmici",
-        "severity": 3,
+        "severity": 2,
         "tags": [
           "Terremoti",
           "Geologia",

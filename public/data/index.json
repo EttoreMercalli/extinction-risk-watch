@@ -3,7 +3,7 @@
     "title": "Extinction Risk Watch",
     "subtitle": "Quantificazione del Rischio di Estinzione Umana e Monitoraggio in Tempo Reale",
     "version": "1.0.0",
-    "generated_at": "2026-11-21T14:30:24.370887+00:00",
+    "generated_at": "2026-11-22T14:26:27.227775+00:00",
     "status": "LIVE"
   },
   "hero_lifespan": {
@@ -17,42 +17,42 @@
   "horizons": {
     "1_year": {
       "horizon_years": 1,
-      "probability": 0.003148526818252395,
+      "probability": 0.0031484471389831015,
       "percentage_str": "0.315%",
       "odds_str": "1 su 318",
-      "delta_vs_baseline": 0.0006183292655973505,
+      "delta_vs_baseline": 0.0006182495863280568,
       "risk_tier": "ELEVATO"
     },
     "5_years": {
       "horizon_years": 5,
-      "probability": 0.02140729529856733,
+      "probability": 0.021407115083412864,
       "percentage_str": "2.14%",
       "odds_str": "1 su 47",
-      "delta_vs_baseline": 0.004022051343310129,
+      "delta_vs_baseline": 0.004021871128155663,
       "risk_tier": "ELEVATO"
     },
     "10_years": {
       "horizon_years": 10,
-      "probability": 0.06107750481969565,
+      "probability": 0.06107731497815316,
       "percentage_str": "6.11%",
       "odds_str": "1 su 16",
-      "delta_vs_baseline": 0.011389480826561993,
+      "delta_vs_baseline": 0.011389290985019507,
       "risk_tier": "ELEVATO"
     },
     "50_years": {
       "horizon_years": 50,
-      "probability": 0.15811254078235248,
+      "probability": 0.15811192139924068,
       "percentage_str": "15.81%",
       "odds_str": "1 su 6",
-      "delta_vs_baseline": 0.02832701902648327,
+      "delta_vs_baseline": 0.02832639964337147,
       "risk_tier": "ELEVATO"
     },
     "100_years": {
       "horizon_years": 100,
-      "probability": 0.1948903908600017,
+      "probability": 0.1948894648827184,
       "percentage_str": "19.49%",
       "odds_str": "1 su 5",
-      "delta_vs_baseline": 0.03418317924339709,
+      "delta_vs_baseline": 0.03418225326611379,
       "risk_tier": "ELEVATO"
     }
   },
@@ -65,13 +65,13 @@
       "category_id": "nuclear_war",
       "category_name": "Guerra Nucleare & Conflitti",
       "baseline_100y": 0.001,
-      "modulator": 1.254,
+      "modulator": 1.253,
       "prob_1y": 5.7e-05,
       "prob_5y": 0.00017,
       "prob_10y": 0.00029,
       "prob_50y": 0.0009,
       "prob_100y": 0.0014,
-      "percentile_driver": 0.817,
+      "percentile_driver": 0.816,
       "status_label": "TENSIONE"
     },
     "pandemics": {
@@ -91,13 +91,13 @@
       "category_id": "climate",
       "category_name": "Collasso Climatico ed Ecosistemico",
       "baseline_100y": 0.001,
-      "modulator": 1.139,
+      "modulator": 1.138,
       "prob_1y": 3e-06,
       "prob_5y": 3e-05,
       "prob_10y": 0.0001,
       "prob_50y": 0.0008,
       "prob_100y": 0.0013,
-      "percentile_driver": 0.847,
+      "percentile_driver": 0.846,
       "status_label": "PRESSIONE COSTANTE"
     },
     "cosmic": {
@@ -3070,10 +3070,6 @@
       ],
       "sea_ice_chart": [
         {
-          "date": "2025-11-21",
-          "value": 9.081
-        },
-        {
           "date": "2025-11-22",
           "value": 9.138
         },
@@ -4528,6 +4524,10 @@
         {
           "date": "2026-11-20",
           "value": 9.074
+        },
+        {
+          "date": "2026-11-21",
+          "value": 9.094
         }
       ]
     },
@@ -5998,38 +5998,6 @@
     "cosmic_natural_hazards": {
       "kp_hourly_chart": [
         {
-          "date": "2026-11-14T00:00",
-          "value": 0.33
-        },
-        {
-          "date": "2026-11-14T03:00",
-          "value": 0.67
-        },
-        {
-          "date": "2026-11-14T06:00",
-          "value": 1.0
-        },
-        {
-          "date": "2026-11-14T09:00",
-          "value": 1.33
-        },
-        {
-          "date": "2026-11-14T12:00",
-          "value": 1.67
-        },
-        {
-          "date": "2026-11-14T15:00",
-          "value": 1.0
-        },
-        {
-          "date": "2026-11-14T18:00",
-          "value": 1.0
-        },
-        {
-          "date": "2026-11-14T21:00",
-          "value": 1.33
-        },
-        {
           "date": "2026-11-15T00:00",
           "value": 2.0
         },
@@ -6236,6 +6204,38 @@
         {
           "date": "2026-11-21T09:00",
           "value": 2.0
+        },
+        {
+          "date": "2026-11-21T12:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-11-21T15:00",
+          "value": 1.67
+        },
+        {
+          "date": "2026-11-21T18:00",
+          "value": 1.33
+        },
+        {
+          "date": "2026-11-21T21:00",
+          "value": 1.33
+        },
+        {
+          "date": "2026-11-22T00:00",
+          "value": 0.67
+        },
+        {
+          "date": "2026-11-22T03:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-11-22T06:00",
+          "value": 2.33
+        },
+        {
+          "date": "2026-11-22T09:00",
+          "value": 0.33
         }
       ]
     }
@@ -6275,11 +6275,11 @@
         ]
       },
       {
-        "title": "Estensione ghiaccio marino artico: 9.07 milioni di kmq",
-        "date": "2026-11-20",
+        "title": "Estensione ghiaccio marino artico: 9.09 milioni di kmq",
+        "date": "2026-11-21",
         "source": "National Snow and Ice Data Center (NSIDC)",
         "url": "https://nsidc.org/arcticseaicenews/",
-        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 9.07 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
+        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 9.09 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
         "category": "Clima e Ambiente",
         "severity": 2,
         "tags": [
@@ -6492,8 +6492,8 @@
     ],
     "cosmic_natural_hazards": [
       {
-        "title": "Monitoraggio Clima Spaziale: Kp a 2.0 (Picco 5.0)",
-        "date": "2026-11-21",
+        "title": "Monitoraggio Clima Spaziale: Kp a 0.3 (Picco 5.0)",
+        "date": "2026-11-22",
         "source": "NOAA Space Weather Prediction Center",
         "url": "https://www.swpc.noaa.gov/",
         "summary": "TEMPESTA SOLARE MINORE (Kp=5.0): aurore boreali visibili, attivita solare moderata.",
@@ -6507,13 +6507,13 @@
         ]
       },
       {
-        "title": "Attivita Sismica Significativa: 12 eventi nell'ultimo mese",
-        "date": "2026-11-21",
+        "title": "Attivita Sismica Significativa: 11 eventi nell'ultimo mese",
+        "date": "2026-11-22",
         "source": "USGS Earthquake Hazards Program",
         "url": "https://earthquake.usgs.gov/",
-        "summary": "Eventi tellurici globali maggiori registrati dai sismografi planetari. Evento di rilievo: M 7.0 - 189 km ENE of Nagqu, China.",
+        "summary": "Eventi tellurici globali maggiori registrati dai sismografi planetari. Evento di rilievo: M 6.8 - 105 km NE of Lospalos, Timor Leste.",
         "category": "Rischi Naturali e Cosmici",
-        "severity": 3,
+        "severity": 2,
         "tags": [
           "Terremoti",
           "Geologia",
