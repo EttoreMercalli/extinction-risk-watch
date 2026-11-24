@@ -7,15 +7,14 @@
         "metric_id": "vix_index",
         "name": "CBOE Volatility Index (VIX)",
         "unit": "punti",
-        "current_value": 35.89,
-        "current_date": "2026-11-20",
-        "total_records": 9321,
+        "current_value": 26.62,
+        "current_date": "2026-11-23",
+        "total_records": 9322,
         "min_value": 11.86,
         "max_value": 52.33,
-        "mean_value": 19.13,
-        "percentile_5y": 0.995,
+        "mean_value": 19.14,
+        "percentile_5y": 0.893,
         "sparkline": [
-          15.21,
           15.27,
           16.87,
           16.46,
@@ -44,16 +43,13 @@
           25.46,
           24.56,
           28.44,
-          35.89
+          35.89,
+          26.62
         ]
       }
     },
     "time_series": {
       "vix_daily_chart": [
-        {
-          "date": "2025-06-25",
-          "value": 16.76
-        },
         {
           "date": "2025-06-26",
           "value": 16.59
@@ -1509,18 +1505,22 @@
         {
           "date": "2026-11-20",
           "value": 35.89
+        },
+        {
+          "date": "2026-11-23",
+          "value": 26.62
         }
       ]
     },
     "news_items": [
       {
-        "title": "Indice VIX a quota 35.89 (ELEVATA TURBOLENZA GLOBALE)",
-        "date": "2026-11-20",
+        "title": "Indice VIX a quota 26.62 (TENSIONE MODERATA)",
+        "date": "2026-11-23",
         "source": "CBOE Global Markets",
         "url": "https://www.cboe.com/tradable_products/vix/",
-        "summary": "ELEVATA TURBOLENZA GLOBALE: volatilità implicita sui massimi plurimensili. Segnali di stress sistemico acuto.",
+        "summary": "TENSIONE MODERATA: mercati in allerta per rischi macroeconomici e geopolitici latenti.",
         "category": "Fragilità Finanziaria e Sistemica",
-        "severity": 4,
+        "severity": 3,
         "tags": [
           "VIX",
           "Mercati",
@@ -1538,15 +1538,14 @@
         "metric_id": "co2_mauna_loa",
         "name": "Concentrazione Atmosferica CO2 (Mauna Loa)",
         "unit": "ppm",
-        "current_value": 429.16,
-        "current_date": "2026-11-19",
-        "total_records": 16037,
+        "current_value": 429.13,
+        "current_date": "2026-11-23",
+        "total_records": 16038,
         "min_value": 326.06,
         "max_value": 433.95,
         "mean_value": 375.22,
         "percentile_5y": 0.989,
         "sparkline": [
-          426.65,
           426.85,
           426.46,
           426.77,
@@ -1575,22 +1574,22 @@
           429.88,
           429.08,
           428.69,
-          429.16
+          429.16,
+          429.13
         ]
       },
       "sea_ice": {
         "metric_id": "arctic_sea_ice",
         "name": "Estensione Calotta Glaciale Artica",
         "unit": "milioni kmq",
-        "current_value": 9.18,
-        "current_date": "2026-11-22",
-        "total_records": 15909,
+        "current_value": 9.23,
+        "current_date": "2026-11-23",
+        "total_records": 15910,
         "min_value": 3.34,
         "max_value": 16.64,
         "mean_value": 11.16,
-        "percentile_5y": 0.696,
+        "percentile_5y": 0.693,
         "sparkline": [
-          7.34,
           7.44,
           7.53,
           7.6,
@@ -1619,16 +1618,13 @@
           9.05,
           9.07,
           9.09,
-          9.18
+          9.18,
+          9.23
         ]
       }
     },
     "time_series": {
       "co2_chart": [
-        {
-          "date": "2025-06-27",
-          "value": 428.48
-        },
         {
           "date": "2025-06-28",
           "value": 429.49
@@ -3084,13 +3080,13 @@
         {
           "date": "2026-11-19",
           "value": 429.16
+        },
+        {
+          "date": "2026-11-23",
+          "value": 429.13
         }
       ],
       "sea_ice_chart": [
-        {
-          "date": "2025-11-23",
-          "value": 9.174
-        },
         {
           "date": "2025-11-24",
           "value": 9.317
@@ -4546,16 +4542,20 @@
         {
           "date": "2026-11-22",
           "value": 9.184
+        },
+        {
+          "date": "2026-11-23",
+          "value": 9.228
         }
       ]
     },
     "news_items": [
       {
-        "title": "Concentrazione CO2 a quota 429.2 ppm a Mauna Loa",
-        "date": "2026-11-19",
+        "title": "Concentrazione CO2 a quota 429.1 ppm a Mauna Loa",
+        "date": "2026-11-23",
         "source": "NOAA Global Monitoring Laboratory",
         "url": "https://gml.noaa.gov/ccgg/trends/",
-        "summary": "L'osservatorio di Mauna Loa registra 429.16 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
+        "summary": "L'osservatorio di Mauna Loa registra 429.13 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
         "category": "Clima e Ambiente",
         "severity": 3,
         "tags": [
@@ -4566,11 +4566,11 @@
         ]
       },
       {
-        "title": "Estensione ghiaccio marino artico: 9.18 milioni di kmq",
-        "date": "2026-11-22",
+        "title": "Estensione ghiaccio marino artico: 9.23 milioni di kmq",
+        "date": "2026-11-23",
         "source": "National Snow and Ice Data Center (NSIDC)",
         "url": "https://nsidc.org/arcticseaicenews/",
-        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 9.18 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
+        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 9.23 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
         "category": "Clima e Ambiente",
         "severity": 2,
         "tags": [
@@ -4595,8 +4595,8 @@
         "total_records": 15302,
         "min_value": 0.0,
         "max_value": 540.83,
-        "mean_value": 144.1,
-        "percentile_5y": 0.61,
+        "mean_value": 144.13,
+        "percentile_5y": 0.609,
         "sparkline": [
           81.59,
           165.63,
@@ -6123,7 +6123,7 @@
         "name": "Indice di Allerta Epidemica Globale",
         "unit": "notifiche attive",
         "current_value": 12.0,
-        "current_date": "2026-11-23",
+        "current_date": "2026-11-24",
         "total_records": 12,
         "min_value": 0.0,
         "max_value": 20.0,
@@ -6136,6 +6136,51 @@
     },
     "time_series": {},
     "news_items": [
+      {
+        "title": "Biotech firm predicts its antibody injections could compete with COVID vaccines",
+        "date": "Tue, 24 Nov 2026",
+        "source": "CIDRAP (University of Minnesota)",
+        "url": "https://www.cidrap.umn.edu/covid-19/biotech-firm-predicts-its-antibody-injections-could-compete-covid-vaccines",
+        "summary": "<p><span>Invivyd boasts that people given its monoclonal antibody injection produce antibody levels that could reduce COVID symptoms 70% to 90%.</span></p>",
+        "category": "Pandemie e Rischi Biologici",
+        "severity": 1,
+        "tags": [
+          "Pandemie",
+          "Infezioni",
+          "Biosicurezza",
+          "CIDRAP"
+        ]
+      },
+      {
+        "title": "College students drove COVID spread during pandemic, data suggest",
+        "date": "Mon, 23 Nov 2026",
+        "source": "CIDRAP (University of Minnesota)",
+        "url": "https://www.cidrap.umn.edu/covid-19/college-students-drove-covid-spread-during-pandemic-data-suggest",
+        "summary": "<p><span>Most SARS-CoV-2 Omicron variants reached 50% frequency earlier in colleges than in other settings, with lead times of 4 to 13 days.</span></p>",
+        "category": "Pandemie e Rischi Biologici",
+        "severity": 1,
+        "tags": [
+          "Pandemie",
+          "Infezioni",
+          "Biosicurezza",
+          "CIDRAP"
+        ]
+      },
+      {
+        "title": "Paxlovid tied to 12% lower risk of long COVID in high-risk adults",
+        "date": "Mon, 23 Nov 2026",
+        "source": "CIDRAP (University of Minnesota)",
+        "url": "https://www.cidrap.umn.edu/covid-19/paxlovid-tied-12-lower-risk-long-covid-high-risk-adults",
+        "summary": "<p><span>Over six months of follow-up, those who took the antiviral drug also had a 30% lower rate of hospitalization and a 47% lower rate of all-cause death than those who didn’t receive it.</span></",
+        "category": "Pandemie e Rischi Biologici",
+        "severity": 1,
+        "tags": [
+          "Pandemie",
+          "Infezioni",
+          "Biosicurezza",
+          "CIDRAP"
+        ]
+      },
       {
         "title": "US flu activity continues to climb",
         "date": "Fri, 20 Nov 2026",
@@ -6182,48 +6227,18 @@
         ]
       },
       {
-        "title": "Analysis: COVID vaccines generated up to $809 in economic benefits for every dollar spent",
-        "date": "Fri, 13 Nov 2026",
-        "source": "CIDRAP (University of Minnesota)",
-        "url": "https://www.cidrap.umn.edu/covid-19/analysis-covid-vaccines-generated-809-economic-benefits-every-dollar-spent",
-        "summary": "<p><span>A new study asks the question: Did the unprecedented investment in COVID vaccine development pay&nbsp;off?</span></p>",
+        "title": "Allerta OMS: Circulating vaccine-derived poliovirus type 1 – Syrian Arab Republic",
+        "date": "2026-11-23",
+        "source": "Organizzazione Mondiale della Sanità (OMS)",
+        "url": "https://www.who.int/2026-DON628",
+        "summary": "In October 2026, a cluster of four AFP cases was identified in three closely linked communities in Al-Mayadin District, Deir Ez Zor Governorate. The affected children were aged between six and 13 mont",
         "category": "Pandemie e Rischi Biologici",
-        "severity": 1,
+        "severity": 3,
         "tags": [
-          "Pandemie",
-          "Infezioni",
-          "Biosicurezza",
-          "CIDRAP"
-        ]
-      },
-      {
-        "title": "Measles elimination at risk—and what a Florida study truly shows about Pfizer’s COVID vaccine: The State of US Vaccine Policy",
-        "date": "Thu, 12 Nov 2026",
-        "source": "CIDRAP (University of Minnesota)",
-        "url": "https://www.cidrap.umn.edu/vaccine-policy-update/measles-elimination-risk-and-what-florida-study-truly-shows-about-pfizer-s",
-        "summary": "<p>We cover measles, childhood vaccines, and <span>why a Florida study can’t show that the Pfizer vaccine raises death risk.</span></p>",
-        "category": "Pandemie e Rischi Biologici",
-        "severity": 1,
-        "tags": [
-          "Pandemie",
-          "Infezioni",
-          "Biosicurezza",
-          "CIDRAP"
-        ]
-      },
-      {
-        "title": "Common diabetes drug linked to lower risk of death after COVID infection",
-        "date": "Wed, 11 Nov 2026",
-        "source": "CIDRAP (University of Minnesota)",
-        "url": "https://www.cidrap.umn.edu/covid-19/common-diabetes-drug-linked-lower-risk-death-after-covid-infection",
-        "summary": "<p><span>In people with type 2 diabetes, the risk of death within a year was 39% lower than in those taking a different drug.&nbsp;</span></p>",
-        "category": "Pandemie e Rischi Biologici",
-        "severity": 1,
-        "tags": [
-          "Pandemie",
-          "Infezioni",
-          "Biosicurezza",
-          "CIDRAP"
+          "OMS",
+          "Focolaio",
+          "Epidemia",
+          "Patogeni Emergenti"
         ]
       },
       {
@@ -6300,21 +6315,6 @@
           "Epidemia",
           "Patogeni Emergenti"
         ]
-      },
-      {
-        "title": "Allerta OMS: Avian Influenza A(H3N8)",
-        "date": "2023-04-11",
-        "source": "Organizzazione Mondiale della Sanità (OMS)",
-        "url": "https://www.who.int/2023-DON456",
-        "summary": "<p class=\"no-margin\"><strong style=\"background-color:transparent;color:inherit;font-size:inherit;text-align:inherit;text-transform:inherit;white-space:inherit;word-spacing:normal;caret-color:auto;\"></",
-        "category": "Pandemie e Rischi Biologici",
-        "severity": 3,
-        "tags": [
-          "OMS",
-          "Focolaio",
-          "Epidemia",
-          "Patogeni Emergenti"
-        ]
       }
     ]
   },
@@ -6326,22 +6326,14 @@
         "metric_id": "solar_kp_index",
         "name": "Indice Geomagnetico Planetario Kp (Tempeste Solari)",
         "unit": "scala Kp (0-9)",
-        "current_value": 0.67,
-        "current_date": "2026-11-23",
+        "current_value": 1.0,
+        "current_date": "2026-11-24",
         "total_records": 61,
         "min_value": 0.0,
         "max_value": 5.0,
-        "mean_value": 1.36,
+        "mean_value": 1.41,
         "percentile_5y": 0.556,
         "sparkline": [
-          1.33,
-          0.67,
-          2.0,
-          1.33,
-          0.67,
-          0.33,
-          0.33,
-          1.67,
           0.67,
           2.67,
           0.33,
@@ -6363,44 +6355,20 @@
           0.33,
           0.0,
           1.33,
-          0.67
+          0.67,
+          1.67,
+          0.67,
+          1.0,
+          1.0,
+          0.33,
+          1.67,
+          1.0,
+          1.0
         ]
       }
     },
     "time_series": {
       "kp_hourly_chart": [
-        {
-          "date": "2026-11-16T00:00",
-          "value": 0.33
-        },
-        {
-          "date": "2026-11-16T03:00",
-          "value": 0.33
-        },
-        {
-          "date": "2026-11-16T06:00",
-          "value": 0.33
-        },
-        {
-          "date": "2026-11-16T09:00",
-          "value": 0.67
-        },
-        {
-          "date": "2026-11-16T12:00",
-          "value": 1.33
-        },
-        {
-          "date": "2026-11-16T15:00",
-          "value": 0.67
-        },
-        {
-          "date": "2026-11-16T18:00",
-          "value": 0.67
-        },
-        {
-          "date": "2026-11-16T21:00",
-          "value": 0.67
-        },
         {
           "date": "2026-11-17T00:00",
           "value": 0.67
@@ -6612,13 +6580,45 @@
         {
           "date": "2026-11-23T12:00",
           "value": 0.67
+        },
+        {
+          "date": "2026-11-23T15:00",
+          "value": 1.67
+        },
+        {
+          "date": "2026-11-23T18:00",
+          "value": 0.67
+        },
+        {
+          "date": "2026-11-23T21:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-11-24T00:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-11-24T03:00",
+          "value": 0.33
+        },
+        {
+          "date": "2026-11-24T06:00",
+          "value": 1.67
+        },
+        {
+          "date": "2026-11-24T09:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-11-24T12:00",
+          "value": 1.0
         }
       ]
     },
     "news_items": [
       {
-        "title": "Monitoraggio Clima Spaziale: Kp a 0.7 (Picco 5.0)",
-        "date": "2026-11-23",
+        "title": "Monitoraggio Clima Spaziale: Kp a 1.0 (Picco 5.0)",
+        "date": "2026-11-24",
         "source": "NOAA Space Weather Prediction Center",
         "url": "https://www.swpc.noaa.gov/",
         "summary": "TEMPESTA SOLARE MINORE (Kp=5.0): aurore boreali visibili, attivita solare moderata.",
@@ -6633,7 +6633,7 @@
       },
       {
         "title": "Attivita Sismica Significativa: 11 eventi nell'ultimo mese",
-        "date": "2026-11-23",
+        "date": "2026-11-24",
         "source": "USGS Earthquake Hazards Program",
         "url": "https://earthquake.usgs.gov/",
         "summary": "Eventi tellurici globali maggiori registrati dai sismografi planetari. Evento di rilievo: M 6.8 - 105 km NE of Lospalos, Timor Leste.",
