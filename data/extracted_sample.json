@@ -7,15 +7,14 @@
         "metric_id": "vix_index",
         "name": "CBOE Volatility Index (VIX)",
         "unit": "punti",
-        "current_value": 26.36,
-        "current_date": "2026-11-24",
-        "total_records": 9323,
+        "current_value": 28.29,
+        "current_date": "2026-11-25",
+        "total_records": 9324,
         "min_value": 11.86,
         "max_value": 52.33,
         "mean_value": 19.15,
-        "percentile_5y": 0.888,
+        "percentile_5y": 0.925,
         "sparkline": [
-          16.87,
           16.46,
           19.99,
           18.44,
@@ -44,16 +43,13 @@
           28.44,
           35.89,
           26.62,
-          26.36
+          26.36,
+          28.29
         ]
       }
     },
     "time_series": {
       "vix_daily_chart": [
-        {
-          "date": "2025-06-27",
-          "value": 16.32
-        },
         {
           "date": "2025-06-30",
           "value": 16.73
@@ -1509,13 +1505,17 @@
         {
           "date": "2026-11-24",
           "value": 26.36
+        },
+        {
+          "date": "2026-11-25",
+          "value": 28.29
         }
       ]
     },
     "news_items": [
       {
-        "title": "Indice VIX a quota 26.36 (TENSIONE MODERATA)",
-        "date": "2026-11-24",
+        "title": "Indice VIX a quota 28.29 (TENSIONE MODERATA)",
+        "date": "2026-11-25",
         "source": "CBOE Global Markets",
         "url": "https://www.cboe.com/tradable_products/vix/",
         "summary": "TENSIONE MODERATA: mercati in allerta per rischi macroeconomici e geopolitici latenti.",
@@ -1582,15 +1582,14 @@
         "metric_id": "arctic_sea_ice",
         "name": "Estensione Calotta Glaciale Artica",
         "unit": "milioni kmq",
-        "current_value": 9.29,
-        "current_date": "2026-11-24",
-        "total_records": 15911,
+        "current_value": 9.47,
+        "current_date": "2026-11-25",
+        "total_records": 15912,
         "min_value": 3.34,
         "max_value": 16.64,
         "mean_value": 11.16,
-        "percentile_5y": 0.69,
+        "percentile_5y": 0.677,
         "sparkline": [
-          7.53,
           7.6,
           7.67,
           7.74,
@@ -1619,7 +1618,8 @@
           9.09,
           9.18,
           9.23,
-          9.29
+          9.29,
+          9.47
         ]
       }
     },
@@ -3088,10 +3088,6 @@
       ],
       "sea_ice_chart": [
         {
-          "date": "2025-11-25",
-          "value": 9.311
-        },
-        {
           "date": "2025-11-26",
           "value": 9.385
         },
@@ -4546,6 +4542,10 @@
         {
           "date": "2026-11-24",
           "value": 9.288
+        },
+        {
+          "date": "2026-11-25",
+          "value": 9.473
         }
       ]
     },
@@ -4566,11 +4566,11 @@
         ]
       },
       {
-        "title": "Estensione ghiaccio marino artico: 9.29 milioni di kmq",
-        "date": "2026-11-24",
+        "title": "Estensione ghiaccio marino artico: 9.47 milioni di kmq",
+        "date": "2026-11-25",
         "source": "National Snow and Ice Data Center (NSIDC)",
         "url": "https://nsidc.org/arcticseaicenews/",
-        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 9.29 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
+        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 9.47 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
         "category": "Clima e Ambiente",
         "severity": 2,
         "tags": [
@@ -4595,7 +4595,7 @@
         "total_records": 15302,
         "min_value": 0.0,
         "max_value": 540.83,
-        "mean_value": 144.14,
+        "mean_value": 144.19,
         "percentile_5y": 0.609,
         "sparkline": [
           81.59,
@@ -6123,7 +6123,7 @@
         "name": "Indice di Allerta Epidemica Globale",
         "unit": "notifiche attive",
         "current_value": 12.0,
-        "current_date": "2026-11-25",
+        "current_date": "2026-11-26",
         "total_records": 12,
         "min_value": 0.0,
         "max_value": 20.0,
@@ -6136,6 +6136,21 @@
     },
     "time_series": {},
     "news_items": [
+      {
+        "title": "Half of adults in long-COVID study report difficulty breathing 4 years later",
+        "date": "Wed, 25 Nov 2026",
+        "source": "CIDRAP (University of Minnesota)",
+        "url": "https://www.cidrap.umn.edu/covid-19/half-adults-long-covid-study-report-difficulty-breathing-4-years-later",
+        "summary": "<p><span>Those who report persistent breathing problems tended to be younger and female, and they were less likely to be hospitalized for acute COVID infection.</span></p>",
+        "category": "Pandemie e Rischi Biologici",
+        "severity": 1,
+        "tags": [
+          "Pandemie",
+          "Infezioni",
+          "Biosicurezza",
+          "CIDRAP"
+        ]
+      },
       {
         "title": "In-hospital flu shots linked to lower 1-year death rate after heart attack",
         "date": "Wed, 25 Nov 2026",
@@ -6204,21 +6219,6 @@
         "summary": "<p><span>More Americans are seeking healthcare for flulike symptoms, but the virus does not yet appear to cause more severe illness.</span></p>",
         "category": "Pandemie e Rischi Biologici",
         "severity": 2,
-        "tags": [
-          "Pandemie",
-          "Infezioni",
-          "Biosicurezza",
-          "CIDRAP"
-        ]
-      },
-      {
-        "title": "Two studies in US veterans find updated COVID vaccines protect against severe illness",
-        "date": "Wed, 18 Nov 2026",
-        "source": "CIDRAP (University of Minnesota)",
-        "url": "https://www.cidrap.umn.edu/covid-19/two-studies-us-veterans-find-updated-covid-vaccines-protect-against-severe-illness",
-        "summary": "<p><span>One study shows that vaccination cut COVID hospitalizations 44%, while another concludes that last season’s Moderna shot outperformed Pfizer’s in older adults.&nbsp;</span></p>",
-        "category": "Pandemie e Rischi Biologici",
-        "severity": 1,
         "tags": [
           "Pandemie",
           "Infezioni",
@@ -6326,22 +6326,14 @@
         "metric_id": "solar_kp_index",
         "name": "Indice Geomagnetico Planetario Kp (Tempeste Solari)",
         "unit": "scala Kp (0-9)",
-        "current_value": 0.67,
-        "current_date": "2026-11-25",
+        "current_value": 1.0,
+        "current_date": "2026-11-26",
         "total_records": 61,
         "min_value": 0.0,
         "max_value": 5.0,
-        "mean_value": 1.46,
+        "mean_value": 1.28,
         "percentile_5y": 0.556,
         "sparkline": [
-          1.33,
-          0.67,
-          1.0,
-          2.33,
-          0.33,
-          0.0,
-          0.33,
-          0.67,
           1.67,
           0.67,
           0.33,
@@ -6363,44 +6355,20 @@
           2.33,
           2.33,
           2.0,
-          0.67
+          0.67,
+          1.0,
+          1.0,
+          0.67,
+          0.33,
+          2.0,
+          0.67,
+          0.67,
+          1.0
         ]
       }
     },
     "time_series": {
       "kp_hourly_chart": [
-        {
-          "date": "2026-11-18T00:00",
-          "value": 2.33
-        },
-        {
-          "date": "2026-11-18T03:00",
-          "value": 3.33
-        },
-        {
-          "date": "2026-11-18T06:00",
-          "value": 2.33
-        },
-        {
-          "date": "2026-11-18T09:00",
-          "value": 2.33
-        },
-        {
-          "date": "2026-11-18T12:00",
-          "value": 2.67
-        },
-        {
-          "date": "2026-11-18T15:00",
-          "value": 2.67
-        },
-        {
-          "date": "2026-11-18T18:00",
-          "value": 1.33
-        },
-        {
-          "date": "2026-11-18T21:00",
-          "value": 1.33
-        },
         {
           "date": "2026-11-19T00:00",
           "value": 5.0
@@ -6612,13 +6580,45 @@
         {
           "date": "2026-11-25T12:00",
           "value": 0.67
+        },
+        {
+          "date": "2026-11-25T15:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-11-25T18:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-11-25T21:00",
+          "value": 0.67
+        },
+        {
+          "date": "2026-11-26T00:00",
+          "value": 0.33
+        },
+        {
+          "date": "2026-11-26T03:00",
+          "value": 2.0
+        },
+        {
+          "date": "2026-11-26T06:00",
+          "value": 0.67
+        },
+        {
+          "date": "2026-11-26T09:00",
+          "value": 0.67
+        },
+        {
+          "date": "2026-11-26T12:00",
+          "value": 1.0
         }
       ]
     },
     "news_items": [
       {
-        "title": "Monitoraggio Clima Spaziale: Kp a 0.7 (Picco 5.0)",
-        "date": "2026-11-25",
+        "title": "Monitoraggio Clima Spaziale: Kp a 1.0 (Picco 5.0)",
+        "date": "2026-11-26",
         "source": "NOAA Space Weather Prediction Center",
         "url": "https://www.swpc.noaa.gov/",
         "summary": "TEMPESTA SOLARE MINORE (Kp=5.0): aurore boreali visibili, attivita solare moderata.",
@@ -6633,7 +6633,7 @@
       },
       {
         "title": "Attivita Sismica Significativa: 12 eventi nell'ultimo mese",
-        "date": "2026-11-25",
+        "date": "2026-11-26",
         "source": "USGS Earthquake Hazards Program",
         "url": "https://earthquake.usgs.gov/",
         "summary": "Eventi tellurici globali maggiori registrati dai sismografi planetari. Evento di rilievo: M 6.8 - 105 km NE of Lospalos, Timor Leste.",
