@@ -7,15 +7,14 @@
         "metric_id": "vix_index",
         "name": "CBOE Volatility Index (VIX)",
         "unit": "punti",
-        "current_value": 28.29,
-        "current_date": "2026-11-25",
-        "total_records": 9324,
+        "current_value": 26.8,
+        "current_date": "2026-11-26",
+        "total_records": 9325,
         "min_value": 11.86,
         "max_value": 52.33,
         "mean_value": 19.15,
-        "percentile_5y": 0.925,
+        "percentile_5y": 0.896,
         "sparkline": [
-          16.46,
           19.99,
           18.44,
           17.31,
@@ -44,16 +43,13 @@
           35.89,
           26.62,
           26.36,
-          28.29
+          28.29,
+          26.8
         ]
       }
     },
     "time_series": {
       "vix_daily_chart": [
-        {
-          "date": "2025-06-30",
-          "value": 16.73
-        },
         {
           "date": "2025-07-01",
           "value": 16.83
@@ -1509,13 +1505,17 @@
         {
           "date": "2026-11-25",
           "value": 28.29
+        },
+        {
+          "date": "2026-11-26",
+          "value": 26.8
         }
       ]
     },
     "news_items": [
       {
-        "title": "Indice VIX a quota 28.29 (TENSIONE MODERATA)",
-        "date": "2026-11-25",
+        "title": "Indice VIX a quota 26.80 (TENSIONE MODERATA)",
+        "date": "2026-11-26",
         "source": "CBOE Global Markets",
         "url": "https://www.cboe.com/tradable_products/vix/",
         "summary": "TENSIONE MODERATA: mercati in allerta per rischi macroeconomici e geopolitici latenti.",
@@ -1538,15 +1538,14 @@
         "metric_id": "co2_mauna_loa",
         "name": "Concentrazione Atmosferica CO2 (Mauna Loa)",
         "unit": "ppm",
-        "current_value": 429.98,
-        "current_date": "2026-11-24",
-        "total_records": 16039,
+        "current_value": 430.36,
+        "current_date": "2026-11-26",
+        "total_records": 16040,
         "min_value": 326.06,
         "max_value": 433.95,
-        "mean_value": 375.22,
-        "percentile_5y": 0.992,
+        "mean_value": 375.23,
+        "percentile_5y": 0.994,
         "sparkline": [
-          426.46,
           426.77,
           426.96,
           427.13,
@@ -1575,22 +1574,22 @@
           428.69,
           429.16,
           429.13,
-          429.98
+          429.98,
+          430.36
         ]
       },
       "sea_ice": {
         "metric_id": "arctic_sea_ice",
         "name": "Estensione Calotta Glaciale Artica",
         "unit": "milioni kmq",
-        "current_value": 9.47,
-        "current_date": "2026-11-25",
-        "total_records": 15912,
+        "current_value": 9.46,
+        "current_date": "2026-11-26",
+        "total_records": 15913,
         "min_value": 3.34,
         "max_value": 16.64,
         "mean_value": 11.16,
-        "percentile_5y": 0.677,
+        "percentile_5y": 0.678,
         "sparkline": [
-          7.6,
           7.67,
           7.74,
           7.75,
@@ -1619,16 +1618,13 @@
           9.18,
           9.23,
           9.29,
-          9.47
+          9.47,
+          9.46
         ]
       }
     },
     "time_series": {
       "co2_chart": [
-        {
-          "date": "2025-06-30",
-          "value": 428.99
-        },
         {
           "date": "2025-07-01",
           "value": 429.35
@@ -3084,13 +3080,13 @@
         {
           "date": "2026-11-24",
           "value": 429.98
+        },
+        {
+          "date": "2026-11-26",
+          "value": 430.36
         }
       ],
       "sea_ice_chart": [
-        {
-          "date": "2025-11-26",
-          "value": 9.385
-        },
         {
           "date": "2025-11-27",
           "value": 9.482
@@ -4546,16 +4542,20 @@
         {
           "date": "2026-11-25",
           "value": 9.473
+        },
+        {
+          "date": "2026-11-26",
+          "value": 9.46
         }
       ]
     },
     "news_items": [
       {
-        "title": "Concentrazione CO2 a quota 430.0 ppm a Mauna Loa",
-        "date": "2026-11-24",
+        "title": "Concentrazione CO2 a quota 430.4 ppm a Mauna Loa",
+        "date": "2026-11-26",
         "source": "NOAA Global Monitoring Laboratory",
         "url": "https://gml.noaa.gov/ccgg/trends/",
-        "summary": "L'osservatorio di Mauna Loa registra 429.98 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
+        "summary": "L'osservatorio di Mauna Loa registra 430.36 ppm. La concentrazione di anidride carbonica atmosferica resta vicina ai massimi storici dell'era umana, esercitando una costante pressione climatica globale.",
         "category": "Clima e Ambiente",
         "severity": 3,
         "tags": [
@@ -4566,11 +4566,11 @@
         ]
       },
       {
-        "title": "Estensione ghiaccio marino artico: 9.47 milioni di kmq",
-        "date": "2026-11-25",
+        "title": "Estensione ghiaccio marino artico: 9.46 milioni di kmq",
+        "date": "2026-11-26",
         "source": "National Snow and Ice Data Center (NSIDC)",
         "url": "https://nsidc.org/arcticseaicenews/",
-        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 9.47 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
+        "summary": "La copertura glaciale nell'emisfero settentrionale si attesta a 9.46 milioni di kmq. Il monitoraggio satellitare traccia i minimi stagionali e l'avanzamento verso il tipping point dell'Artico privo di ghiacci estivi.",
         "category": "Clima e Ambiente",
         "severity": 2,
         "tags": [
@@ -4595,7 +4595,7 @@
         "total_records": 15302,
         "min_value": 0.0,
         "max_value": 540.83,
-        "mean_value": 144.19,
+        "mean_value": 144.24,
         "percentile_5y": 0.609,
         "sparkline": [
           81.59,
@@ -6123,7 +6123,7 @@
         "name": "Indice di Allerta Epidemica Globale",
         "unit": "notifiche attive",
         "current_value": 12.0,
-        "current_date": "2026-11-26",
+        "current_date": "2026-11-27",
         "total_records": 12,
         "min_value": 0.0,
         "max_value": 20.0,
@@ -6326,22 +6326,14 @@
         "metric_id": "solar_kp_index",
         "name": "Indice Geomagnetico Planetario Kp (Tempeste Solari)",
         "unit": "scala Kp (0-9)",
-        "current_value": 1.0,
-        "current_date": "2026-11-26",
+        "current_value": 0.33,
+        "current_date": "2026-11-27",
         "total_records": 61,
         "min_value": 0.0,
-        "max_value": 5.0,
-        "mean_value": 1.28,
-        "percentile_5y": 0.556,
+        "max_value": 3.0,
+        "mean_value": 1.09,
+        "percentile_5y": 0.333,
         "sparkline": [
-          1.67,
-          0.67,
-          0.33,
-          0.0,
-          1.33,
-          0.67,
-          1.67,
-          0.67,
           1.0,
           1.0,
           0.33,
@@ -6363,44 +6355,20 @@
           2.0,
           0.67,
           0.67,
-          1.0
+          1.0,
+          1.0,
+          0.67,
+          2.33,
+          2.0,
+          1.0,
+          0.33,
+          0.33,
+          0.33
         ]
       }
     },
     "time_series": {
       "kp_hourly_chart": [
-        {
-          "date": "2026-11-19T00:00",
-          "value": 5.0
-        },
-        {
-          "date": "2026-11-19T03:00",
-          "value": 2.67
-        },
-        {
-          "date": "2026-11-19T06:00",
-          "value": 1.67
-        },
-        {
-          "date": "2026-11-19T09:00",
-          "value": 1.33
-        },
-        {
-          "date": "2026-11-19T12:00",
-          "value": 2.0
-        },
-        {
-          "date": "2026-11-19T15:00",
-          "value": 2.67
-        },
-        {
-          "date": "2026-11-19T18:00",
-          "value": 3.0
-        },
-        {
-          "date": "2026-11-19T21:00",
-          "value": 1.33
-        },
         {
           "date": "2026-11-20T00:00",
           "value": 0.67
@@ -6612,18 +6580,50 @@
         {
           "date": "2026-11-26T12:00",
           "value": 1.0
+        },
+        {
+          "date": "2026-11-26T15:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-11-26T18:00",
+          "value": 0.67
+        },
+        {
+          "date": "2026-11-26T21:00",
+          "value": 2.33
+        },
+        {
+          "date": "2026-11-27T00:00",
+          "value": 2.0
+        },
+        {
+          "date": "2026-11-27T03:00",
+          "value": 1.0
+        },
+        {
+          "date": "2026-11-27T06:00",
+          "value": 0.33
+        },
+        {
+          "date": "2026-11-27T09:00",
+          "value": 0.33
+        },
+        {
+          "date": "2026-11-27T12:00",
+          "value": 0.33
         }
       ]
     },
     "news_items": [
       {
-        "title": "Monitoraggio Clima Spaziale: Kp a 1.0 (Picco 5.0)",
-        "date": "2026-11-26",
+        "title": "Monitoraggio Clima Spaziale: Kp a 0.3 (Picco 3.0)",
+        "date": "2026-11-27",
         "source": "NOAA Space Weather Prediction Center",
         "url": "https://www.swpc.noaa.gov/",
-        "summary": "TEMPESTA SOLARE MINORE (Kp=5.0): aurore boreali visibili, attivita solare moderata.",
+        "summary": "CLIMA SPAZIALE QUIETO (Kp=3.0): nessun rischio immediato da brillamenti o tempeste geomagnetiche.",
         "category": "Rischi Naturali e Cosmici",
-        "severity": 2,
+        "severity": 1,
         "tags": [
           "Spazio",
           "Sole",
@@ -6633,7 +6633,7 @@
       },
       {
         "title": "Attivita Sismica Significativa: 12 eventi nell'ultimo mese",
-        "date": "2026-11-26",
+        "date": "2026-11-27",
         "source": "USGS Earthquake Hazards Program",
         "url": "https://earthquake.usgs.gov/",
         "summary": "Eventi tellurici globali maggiori registrati dai sismografi planetari. Evento di rilievo: M 6.8 - 105 km NE of Lospalos, Timor Leste.",
